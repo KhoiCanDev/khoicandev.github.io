@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Khoi Can Dev",
     "description": "",
-    "home_page_url": "https://khoicandev.github.io",
-    "feed_url": "https://khoicandev.github.io/feed.json",
+    "home_page_url": "https://khoican.dev",
+    "feed_url": "https://khoican.dev/feed.json",
     "user_comment": "",
     "author": {
         "name": "Khoi Can Dev"
     },
     "items": [
         {
-            "id": "https://khoicandev.github.io/time-management-notes.html",
-            "url": "https://khoicandev.github.io/time-management-notes.html",
+            "id": "https://khoican.dev/time-management-notes.html",
+            "url": "https://khoican.dev/time-management-notes.html",
             "title": "Course - Time Management",
             "summary": "Productive &amp; Unproductive WorkPro: getting the work done according to the priorityUn: working on something not related to the task at handCreating a Work PlanList tasksPrioritize themHow: by your manager&hellip;",
             "content_html": "<h2 id=\"mcetoc_1de1kgnhv1\">Productive &amp; Unproductive Work</h2>\n<ul>\n<li>Pro: getting the work done according to the priority</li>\n<li>Un: working on something not related to the task at hand</li>\n</ul>\n<h2 id=\"mcetoc_1de1kglc90\">Creating a Work Plan</h2>\n<ul>\n<li>List tasks</li>\n<li>Prioritize them\n<ul>\n<li>How: by your manager and customer you support, by people around you</li>\n<li>If you manager can't answer, arrange it by yourself</li>\n<li>Aware on the things most disscussed in meeting</li>\n</ul>\n</li>\n<li>Break task to smaller steps</li>\n</ul>\n<h2 id=\"mcetoc_1de246t462\">Myth of Work-Life Balance</h2>\n<ul>\n<li>Spend time as beneficial as possible. Beneficial means beneficial to you.</li>\n<li>The formula of work-life balance: It's what you make it. Personal decision.</li>\n</ul>",
@@ -24,8 +24,8 @@
             "date_modified": "2019-06-27T23:13:27+07:00"
         },
         {
-            "id": "https://khoicandev.github.io/book-the-pragmatic-programmer.html",
-            "url": "https://khoicandev.github.io/book-the-pragmatic-programmer.html",
+            "id": "https://khoican.dev/book-the-pragmatic-programmer.html",
+            "url": "https://khoican.dev/book-the-pragmatic-programmer.html",
             "title": "Book - The Pragmatic Programmer",
             "summary": "1. The Cat Ate My Code Take responsibility",
             "content_html": "<p>1. The Cat Ate My Code</p>\n<p>Take responsibility</p>",
@@ -38,12 +38,12 @@
             "date_modified": "2019-06-10T11:24:08+07:00"
         },
         {
-            "id": "https://khoicandev.github.io/takeaways-the-last-lecture-randy-pausch.html",
-            "url": "https://khoicandev.github.io/takeaways-the-last-lecture-randy-pausch.html",
+            "id": "https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html",
+            "url": "https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html",
             "title": "Book - The Last Lecture (Randy Pausch)",
             "summary": "Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;",
             "content_html": "<p id=\"mcetoc_1d92nooau1\">Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in his childhood, university student, work life and relationship. He set his dreams when he was a child, and commit to them since then. A great inspiration for someone who works with computer like me.</p>\n<h2 id=\"mcetoc_1d92nom7u0\">Quotes</h2>\n<h3 id=\"mcetoc_1d92npdml2\">Relationship</h3>\n<ol>\n<li>Don't finish someone's sentences. And talking louder or faster doesn't make your idea any better.</li>\n<li>If you wait long enough, people will surprise and impress you.</li>\n<li>Watch What They Do, <em>Not What They Say</em></li>\n<li>A Bad Apology Is Worse Than No Apology.</li>\n<li>Proper apologies have three parts:\n<ol>\n<li>What I did was wrong</li>\n<li>I feel badly that I hurt you</li>\n<li>How do I make this better?</li>\n</ol>\n</li>\n</ol>\n<h3 id=\"mcetoc_1d92nplf93\">How To Live</h3>\n<ol>\n<li>The brick walls are there for a reason. They're not there to keep us out. The brink walls are there to give us a chance to how how badly we want something.</li>\n<li>Experience is what you get when you didn't get what you wanted.</li>\n<li>Time is all you have. And you may find one day that you have less than you think.</li>\n<li>Luck is indeed where preparation meets opportunity.</li>\n<li><span id=\"reviewTextContainer470406484\" class=\"readable\"><span id=\"freeText17831765479674834442\">Even if in a position of strength, whether at work or in relationships, you have to play fair. Just because you're in a driver's seat, doesn't mean you have to run people over.</span></span></li>\n<li>If your car has a dent, you don't have to have it removed. It could be a statement of who you are. Not everything needs to be fixed.</li>\n<li>Whether you think you can or can't, you're right.</li>\n<li>If I could give three words of advice, they would be \"tell the truth.\" If I got three more words, I'd add: \"All the time.\"</li>\n<li>We cannot change the cards we are dealt, just how we play the hand.</li>\n<li>I mean, I don’t know how <i xmlns=\"http://www.w3.org/1999/xhtml\">not</i> to have fun. I’m dying and I’m having fun. And I’m going to keep having fun every day I have left. Because there’s no other way to play it.</li>\n<li>Am I a fun-loving Tigger or am I a sad-sack Eeyore? Pick a camp. I think it’s clear where I stand on the great Tigger/Eeyore debate.</li>\n<li>Sometimes, all you have to do is ask.</li>\n</ol>\n<h3 id=\"mcetoc_1d92o29vk4\">Work</h3>\n<ol>\n<li><span id=\"reviewTextContainer19929770\" class=\"readable\"><span id=\"freeText14759365834385401636\">A lot of people want a shortcut. I find the best shortcut is the long way, which is basically two words: work hard.</span></span></li>\n<li>Time must be explicitly managed, like money.</li>\n<li>Ask yourself: Are you spending your time on the right things?</li>\n<li>Complaining does not work as a strategy. We all have finite time and energy. Any time we spend whining is unlikely to help us achieve our goals. And it won’t make us happier.</li>\n<li>It’s not how hard you hit. It’s how hard you get hit ...and keep moving forward.</li>\n<li>Adding manpower to a late software project makes it later. (This is now known as “Brooks Law.”)</li>\n</ol>",
-            "image": "https://khoicandev.github.io/media/posts/3/The-Last-Lecture.png",
+            "image": "https://khoican.dev/media/posts/3/The-Last-Lecture.png",
             "author": {
                 "name": "Khoi Can Dev"
             },
@@ -53,12 +53,12 @@
             "date_modified": "2019-04-30T13:37:27+07:00"
         },
         {
-            "id": "https://khoicandev.github.io/rainy-morning-at-mila-coffee.html",
-            "url": "https://khoicandev.github.io/rainy-morning-at-mila-coffee.html",
+            "id": "https://khoican.dev/rainy-morning-at-mila-coffee.html",
+            "url": "https://khoican.dev/rainy-morning-at-mila-coffee.html",
             "title": "Cafe - Rainy morning at Mila Coffee",
             "summary": "I must admit that the art of being lost is the moment you discover a place, a scene you never seen before. Sometime, that moment can leave you in awe.",
-            "content_html": "<p>I must admit that the art of being lost is the moment you discover a place, a scene you never seen before. Sometime, that moment can leave you in awe.</p>\n<span id=\"more-345\"></span>\n<p>Today, the sense of lost lead me to Mila Coffee located on 218 Le Lai street, a relatively small road near Bui Vien – the backpacker street.</p>\n<p>The first thing that impressed is the miniature look on the outside. It only has like 2 or 3 tables on the ground floor, but they have a classical sofa, which makes the view on the ground floor look kinda nice.</p>\n<p>But when you go up to the third floor, it’s a whole different perspective I would say. The place is spacious, the ceiling lights are sleazy-kind of light, with wooden chairs and sofas, make soothe my eyes, and and the sofa is so comfortable that you can sleep on it.</p>\n<p><img class=\"post__image--center\" src=\"https://khoicandev.github.io/media/posts/1/WP_20180818_13_01_22_Pro-1400x1050.jpg\" alt=\"\" width=\"1400\" height=\"1050\"></p>\n<p>And the best thing is the atmosphere, they don’t have music or anything like that in the background. All the sound I heard are from people talking (luckily, they don’t talk too loudly), from the air conditioner, and the waiters walk around and give people drinks. This place is like heaven for someone wanting a place to talk or just focus on things that require focus – coding, writing… .</p>\n<p>I ordered hot chocolate. I can see the decorative of the drink is really eye-catching. But the taste is too sweet for me.</p>\n<p>That’s all the thing I can say about my experience of being lost.</p>",
-            "image": "https://khoicandev.github.io/media/posts/1/mila-coffee-post.png",
+            "content_html": "<p>I must admit that the art of being lost is the moment you discover a place, a scene you never seen before. Sometime, that moment can leave you in awe.</p>\n<span id=\"more-345\"></span>\n<p>Today, the sense of lost lead me to Mila Coffee located on 218 Le Lai street, a relatively small road near Bui Vien – the backpacker street.</p>\n<p>The first thing that impressed is the miniature look on the outside. It only has like 2 or 3 tables on the ground floor, but they have a classical sofa, which makes the view on the ground floor look kinda nice.</p>\n<p>But when you go up to the third floor, it’s a whole different perspective I would say. The place is spacious, the ceiling lights are sleazy-kind of light, with wooden chairs and sofas, make soothe my eyes, and and the sofa is so comfortable that you can sleep on it.</p>\n<p><img class=\"post__image--center\" src=\"https://khoican.dev/media/posts/1/WP_20180818_13_01_22_Pro-1400x1050.jpg\" alt=\"\" width=\"1400\" height=\"1050\"></p>\n<p>And the best thing is the atmosphere, they don’t have music or anything like that in the background. All the sound I heard are from people talking (luckily, they don’t talk too loudly), from the air conditioner, and the waiters walk around and give people drinks. This place is like heaven for someone wanting a place to talk or just focus on things that require focus – coding, writing… .</p>\n<p>I ordered hot chocolate. I can see the decorative of the drink is really eye-catching. But the taste is too sweet for me.</p>\n<p>That’s all the thing I can say about my experience of being lost.</p>",
+            "image": "https://khoican.dev/media/posts/1/mila-coffee-post.png",
             "author": {
                 "name": "Khoi Can Dev"
             },
