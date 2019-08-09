@@ -3,53 +3,12 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2019-08-04T11:39:03+07:00</updated>
+    <updated>2019-08-09T22:13:25+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
     <id>https://khoican.dev</id>
 
-    <entry>
-        <title>Course - Time Management</title>
-        <author>
-            <name>Khoi Can Dev</name>
-        </author>
-        <link href="https://khoican.dev/time-management-notes.html"/>
-        <id>https://khoican.dev/time-management-notes.html</id>
-
-        <updated>2019-06-27T23:13:27+07:00</updated>
-            <summary>
-                <![CDATA[
-                    Productive &amp; Unproductive WorkPro: getting the work done according to the priorityUn: working on something not related to the task at handCreating a Work PlanList tasksPrioritize themHow: by your manager&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2 id="mcetoc_1de1kgnhv1">Productive &amp; Unproductive Work</h2>
-<ul>
-<li>Pro: getting the work done according to the priority</li>
-<li>Un: working on something not related to the task at hand</li>
-</ul>
-<h2 id="mcetoc_1de1kglc90">Creating a Work Plan</h2>
-<ul>
-<li>List tasks</li>
-<li>Prioritize them
-<ul>
-<li>How: by your manager and customer you support, by people around you</li>
-<li>If you manager can't answer, arrange it by yourself</li>
-<li>Aware on the things most disscussed in meeting</li>
-</ul>
-</li>
-<li>Break task to smaller steps</li>
-</ul>
-<h2 id="mcetoc_1de246t462">Myth of Work-Life Balance</h2>
-<ul>
-<li>Spend time as beneficial as possible. Beneficial means beneficial to you.</li>
-<li>The formula of work-life balance: It's what you make it. Personal decision.</li>
-</ul>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Book - The Pragmatic Programmer</title>
         <author>

@@ -10,20 +10,6 @@
     },
     "items": [
         {
-            "id": "https://khoican.dev/time-management-notes.html",
-            "url": "https://khoican.dev/time-management-notes.html",
-            "title": "Course - Time Management",
-            "summary": "Productive &amp; Unproductive WorkPro: getting the work done according to the priorityUn: working on something not related to the task at handCreating a Work PlanList tasksPrioritize themHow: by your manager&hellip;",
-            "content_html": "<h2 id=\"mcetoc_1de1kgnhv1\">Productive &amp; Unproductive Work</h2>\n<ul>\n<li>Pro: getting the work done according to the priority</li>\n<li>Un: working on something not related to the task at hand</li>\n</ul>\n<h2 id=\"mcetoc_1de1kglc90\">Creating a Work Plan</h2>\n<ul>\n<li>List tasks</li>\n<li>Prioritize them\n<ul>\n<li>How: by your manager and customer you support, by people around you</li>\n<li>If you manager can't answer, arrange it by yourself</li>\n<li>Aware on the things most disscussed in meeting</li>\n</ul>\n</li>\n<li>Break task to smaller steps</li>\n</ul>\n<h2 id=\"mcetoc_1de246t462\">Myth of Work-Life Balance</h2>\n<ul>\n<li>Spend time as beneficial as possible. Beneficial means beneficial to you.</li>\n<li>The formula of work-life balance: It's what you make it. Personal decision.</li>\n</ul>",
-            "author": {
-                "name": "Khoi Can Dev"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-06-23T13:26:27+07:00",
-            "date_modified": "2019-06-27T23:13:27+07:00"
-        },
-        {
             "id": "https://khoican.dev/book-the-pragmatic-programmer.html",
             "url": "https://khoican.dev/book-the-pragmatic-programmer.html",
             "title": "Book - The Pragmatic Programmer",
