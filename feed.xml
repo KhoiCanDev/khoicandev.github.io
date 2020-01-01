@@ -3,21 +3,22 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2019-11-20T22:35:29+07:00</updated>
+    <updated>2020-01-01T09:07:55+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
     <id>https://khoican.dev</id>
 
     <entry>
-        <title>Book - The Last Lecture (Randy Pausch)</title>
+        <title>The Last Lecture - Randy Pausch</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
         <link href="https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html"/>
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
+            <category term="Book"/>
 
-        <updated>2019-11-20T22:29:46+07:00</updated>
+        <updated>2019-11-20T22:40:51+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
