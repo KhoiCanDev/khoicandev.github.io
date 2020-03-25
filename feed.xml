@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-03-24T22:22:50+07:00</updated>
+    <updated>2020-03-25T22:45:11+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -238,10 +238,10 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Đọc sách"/>
 
-        <updated>2020-03-24T22:22:40+07:00</updated>
+        <updated>2020-03-25T22:45:04+07:00</updated>
             <summary>
                 <![CDATA[
-                    Tóm tắtĐó là cuộc đời của bạnCon mèo ăn code của tôi rồiThuyết hỗn loạn của phần mềmNồi súp đá cuội và con ếch luộcTùy vào ngữ cảnh, đôi lúc, những&hellip;
+                    Tóm tắtĐó là cuộc đời của bạnCon mèo ăn code của tôi rồiThuyết hỗn loạn của phần mềmNồi súp đá cuội và con ếch luộcMột chương trình đủ tốtTự làm mới mình&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -252,7 +252,7 @@
 <li>Con mèo ăn code của tôi rồi</li>
 <li>Thuyết hỗn loạn của phần mềm</li>
 <li>Nồi súp đá cuội và con ếch luộc</li>
-<li>Tùy vào ngữ cảnh, đôi lúc, những giải pháp đủ tốt là lựa chọn duy nhất</li>
+<li>Một chương trình đủ tốt</li>
 <li>Tự làm mới mình mỗi ngày</li>
 <li>Giao tiếp là chìa khóa</li>
 </ul>
@@ -302,8 +302,7 @@
 <h3 id="mcetoc_1e46gk2fu0">Nồi súp đá cuội và con ếch luộc</h3>
 <ul>
 <li><a href="https://www.wattpad.com/401458-c%C3%A2u-chuy%E1%BB%87n-m%C3%B3n-s%C3%BAp-%C4%91%C3%A1">Câu chuyện về món súp đá</a></li>
-<li>Bạn thấy được những thay đổi, thiết kế mới là cần thiết, nhưng để được thông qua là điều không dễ dàng.</li>
-<li>Lúc này, bạn nên làm tốt nhất những gì được cho phép, cho mọi người thấy và để họ trầm trồ.</li>
+<li>Bạn thấy được những thay đổi, thiết kế mới là cần thiết, nhưng để được thông qua là điều không dễ dàng. Lúc này, bạn nên làm tốt nhất những gì trong tầm được cho phép, cho mọi người thấy và để họ trầm trồ.</li>
 <li>Khi đã hứng khởi, bạn sẽ mời chào rằng 'nếu thêm tính năng abc này thì sẽ hay hơn đó'</li>
 <li>Đám đông sẽ dễ hưởng ứng theo thành công bước đầu</li>
 </ul>
@@ -315,6 +314,22 @@
 <li>Câu chuyện: nếu bỏ con ếch vào nồi nước sôi, nó sẽ nhảy ra ngay. Nhưng khi bỏ nó vào nồi nước lạnh và đun nóng từ từ, nó sẽ không nhận ra sự thay đổi và từ từ bị luộc chín</li>
 </ul>
 <p><strong>Lời khuyên thứ 7: Luôn giữ bức tranh lớn trong đầu</strong></p>
+<h3 id="mcetoc_1e493jaj40">Một chương trình đủ tốt</h3>
+<ul>
+<li>Trong môi trường thực tế: thời gian, công nghệ, những thói quen sẽ gây áp lực khi bạn xây dựng chương trình, nên khó có thể đạt được một chương trình hoàn hảo</li>
+<li>Bạn có thể đặt nguyên tắc chỉ cần xây dựng một chương trình đủ tốt, tốt cho người dùng, cho những người bảo trì, cho nhẹ tâm trí của bạn</li>
+<li>Đủ tốt có nghĩa là phải đạt được những yêu cầu của người dùng, vấn đề tốc độ, an toàn, bảo mật được đảm bảo theo tiêu chuẩn</li>
+<li>Nên ủng hộ việc cho phép người dùng tham gia vào việc quyết định những gì cần hoàn thành một cách đủ tốt, và làm vào khi nào</li>
+<li>Đối với một sản phẩm mới, sẽ có những giới hạn khác nhau, bộ phận quảng bá sản phẩm sẽ có nhiều những hứa hẹn, người dùng sẽ có những kế hoạch riêng dựa vào ngày ra mắt của sản phẩm, công ty của bạn sẽ có giới hạn về dòng tiền</li>
+<li>Nên cần tính đó là những yêu cầu từ người dùng, không nên dành thời gian để xây dựng những chức năng mới hoặc dọn dẹp code trước khi hoàn thành những yêu cầu đó</li>
+<li>Phạm vi và chất lượng cần được nêu ra trong yêu cầu xây dựng hệ thống</li>
+</ul>
+<p><strong>Lời khuyên thứ 8: Chất lượng sản phẩm nên được tính là một yêu cầu</strong></p>
+<ul>
+<li>Người dùng thường lựa chọn sử dụng một sản phẩm có một vài khiếm khuyết chấp nhận được, thay vì phải chờ thêm 1 năm để có một sản phẩm hoàn hảo, với đầy đủ chuông và đèn</li>
+<li>Một chương trình ngon lành hôm nay sẽ tốt hơn ảo tưởng cho một chương trình hoàn hảo ở tương lai</li>
+<li>Tốt hơn bạn nên cho người dùng vọc chương trình của bạn sớm, những phản hồi của họ có thể là kim chỉ nam cho giải pháp của bạn tốt hơn</li>
+</ul>
             ]]>
         </content>
     </entry>
