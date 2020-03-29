@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-03-25T22:45:11+07:00</updated>
+    <updated>2020-03-29T23:10:10+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -18,21 +18,27 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-03-23T22:35:21+07:00</updated>
+        <updated>2020-03-29T23:10:00+07:00</updated>
             <summary>
                 <![CDATA[
-                    Các trang hữu íchVietstock - Xem thông tin công ty: https://finance.vietstock.vn/doanh-nghiep-a-z?page=1Investing - Xem thông tin công ty: https://www.investing.com/Phân tích các chỉ số: http://chungkhoanvn.vn/cac-chi-so-tai-chinh-trong-phan-tich-co-ban-chung-khoan/Các chỉ số cần chú ýTỷ số thanh toán hiện hành&hellip;
+                    Cơ bảnBiểu đồ nến: Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửaNến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 id="mcetoc_1e41dldrk0">Các trang hữu ích</h2>
+                <h2 id="mcetoc_1e4jf6tbg1">Cơ bản</h2>
 <ul>
-<li>Vietstock - Xem thông tin công ty: <a href="https://finance.vietstock.vn/doanh-nghiep-a-z?page=1">https://finance.vietstock.vn/doanh-nghiep-a-z?page=1</a></li>
-<li>Investing - Xem thông tin công ty: <a href="https://www.investing.com/">https://www.investing.com/</a></li>
-<li>Phân tích các chỉ số: <a href="http://chungkhoanvn.vn/cac-chi-so-tai-chinh-trong-phan-tich-co-ban-chung-khoan/">http://chungkhoanvn.vn/cac-chi-so-tai-chinh-trong-phan-tich-co-ban-chung-khoan/</a></li>
+<li>Biểu đồ nến:<br>
+<ul>
+<li>Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa</li>
+<li>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa</li>
+<li>Đường thẳng trên: giá cao nhất trong ngày</li>
+<li>Đường thẳng dưới: giá thấp nhất trong ngày</li>
 </ul>
-<h2 id="mcetoc_1e3umg5i59">Các chỉ số cần chú ý</h2>
+</li>
+</ul>
+<h2 id="mcetoc_1e4jf6s5d0">Các chỉ số cần chú ý</h2>
+<br>
 <table border="1">
 <tbody>
 <tr>
@@ -226,6 +232,12 @@
 <li>Phù hợp với lối sống và mức độ chịu rủi ro</li>
 <li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
 </ul>
+<h2 id="mcetoc_1e41dldrk0">Các trang hữu ích</h2>
+<ul>
+<li><a href="https://finance.vietstock.vn/doanh-nghiep-a-z?page=1">Vietstock - Company info</a></li>
+<li><a href="https://www.investing.com/">Investing - Company info</a></li>
+<li><a href="http://chungkhoanvn.vn/cac-chi-so-tai-chinh-trong-phan-tich-co-ban-chung-khoan/">Phân tích các chỉ số</a></li>
+</ul>
             ]]>
         </content>
     </entry>
@@ -238,25 +250,39 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Đọc sách"/>
 
-        <updated>2020-03-25T22:45:04+07:00</updated>
+        <updated>2020-03-27T23:13:08+07:00</updated>
             <summary>
                 <![CDATA[
-                    Tóm tắtĐó là cuộc đời của bạnCon mèo ăn code của tôi rồiThuyết hỗn loạn của phần mềmNồi súp đá cuội và con ếch luộcMột chương trình đủ tốtTự làm mới mình&hellip;
+                    Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 id="mcetoc_1e3n0gd4q1">Tóm tắt</h2>
+                <div class="post__toc">
+<h3>Mục lục</h3>
 <ul>
-<li>Đó là cuộc đời của bạn</li>
-<li>Con mèo ăn code của tôi rồi</li>
-<li>Thuyết hỗn loạn của phần mềm</li>
-<li>Nồi súp đá cuội và con ếch luộc</li>
-<li>Một chương trình đủ tốt</li>
-<li>Tự làm mới mình mỗi ngày</li>
-<li>Giao tiếp là chìa khóa</li>
+<li><a href="#mcetoc_1e3n0gd4q1">Đó là cuộc đời của bạn</a></li>
+<li><a href="#mcetoc_1e3n1o2cr2">Con mèo ăn code của tôi rồi</a>
+<ul>
+<li><a href="#mcetoc_1e3n2eekg3">Lòng tin trong đội nhóm</a></li>
+<li><a href="#mcetoc_1e3n2n9s54">Lãnh trách nhiệm</a></li>
 </ul>
-<h2 id="mcetoc_1e3n0g55p0">Đó là cuộc đời của bạn</h2>
+</li>
+<li><a href="#mcetoc_1e3s9vqke0">Thuyết hỗn loạn của phần mềm</a></li>
+<li><a href="#mcetoc_1e46gk2fu0">Nồi súp đá cuội và con ếch luộc</a></li>
+<li><a href="#mcetoc_1e493jaj40">Một chương trình đủ tốt</a></li>
+<li><a href="#mcetoc_1e4e9n9140">Danh mục tri thức</a>
+<ul>
+<li><a href="#mcetoc_1e4eb0ach1">Đầu tư định kỳ</a></li>
+<li><a href="#mcetoc_1e4eb0j1v2">Đa dạng hóa</a></li>
+<li><a href="#mcetoc_1e4eb0vba3">Quản lý rủi ro</a></li>
+<li><a href="#mcetoc_1e4eb190j4">Mua thấp, bán cao</a></li>
+<li><a href="#mcetoc_1e4eb1l7g5">Xem xét và tái cân bằng</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="mcetoc_1e3n0gd4q1">Đó là cuộc đời của bạn</h2>
 <ul>
 <li>Hãy thay đổi khi bạn thấy không ổn</li>
 <li>Kiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lý</li>
@@ -282,7 +308,7 @@
 <li>Hãy thử giải thích cho con rubber duck trong tay, xem thử ý kiến của bạn có hợp lý hay ngu ngốc</li>
 </ul>
 <p><strong>Lời khuyên thứ 4: Hãy đề ra những phương án, dừng kiến tạo ngụy biện</strong></p>
-<h3 id="mcetoc_1e3s9vqke0">Thuyết hỗn loạn của phần mềm</h3>
+<h2 id="mcetoc_1e3s9vqke0">Thuyết hỗn loạn của phần mềm</h2>
 <ul>
 <li>Sự hỗn loạn trong vũ trụ thường hướng đến cực điểm</li>
 <li>Tương tự, hỗn loạn trước sau gì cũng xảy ra trong phần mềm, khi hỗn loạn xảy ra, ta gọi đó là <strong>tech debt</strong>, hoặc <strong>software rot</strong></li>
@@ -299,7 +325,7 @@
 <li>Đừng tạo ra tổn thất, hư hại chỉ vì đang giải quyết một vấn đề cấp bách</li>
 <li>Trong một dự án mà code được viết gọn gàng, sạch sẽ, sẽ tạo ra tâm lý đây là những thứ nên được chăm sóc, không làm tổn hại</li>
 </ul>
-<h3 id="mcetoc_1e46gk2fu0">Nồi súp đá cuội và con ếch luộc</h3>
+<h2 id="mcetoc_1e46gk2fu0">Nồi súp đá cuội và con ếch luộc</h2>
 <ul>
 <li><a href="https://www.wattpad.com/401458-c%C3%A2u-chuy%E1%BB%87n-m%C3%B3n-s%C3%BAp-%C4%91%C3%A1">Câu chuyện về món súp đá</a></li>
 <li>Bạn thấy được những thay đổi, thiết kế mới là cần thiết, nhưng để được thông qua là điều không dễ dàng. Lúc này, bạn nên làm tốt nhất những gì trong tầm được cho phép, cho mọi người thấy và để họ trầm trồ.</li>
@@ -314,21 +340,73 @@
 <li>Câu chuyện: nếu bỏ con ếch vào nồi nước sôi, nó sẽ nhảy ra ngay. Nhưng khi bỏ nó vào nồi nước lạnh và đun nóng từ từ, nó sẽ không nhận ra sự thay đổi và từ từ bị luộc chín</li>
 </ul>
 <p><strong>Lời khuyên thứ 7: Luôn giữ bức tranh lớn trong đầu</strong></p>
-<h3 id="mcetoc_1e493jaj40">Một chương trình đủ tốt</h3>
+<h2 id="mcetoc_1e493jaj40">Một chương trình đủ tốt</h2>
 <ul>
 <li>Trong môi trường thực tế: thời gian, công nghệ, những thói quen sẽ gây áp lực khi bạn xây dựng chương trình, nên khó có thể đạt được một chương trình hoàn hảo</li>
 <li>Bạn có thể đặt nguyên tắc chỉ cần xây dựng một chương trình đủ tốt, tốt cho người dùng, cho những người bảo trì, cho nhẹ tâm trí của bạn</li>
 <li>Đủ tốt có nghĩa là phải đạt được những yêu cầu của người dùng, vấn đề tốc độ, an toàn, bảo mật được đảm bảo theo tiêu chuẩn</li>
 <li>Nên ủng hộ việc cho phép người dùng tham gia vào việc quyết định những gì cần hoàn thành một cách đủ tốt, và làm vào khi nào</li>
-<li>Đối với một sản phẩm mới, sẽ có những giới hạn khác nhau, bộ phận quảng bá sản phẩm sẽ có nhiều những hứa hẹn, người dùng sẽ có những kế hoạch riêng dựa vào ngày ra mắt của sản phẩm, công ty của bạn sẽ có giới hạn về dòng tiền</li>
-<li>Nên cần tính đó là những yêu cầu từ người dùng, không nên dành thời gian để xây dựng những chức năng mới hoặc dọn dẹp code trước khi hoàn thành những yêu cầu đó</li>
-<li>Phạm vi và chất lượng cần được nêu ra trong yêu cầu xây dựng hệ thống</li>
+<li>Đối với một sản phẩm mới, sẽ có những giới hạn khác nhau, bộ phận quảng bá sản phẩm sẽ có nhiều những hứa hẹn, người dùng sẽ có những kế hoạch riêng dựa vào ngày ra mắt của sản phẩm, công ty của bạn sẽ có giới hạn về dòng tiền. Nên cần tính đó là những yêu cầu từ người dùng, không nên dành thời gian để xây dựng những chức năng mới hoặc dọn dẹp code trước khi hoàn thành những yêu cầu đó</li>
+<li>Phạm vi và chất lượng cần được nêu ra trong requirement xây dựng hệ thống</li>
 </ul>
-<p><strong>Lời khuyên thứ 8: Chất lượng sản phẩm nên được tính là một yêu cầu</strong></p>
+<p><strong>Lời khuyên thứ 8: Chất lượng sản phẩm nên được tính là một requirement</strong></p>
 <ul>
-<li>Người dùng thường lựa chọn sử dụng một sản phẩm có một vài khiếm khuyết chấp nhận được, thay vì phải chờ thêm 1 năm để có một sản phẩm hoàn hảo, với đầy đủ chuông và đèn</li>
+<li>Người dùng thường lựa chọn sử dụng một sản phẩm có một vài khiếm khuyết chấp nhận được, thay vì phải chờ thêm 1 năm để có một sản phẩm hoàn hảo</li>
 <li>Một chương trình ngon lành hôm nay sẽ tốt hơn ảo tưởng cho một chương trình hoàn hảo ở tương lai</li>
 <li>Tốt hơn bạn nên cho người dùng vọc chương trình của bạn sớm, những phản hồi của họ có thể là kim chỉ nam cho giải pháp của bạn tốt hơn</li>
+<li>Biết điểm dừng: đừng quá bày vẽ, đừng tinh lọc quá kĩ lưỡng, vì nó có thể làm hỏng một chương trình tốt. Có thể nó không hoàn hảo, và có thể chẳng bao giờ hoàn hảo.</li>
+</ul>
+<h2 id="mcetoc_1e4e9n9140">Danh mục tri thức</h2>
+<ul>
+<li>Kiến thức và kinh nghiệm là những tài sản quan trọng</li>
+<li>Nhưng những điều đó có thể lỗi thời, làm ảnh hưởng đến khách hàng và doanh nghiệp của bạn</li>
+<li>Nên cần quản lý danh mục tri thức tương tự như việc quản lý danh mục đầu tư
+<ul>
+<li>Nhà đầu tư nghiêm túc thường đầu tư một cách định kỳ - như một thói quen</li>
+<li>Đa dạng hóa là chìa khóa cho sự thành công dài hạn</li>
+<li>Nhà đầu tư thông minh biết cân bằng giữa những danh mục đầu tư phòng thủ và những danh mục có rủi ro cao</li>
+<li>Mua giá thấp và bán giá cao để sinh lời tốt nhất</li>
+<li>Danh mục được xem xét và tái cân bằng theo chu kỳ</li>
+</ul>
+</li>
+</ul>
+<h3 id="mcetoc_1e4eb0ach1">Đầu tư định kỳ</h3>
+<ul>
+<li>Sắp xếp thời gian và địa điểm một cách cố định, không có ai làm phiền</li>
+<li></li>
+</ul>
+<h3 id="mcetoc_1e4eb0j1v2">Đa dạng hóa</h3>
+<ul>
+<li>Bạn biết càng nhiều, bạn càng có giá trị</li>
+<li>Căn bản nhất: nắm rõ trong lòng bàn tay những công nghệ mà bạn làm việc hằng ngày</li>
+<li>Công nghệ thay đổi nhanh và liên tục, nên việc biết nhiều công nghệ giúp bạn dễ dàng điều chỉnh cho phù hợp với xu thế</li>
+<li>Đừng quên những kỹ năng khác ngoài phạm vi kỹ thuật</li>
+</ul>
+<h3 id="mcetoc_1e4eb0vba3">Quản lý rủi ro</h3>
+<ul>
+<li>Cũng giống như đầu tư, có những công nghệ mang tính an toàn, số khác có nguy cơ cao, nhưng mang lại kết quả cao</li>
+</ul>
+<h3 id="mcetoc_1e4eb190j4">Mua thấp, bán cao</h3>
+<ul>
+<li>Học một công nghệ mới nổi trước khi nó trở nên phổ biến sẽ mang cho bạn nguồn lợi cao</li>
+<li>VD tìm hiểu Java khi nó mới được ra đời và chưa phổ biến là một canh bạc lớn, nhưng những người đầu tiên sẽ thu được lợi lớn khi nó đã trở thành tiêu chuẩn trong ngành</li>
+</ul>
+<h3 id="mcetoc_1e4eb1l7g5">Xem xét và tái cân bằng</h3>
+<ul>
+<li>Phần mềm là một ngành năng động, công nghệ bạn biết trước đó một vài tháng, có thể không còn ai quan tâm đến nó sau đó</li>
+<li>Cần tái cân bằng, bỏ đi những công nghệ không còn sống trên thị trường nữa</li>
+</ul>
+<p>Nhưng điều quan trọng nhất là:</p>
+<p><strong>Lời khuyên thứ 9: Đầu tư định kỳ vào danh mục tri thức của bạn</strong></p>
+<p>Bạn có thể thực hiện những điều trên như thế nào?</p>
+<ul>
+<li>Học một ngôn ngữ mới mỗi năm: một vấn đề, mỗi ngôn ngữ có thể giải quyết một cách khác nhau. Đây là cách để mở rộng tư duy của bạn. Tài nguyên phần mềm miễn phí sẽ giúp bạn rất nhiều trong việc này.</li>
+<li>Đọc một cuốn sách kỹ thuật mỗi tháng: </li>
+<li>Đọc những loại sách khác nữa:</li>
+<li>Tham gia vào các lớp học</li>
+<li>Tham gia vào hội đồng môn</li>
+<li>Thử nghiệm bản thân ở những môi trường mới</li>
+<li>Không bỏ lỡ</li>
 </ul>
             ]]>
         </content>
