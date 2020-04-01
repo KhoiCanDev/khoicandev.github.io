@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-03-29T23:10:10+07:00</updated>
+    <updated>2020-04-01T23:24:27+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -250,7 +250,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Đọc sách"/>
 
-        <updated>2020-03-27T23:13:08+07:00</updated>
+        <updated>2020-04-01T23:24:15+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -372,8 +372,8 @@
 </ul>
 <h3 id="mcetoc_1e4eb0ach1">Đầu tư định kỳ</h3>
 <ul>
-<li>Sắp xếp thời gian và địa điểm một cách cố định, không có ai làm phiền</li>
-<li></li>
+<li>Đầu tư một cách cố định</li>
+<li>Sắp xếp thời gian và địa điểm, một nơi không ai làm phiền</li>
 </ul>
 <h3 id="mcetoc_1e4eb0j1v2">Đa dạng hóa</h3>
 <ul>
@@ -389,24 +389,43 @@
 <h3 id="mcetoc_1e4eb190j4">Mua thấp, bán cao</h3>
 <ul>
 <li>Học một công nghệ mới nổi trước khi nó trở nên phổ biến sẽ mang cho bạn nguồn lợi cao</li>
-<li>VD tìm hiểu Java khi nó mới được ra đời và chưa phổ biến là một canh bạc lớn, nhưng những người đầu tiên sẽ thu được lợi lớn khi nó đã trở thành tiêu chuẩn trong ngành</li>
+<li>VD tìm hiểu Java khi nó mới được ra đời và chưa phổ biến là một canh bạc, nhưng những người tiên phong sẽ thu được lợi lớn khi nó đã trở thành tiêu chuẩn trong ngành</li>
 </ul>
 <h3 id="mcetoc_1e4eb1l7g5">Xem xét và tái cân bằng</h3>
 <ul>
-<li>Phần mềm là một ngành năng động, công nghệ bạn biết trước đó một vài tháng, có thể không còn ai quan tâm đến nó sau đó</li>
-<li>Cần tái cân bằng, bỏ đi những công nghệ không còn sống trên thị trường nữa</li>
+<li>Phần mềm là một ngành năng động, công nghệ bạn biết trước đó một vài tháng, có thể sau đó không còn ai quan tâm đến nó</li>
+<li>Cần tái cân bằng, bỏ đi những công nghệ không còn sức sống trên thị trường nữa</li>
 </ul>
 <p>Nhưng điều quan trọng nhất là:</p>
 <p><strong>Lời khuyên thứ 9: Đầu tư định kỳ vào danh mục tri thức của bạn</strong></p>
-<p>Bạn có thể thực hiện những điều trên như thế nào?</p>
+<h2 id="mcetoc_1e4r74lt90">Những mục tiêu</h2>
 <ul>
-<li>Học một ngôn ngữ mới mỗi năm: một vấn đề, mỗi ngôn ngữ có thể giải quyết một cách khác nhau. Đây là cách để mở rộng tư duy của bạn. Tài nguyên phần mềm miễn phí sẽ giúp bạn rất nhiều trong việc này.</li>
-<li>Đọc một cuốn sách kỹ thuật mỗi tháng: </li>
-<li>Đọc những loại sách khác nữa:</li>
-<li>Tham gia vào các lớp học</li>
-<li>Tham gia vào hội đồng môn</li>
-<li>Thử nghiệm bản thân ở những môi trường mới</li>
-<li>Không bỏ lỡ</li>
+<li>Học một ngôn ngữ mới mỗi năm: một vấn đề, mỗi ngôn ngữ có thể giải quyết một cách khác nhau. Đây là cách để mở rộng tư duy của bạn. Đọc code các phần mềm nguồn mở sẽ giúp bạn rất nhiều trong việc này.</li>
+<li>Đọc một cuốn sách kỹ thuật mỗi tháng: mặc dù nguồn bài viết và các câu trả lời ngắn rất đa dạng trên mạng, nhưng để có thể hiểu sâu, bạn cần những cuốn sách dài dòng. Hãy tìm đọc những loại sách kỹ thuật liên quan đến dự án của bạn, tạo thói quen đọc một cuốn mỗi tháng. Một khi đã thành thục, hãy chuyển qua học những loại kỹ thuật khác.</li>
+<li>Và đọc những loại sách khác: nên nhớ rằng máy tính được sử dụng bởi con người, và bạn là người làm thỏa mãn những người đó, nên đây là kỹ năng bạn nên rèn luyện</li>
+<li>Tham gia vào các lớp học: tìm những khóa học bạn thấy hứng thú xung quanh nơi bạn ở, hoặc trên mạng</li>
+<li>Tham gia vào nhóm: sự cô lập sẽ chặn đứng con đường sự nghiệp của bạn, hãy tìm hiểu thế giới bên ngoài đang làm gì, và chủ động giao lưu</li>
+<li>Thử nghiệm bản thân ở những môi trường mới: nếu bạn chỉ làm trên Windows, hãy thử trên những môi trường khác như Linux ...</li>
+<li>Không bỏ lỡ: năng đọc nhưng tin tức công nghệ là một cách để biết được kinh nghiệm của những người khác</li>
+</ul>
+<h2 id="mcetoc_1e4r755bd1">Cơ hội học hỏi</h2>
+<ul>
+<li>Khi bạn có một câu hỏi về kỹ thuật và bạn không có câu trả lời chính xác, đừng dừng lại ở đó, hãy đi tìm ra câu trả lời cuối cùng</li>
+<li>Đừng để thời gian chết, luôn có kế hoạch cho việc học hỏi</li>
+</ul>
+<h2 id="mcetoc_1e4r7i50l2">Suy nghĩ phản biện</h2>
+<ul>
+<li>Suy nghĩ thấu đáo về những gì bạn nghe hoặc thấy, bảo đảm những gì bạn biết phải là thông tin chính xác, không bị nhào nặn bởi một tổ chức hay trào lưu nào đó.</li>
+<li>Ở một thế giới mà hầu hết mọi thứ có thể mua bằng tiền thì bạn hãy cẩn thận với những kết quả tìm kiếm, bởi vị trí của kết quả có thể bị mua chuộc</li>
+</ul>
+<p><strong>Lời khuyên thứ 10: Suy nghĩ thấu đáo về những điều bạn nghe và thấy</strong></p>
+<p>Một số câu hỏi có thể hỗ trợ cho việc này</p>
+<ul>
+<li>Hỏi "Tại sao?" 5 lần: </li>
+<li>Điều này có lợi cho ai?</li>
+<li>Ngữ cảnh là gì</li>
+<li>Khi nào và ở đâu thì điều này có tác dụng</li>
+<li>Tại sao đây lại là vấn đề</li>
 </ul>
             ]]>
         </content>
