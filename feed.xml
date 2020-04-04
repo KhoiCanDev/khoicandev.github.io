@@ -3,14 +3,14 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-04T11:20:10+07:00</updated>
+    <updated>2020-04-04T17:26:17+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
     <id>https://khoican.dev</id>
 
     <entry>
-        <title>Chứng khoán</title>
+        <title>Đầu tư</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
@@ -18,27 +18,114 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-03-29T23:10:00+07:00</updated>
+        <updated>2020-04-04T17:26:09+07:00</updated>
             <summary>
                 <![CDATA[
-                    Cơ bảnBiểu đồ nến: Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửaNến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
+                    Cơ bảnBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 id="mcetoc_1e4jf6tbg1">Cơ bản</h2>
+                <div class="post__toc">
+<h3>Table of Contents</h3>
 <ul>
-<li>Biểu đồ nến:<br>
+<li><a href="#mcetoc_1e4jf6tbg1">Cơ bản</a></li>
+<li><a href="#mcetoc_1e4jf6s5d0">Nên đầu tư như thế nào</a></li>
+<li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
+<li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
+<li><a href="#mcetoc_1e4jf6s5d0">Các chỉ số tài chính cần chú ý</a></li>
+<li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
+</ul>
+</div>
+<h2 id="mcetoc_1e51nnfgj0">Cơ bản</h2>
+<table border="1">
+<tbody>
+<tr>
+<td>Biểu đồ nến</td>
+<td>Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
+</tr>
+<tr>
+<td>Going long</td>
+<td>Mua theo vị thế giá lên</td>
+</tr>
+<tr>
+<td>Going short</td>
+<td>Bán theo vị thế giá xuống</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
-<li>Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa</li>
-<li>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa</li>
-<li>Đường thẳng trên: giá cao nhất trong ngày</li>
-<li>Đường thẳng dưới: giá thấp nhất trong ngày</li>
+<li>Đa dạng hóa đầu tư theo từng loại cổ phiếu
+<ul>
+<li>Cổ phiếu phòng thủ
+<ul>
+<li>Hàng tiêu dùng, sức khỏe, dịch vụ tiện ích, nhu cầu thiết yếu, vốn hóa lớn</li>
+<li>An toàn khi kinh tế bất ổn</li>
+</ul>
+</li>
+<li>Cổ phiếu chu kỳ
+<ul>
+<li>Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu, năng lượng</li>
+<li>Phụ thuộc vào tình trạng tươi sáng hay ảm đạm của nền kinh tế</li>
 </ul>
 </li>
 </ul>
-<h2 id="mcetoc_1e4jf6s5d0">Các chỉ số cần chú ý</h2>
-<br>
+</li>
+<li>Nắm giữ không quá 8-10 cổ phiếu</li>
+<li>Đừng mua hơn 2 cổ phiếu cùng nhóm ngành</li>
+<li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao và công ty nhỏ tăng trưởng nhanh</li>
+<li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
+<li>Phù hợp với lối sống và mức độ chịu rủi ro</li>
+<li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
+</ul>
+<h2 id="mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</h2>
+<table border="1">
+<tbody>
+<tr>
+<td>Doanh số (revenue), lợi nhuận (income) và dòng tiền tăng ổn định trong quá khứ</td>
+<td> </td>
+</tr>
+<tr>
+<td>Lợi thế cạnh tranh bền vững</td>
+<td>Có hào kinh tế rộng (phổ biến, dẫn đầu thị trường, có sáng chế đặc biệt)<br>Biên lợi nhuận gộp &amp; biên lợi nhuận ròng phải cao (lng-lnr / dthu bán hàng) / 100</td>
+</tr>
+<tr>
+<td>Các yếu tố thúc đẩy tăng trưởng trong tương lai</td>
+<td>công ty có kế hoạch tăng trưởng vững chắc</td>
+</tr>
+<tr>
+<td>Nợ trong khả năng chi trả</td>
+<td>Số nợ dài hạn ít hơn 3 lần so với thu nhập ròng ngắn hạn (không áp dụng cho ngân hàng và công ty hàng hóa có mức nợ cao)</td>
+</tr>
+<tr>
+<td>Lợi nhuận trên vốn chủ sở hữu (ROE) phải luôn trên mức trung bình (15%)</td>
+<td>Lợi nhuận ròng sau thuế / tổng số vốn của cổ đông * 100%</td>
+</tr>
+<tr>
+<td>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</td>
+<td> </td>
+</tr>
+<tr>
+<td>Giá thấp hơn giá trị thật</td>
+<td>Giá cổ phiếu &lt; Giá trị cốt lõi</td>
+</tr>
+<tr>
+<td>Giá cổ phiếu đang trên xu hướng tăng</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
+<ul>
+<li>Cơ cấu tổ chức điều hành công ty có sự xáo trộn</li>
+<li>Lợi nhuận giảm sút liên tục 2-3 quý</li>
+<li>Thị giá cổ phiếu lớn hơn nhiều lần so với giá trị thực</li>
+<li>Không còn lý do để lựa chọn cổ phiếu đó</li>
+<li>Sự hài lòng đối với danh mục đầu tư hiện tại không còn nữa</li>
+</ul>
+<h2 id="mcetoc_1e52aut4s0">Các chỉ số phân tích kỹ thuật</h2>
+<h2 id="mcetoc_1e4jf6s5d0">Các chỉ số tài chính phân tích cơ bản</h2>
 <table border="1">
 <tbody>
 <tr>
@@ -111,17 +198,7 @@
 </tr>
 <tr>
 <td>Chỉ số giá thị trường trên thu nhập (P/E)</td>
-<td>
-<ul>
-<li>Nhà đầu tư phải trả giá cho một đồng lợi nhuận bao nhiêu</li>
-<li>Cần so sánh với PE cùng ngành</li>
-<li>EPS quá thấp sẽ đẩy PE lên cao, giá trị CP không đảm bảo</li>
-<li>Chỉ số có thể bị thao túng nếu công ty công bố lãi nhiều hơn thực tế</li>
-<li>Cần xem xét P/E tương lai</li>
-<li>8-15 bình thường, &gt; 20 được dánh giá tốt, &lt; 8 không đánh giá cao hoặc chưa có hiểu biết nhiều</li>
-<li></li>
-</ul>
-</td>
+<td>- Nhà đầu tư phải trả giá cho một đồng lợi nhuận bao nhiêu<br>- Cần so sánh với PE cùng ngành<br>- EPS quá thấp sẽ đẩy PE lên cao, giá trị CP không đảm bảo<br>- Chỉ số có thể bị thao túng nếu công ty công bố lãi nhiều hơn thực tế<br>- Cần xem xét P/E tương lai<br>- Giá trị 8-15 bình thường, &gt; 20 được đánh giá tốt, &lt; 8 không đánh giá cao hoặc chưa có hiểu biết nhiều</td>
 </tr>
 <tr>
 <td>Chỉ số giá thị trường trên giá trị sổ sách (P/B)</td>
@@ -129,109 +206,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="mcetoc_1e40qvv0a0">Tiêu chuẩn Mitcel</h2>
-<p>Dùng để phân tích và đánh giá doanh nghiệp, dự đoán mức thu lợi và dự phòng rủi ro. Thang điểm Mạnh/TB/Mạo hiểm/Rủi ro. Các tiêu chuẩn:</p>
-<table border="1">
-<tbody>
-<tr>
-<td>Công nghệ</td>
-<td>Có áp dụng công nghệ tiên tiến, tình hình thay đổi công nghệ có nhanh chóng và kịp thời, có áp dụng công nghệ phù hợp với tầm mức và vị thế để đảm bảo hiệu quả và chất lượng cao</td>
-</tr>
-<tr>
-<td>
-<p>Thị trường</p>
-</td>
-<td>Tiềm năng và xu hướng phát triển của thị trường cũng như nhu cầu trong tương lai</td>
-</tr>
-<tr>
-<td>Đầu vào</td>
-<td>Con người, nguyên vật liệu, vốn</td>
-</tr>
-<tr>
-<td>Lãnh đạo</td>
-<td>Có tài, có đức, quan hệ rộng. Thấy được tiềm năng của thị trường và chọn một công nghệ phù hợp để phát triển một mặt hàng kinh doanh.</td>
-</tr>
-<tr>
-<td>Cạnh tranh</td>
-<td>Mức độ cạnh tranh của các công ty khác</td>
-</tr>
-<tr>
-<td>Môi trường kinh tế, chính trị xã hội</td>
-<td>Luật lệ, chính sách quản lý vĩ mô có phù hợp với việc khai thác và phát triển sức mạnh của công ty hay không</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
-<ul>
-<li>Cơ cấu tổ chức điều hành công ty có sự xáo trộn</li>
-<li>Lợi nhuận và cổ tức giảm sút: trừ trường hợp không chia cổ tức để mở rộng kinh doanh</li>
-<li>Thị giá cổ phiếu lớn hơn nhiều lần so với giá trị thực</li>
-<li>Không còn lý do để lựa chọn cổ phiếu đó</li>
-<li>Sự hài lòng đối với danh mục đầu tư hiện tại không còn nữa</li>
-</ul>
-<h2 id="mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</h2>
-<table border="1">
-<tbody>
-<tr>
-<td>Doanh số (revenue), lợi nhuận (income) và dòng tiền tăng ổn định trong quá khứ</td>
-<td> </td>
-</tr>
-<tr>
-<td>Lợi thế cạnh tranh bền vững</td>
-<td>Có hào kinh tế rộng (phổ biến, dẫn đầu thị trường, có sáng chế đặc biệt)<br>Biên lợi nhuận gộp &amp; biên lợi nhuận ròng phải cao (lng-lnr / dthu bán hàng) / 100</td>
-</tr>
-<tr>
-<td>Các yếu tố thúc đẩy tăng trưởng trong tương lai</td>
-<td>công ty có kế hoạch tăng trưởng vững chắc</td>
-</tr>
-<tr>
-<td>Nợ trong khả năng chi trả</td>
-<td>Số nợ dài hạn ít hơn 3 lần so với thu nhập ròng ngắn hạn (không áp dụng cho ngân hàng và công ty hàng hóa có mức nợ cao)</td>
-</tr>
-<tr>
-<td>Lợi nhuận trên vốn chủ sở hữu (ROE) phải luôn trên mức trung bình (15%)</td>
-<td>Lợi nhuận ròng sau thuế / tổng số vốn của cổ đông * 100%</td>
-</tr>
-<tr>
-<td>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</td>
-<td> </td>
-</tr>
-<tr>
-<td>Giá thấp hơn giá trị thật</td>
-<td>Giá cổ phiếu &lt; Giá trị cốt lõi</td>
-</tr>
-<tr>
-<td>Giá cổ phiếu đang trên xu hướng tăng</td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1e412tl2g3"> Nên đầu tư như thế nào</h2>
-<ul>
-<li>Đa dạng hóa đầu tư theo từng loại cổ phiếu
-<ul>
-<li>Cổ phiếu phòng thủ
-<ul>
-<li>Hàng tiêu dùng, sức khỏe, dịch vụ tiện ích (nhu cầu thiết yếu).</li>
-<li>Kinh tế bất ổn - CP loại này thường an toàn hơn.</li>
-<li>Vốn hóa lớn</li>
-</ul>
-</li>
-<li>Cổ phiếu chu kỳ
-<ul>
-<li>Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu, năng lượng.</li>
-<li>Phụ thuộc vào tình trạng tươi sáng hay ảm đạm của nền kinh tế</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Nắm giữ không quá 8-10 cổ phiếu</li>
-<li>Đừng mua hơn 2 cổ phiếu cùng nhóm ngành</li>
-<li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao và công ty nhỏ tăng trưởng nhanh</li>
-<li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
-<li>Phù hợp với lối sống và mức độ chịu rủi ro</li>
-<li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
-</ul>
 <h2 id="mcetoc_1e41dldrk0">Các trang hữu ích</h2>
 <ul>
 <li><a href="https://finance.vietstock.vn/doanh-nghiep-a-z?page=1">Vietstock - Company info</a></li>
@@ -250,7 +224,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Tóm tắt sách"/>
 
-        <updated>2020-04-01T23:24:15+07:00</updated>
+        <updated>2020-04-04T11:46:09+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
