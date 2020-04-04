@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-04T17:26:17+07:00</updated>
+    <updated>2020-04-04T21:30:10+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-04T17:26:09+07:00</updated>
+        <updated>2020-04-04T21:30:02+07:00</updated>
             <summary>
                 <![CDATA[
                     Cơ bảnBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -52,22 +52,44 @@
 <td>Going short</td>
 <td>Bán theo vị thế giá xuống</td>
 </tr>
+<tr>
+<td>Giá trị vốn hóa</td>
+<td>Giá trị vốn hóa = Giá cổ phiếu * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap<br>Vốn hóa lớn lợi nhuận ổn định nhưng tiềm năng tăng trưởng không hấp dẫn<br>Vốn hóa nhỏ tiềm năng lớn nhưng rủi ro cao</td>
+</tr>
+<tr>
+<td>Điều khiến giá CP tăng giảm</td>
+<td>Cung và cầu, cảm xúc thị trường<br>Thị trường lạc quan: cầu &gt; cung : mua &gt; bán : giá tăng<br>Thị trường tụt giảm: cầu &lt; cung : mua &lt; bán : giá giảm</td>
+</tr>
+<tr>
+<td>Phân tích cơ bản</td>
+<td>Phân tích giá trị, tiềm năng tăng trưởng, lợi thế cạnh tranh, dự báo tài chính ... của doanh nghiệp<br>Giá cổ phiếu sẽ tăng khi doanh nghiệp tăng giá trị<br>Cần sự kiên nhẫn</td>
+</tr>
+<tr>
+<td>Phân tích kỹ thuật</td>
+<td>Trong ngắn hạn, thị trường CK được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được nhà đầu tư trở nên lạc quan hay bi quan</td>
+</tr>
 </tbody>
 </table>
 <h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
+<li>Kết hợp 2 phương pháp: cơ bản + kỹ thuật
+<ul>
+<li>Cơ bản cho biết giá trị tiềm năng của cổ phiếu</li>
+<li>Kỹ thuật để xác định thời điểm nhà đầu tư lạc quan đủ để đẩy CP lên giá trị thật, xác định thời điểm mua CP giá rẻ</li>
+</ul>
+</li>
 <li>Đa dạng hóa đầu tư theo từng loại cổ phiếu
 <ul>
 <li>Cổ phiếu phòng thủ
 <ul>
-<li>Hàng tiêu dùng, sức khỏe, dịch vụ tiện ích, nhu cầu thiết yếu, vốn hóa lớn</li>
-<li>An toàn khi kinh tế bất ổn</li>
+<li>Hàng tiêu dùng, sức khỏe, dịch vụ công cộng, nhu cầu thiết yếu, năng lượng, vốn hóa lớn</li>
+<li>Đi lên khi kinh tế khó khăn, đi xuống khi kinh tế sôi động</li>
 </ul>
 </li>
 <li>Cổ phiếu chu kỳ
 <ul>
-<li>Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu, năng lượng</li>
-<li>Phụ thuộc vào tình trạng tươi sáng hay ảm đạm của nền kinh tế</li>
+<li>Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu</li>
+<li>Tăng mạnh khi kinh tế phát triển, giảm sâu khi kinh tế khủng hoảng</li>
 </ul>
 </li>
 </ul>
@@ -85,6 +107,10 @@
 <tr>
 <td>Doanh số (revenue), lợi nhuận (income) và dòng tiền tăng ổn định trong quá khứ</td>
 <td> </td>
+</tr>
+<tr>
+<td>Hệ số PE, EGR, PEG</td>
+<td>PE nên bằng ERG (earning growth rate - hệ số tăng trưởng lợi nhuận)<br>PEG = PE / EGR<br>PEG ~ 1: giá CP hợp lý<br>PEG &gt; 1: giá CP mắc<br>PEG &lt; 1: giá CP rẻ</td>
 </tr>
 <tr>
 <td>Lợi thế cạnh tranh bền vững</td>
