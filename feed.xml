@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-05T22:45:11+07:00</updated>
+    <updated>2020-04-06T22:11:35+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-05T20:42:33+07:00</updated>
+        <updated>2020-04-06T22:11:28+07:00</updated>
             <summary>
                 <![CDATA[
                     Cơ bảnBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -29,11 +29,12 @@
                 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
-<li><a href="#mcetoc_1e4jf6tbg1">Cơ bản</a></li>
-<li><a href="#mcetoc_1e4jf6s5d0">Nên đầu tư như thế nào</a></li>
+<li><a href="#mcetoc_1e51nnfgj0">Cơ bản</a></li>
+<li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
 <li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
-<li><a href="#mcetoc_1e4jf6s5d0">Các chỉ số tài chính cần chú ý</a></li>
+<li><a href="#mcetoc_1e52aut4s0">Các chỉ số phân tích kỹ thuật</a></li>
+<li><a href="#mcetoc_1e4jf6s5d0">Các chỉ số tài chính phân tích cơ bản</a></li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
 </ul>
 </div>
@@ -150,8 +151,27 @@
 <li>Không còn lý do để lựa chọn cổ phiếu đó</li>
 <li>Sự hài lòng đối với danh mục đầu tư hiện tại không còn nữa</li>
 </ul>
-<h2 id="mcetoc_1e52aut4s0">Các chỉ số phân tích kỹ thuật</h2>
-<h2 id="mcetoc_1e4jf6s5d0">Các chỉ số tài chính phân tích cơ bản</h2>
+<h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
+<ul>
+<li>Xác định xu hướng giá cổ phiếu
+<ul>
+<li>Xu hướng tăng: tạo đỉnh cao hơn, đáy cao hơn, vẽ đường đường hỗ trợ ở các đáy, đường hỗ trợ chạm giá CP càng nhiều thì càng mạnh</li>
+<li>Xu hướng giảm: tạo đỉnh thấp hơn, đáy thấp hơn, vẽ đường kháng cự ở các đỉnh, đường kháng cự chạm giá CP càng nhiều thì càng mạnh</li>
+<li>Ổn định đi ngang: đi ngang giữa mức giá cao hơn và mức giá thấp hơn, chưa thể kiếm tời từ những CP ổn định</li>
+</ul>
+</li>
+<li>Sử dụng đường trung bình động (Moving Average) để xác định sự thay đổi trong xu hướng
+<ul>
+<li>MA 150 cắt trên MA 50 là xu hướng giảm</li>
+<li>MA 150 cắt dưới MA 50 là xu hướng tăng</li>
+<li>MA ngắn hơn có thể dùng để nắm bắt xu hướng ngắn hạn hơn</li>
+</ul>
+</li>
+<li>Khi CP có thể bứt phá lên trên đường kháng cự mạnh: động lượng hướng lên của đợt tăng giá, <strong>thời điểm tốt để mua CP, </strong>điểm mua an toàn là điểm giảm giá sau khi phá vỡ đường kháng cự, đường kháng cự có thể hỗ trợ cho giá CP</li>
+<li>Kiếm thật nhiều khi bạn đúng và thua lỗ một ít khi bạn sai, quan trọng là biết quản lý rủi ro</li>
+<li>Đặt lệnh dừng lỗ (stop loss): dưới đường hỗ trợ mới một cây nến</li>
+</ul>
+<h2 id="mcetoc_1e4jf6s5d0">Phân tích cơ bản</h2>
 <table border="1">
 <tbody>
 <tr>
