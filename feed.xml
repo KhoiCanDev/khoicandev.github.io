@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-06T22:11:35+07:00</updated>
+    <updated>2020-04-08T00:05:47+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -270,7 +270,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Tóm tắt sách"/>
 
-        <updated>2020-04-04T22:03:33+07:00</updated>
+        <updated>2020-04-07T23:17:13+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -305,7 +305,7 @@
 </li>
 <li><a href="#mcetoc_1e52qg4f00">Giao tiếp</a>
 <ul>
-<li><a href="#mcetoc_1e52r964h1">Biết người nghe của bạn là ai</a></li>
+<li><a href="#mcetoc_1e52r964h1">Hiểu thính giả của bạn</a></li>
 <li><a href="#mcetoc_1e52r9jn52">Biết mình nên nói những gì</a></li>
 <li><a href="#mcetoc_1e52ra0jd3">Chọn thời điểm</a></li>
 <li><a href="#mcetoc_1e52ra7cu4">Chọn cách thức</a></li>
@@ -459,8 +459,8 @@
 <ul>
 <li>"Hỏi "Tại sao?" 5 lần" : để biết được nguồn gốc của vấn đề</li>
 <li>"Điều này làm lợi cho ai?" : nghe có vẻ thô, nhưng lợi ích tài chính có thể là điều cần phải làm rõ</li>
-<li>"Ngữ cảnh là gì" : cần phải phân tích vấn đề trong ngữ cảnh nó xảy ra, vì một giải pháp cho tất cả thường là không thực tế. Ví dụ như những cuốn sách dạy "best practice", tốt cho ai ? điều kiện tiên quyết là gì? hậu quả ngắn, dài hạn là gì?</li>
-<li>"Khi nào và ở đâu thì giải pháp này khả thi?" : trong hoàn cảnh nào thì áp dụng được? có phải là quá trễ / quá sớm? điều gì xảy ra sau đó?</li>
+<li>"Ngữ cảnh là gì" : cần phải phân tích vấn đề trong ngữ cảnh nó xảy ra, vì một giải pháp cho tất cả thường là không thực tế. Ví dụ như những cuốn sách dạy "best practice", tốt cho ai ? điều kiện tiên quyết là gì? hậu quả ngắn, dài hạn là  gì?</li>
+<li>"Khi nào và ở đâu thì giải pháp này khả thi?" : trong hoàn cảnh nào thì áp dụng được? có phải là quá trễ / quá sớm để áp dụng? điều gì xảy ra sau đó?</li>
 <li>Tại sao đây lại là vấn đề: có mô hình nào có thể giải thích</li>
 </ul>
 <h2 id="mcetoc_1e52qg4f00">Giao tiếp</h2>
@@ -470,8 +470,18 @@
 <li>Hãy đối xử với ngôn ngữ bạn dùng để giao tiếp như là một ngôn ngữ lập trình: có DRY không, có dễ dàng thích ứng với sự thay đổi không, có tính tự động hóa ...</li>
 </ul>
 <p><strong>Lời khuyên thứ 10: Ngôn ngữ giao tiếp cũng như ngôn ngữ lập trình</strong></p>
-<h3 id="mcetoc_1e52r964h1">Biết người nghe của bạn là ai</h3>
+<h3 id="mcetoc_1e52r964h1">Hiểu thính giả của bạn</h3>
+<ul>
+<li>Bạn giao tiếp với mục đích là truyền tải những nội dung mà bạn hiểu cho người khác, nên bạn cần hiểu rõ nhu cầu, mối quan tâm, và khả năng của những người nghe bạn nói</li>
+<li>Cho dù hình thức giao tiếp có thế nào, điều quan trọng là tiếp nhận phản hồi. Hãy chủ động trong việc xin phản hồi.</li>
+<li>"Ý nghĩa của cuộc trao đổi nằm ở những phản hồi bạn nhận được"</li>
+</ul>
 <h3 id="mcetoc_1e52r9jn52">Biết mình nên nói những gì</h3>
+<ul>
+<li>Chuẩn bị cho những gì bạn muốn nói</li>
+<li>Viết một dàn bài và tự hỏi bản thân: "Nội dung này có truyền tải được những gì tôi muốn nói và họ có thể hiểu được?". Hãy trui rèn đến khi bạn thỏa mãn được câu hỏi.</li>
+<li>Điều này cũng áp dụng cho những cuộc họp, hoặc gặp mặt khách hàng</li>
+</ul>
 <h3 id="mcetoc_1e52ra0jd3">Chọn thời điểm</h3>
 <h3 id="mcetoc_1e52ra7cu4">Chọn cách thức</h3>
 <h3 id="mcetoc_1e52ravpo5">Trình bày chỉnh chu</h3>
