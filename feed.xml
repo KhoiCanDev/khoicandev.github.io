@@ -3,12 +3,43 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-08T00:05:47+07:00</updated>
+    <updated>2020-04-10T00:44:37+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
     <id>https://khoican.dev</id>
 
+    <entry>
+        <title>Course - Science of Well Being</title>
+        <author>
+            <name>Khoi Can Dev</name>
+        </author>
+        <link href="https://khoican.dev/course-science-of-well-being.html"/>
+        <id>https://khoican.dev/course-science-of-well-being.html</id>
+            <category term="Ghi chú"/>
+
+        <updated>2020-04-08T22:25:41+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Khoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối ngụy biện G.I Joe:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Khoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi</p>
+<p>Hạnh phúc cũng cần phải được tập luyện</p>
+<p>Lối ngụy biện G.I Joe: cho rằng khi biết được điều gì đó thì đã là một nửa chặn đường. Thực tế việc "biết" thì chưa đủ để có thể thay đổi hành vi của bạn, nên không thể cho rằng đó là một nửa quá trình.</p>
+<p>Hạnh phúc là một quá trình cần sự chủ động cải tiến đều đặn, trong một thời gian dài</p>
+<ol>
+<li>Những lầm tưởng về hạnh phúc</li>
+<li>Tại sao những mong chờ của bạn lại tệ hại</li>
+<li>Những thứ gì làm tăng mức độ hạnh phúc</li>
+<li>Những chiến lược để tái lập lại mong chờ của bạn</li>
+<li>Tập luyện những chiến lược được nêu</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Đầu tư</title>
         <author>
@@ -262,7 +293,7 @@
         </content>
     </entry>
     <entry>
-        <title>Tên dev thực dụng - Phần 1 - Triết lý thực dụng</title>
+        <title>Developer thực dụng - Phần 1 - Triết lý thực dụng</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
@@ -270,7 +301,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Tóm tắt sách"/>
 
-        <updated>2020-04-07T23:17:13+07:00</updated>
+        <updated>2020-04-09T22:49:27+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -309,8 +340,8 @@
 <li><a href="#mcetoc_1e52r9jn52">Biết mình nên nói những gì</a></li>
 <li><a href="#mcetoc_1e52ra0jd3">Chọn thời điểm</a></li>
 <li><a href="#mcetoc_1e52ra7cu4">Chọn cách thức</a></li>
-<li><a href="#mcetoc_1e52ravpo5">Trình bày chỉnh chu</a></li>
-<li><a href="#mcetoc_1e52rco236">Cho người nghe tham gia vào việc chuẩn bị</a></li>
+<li><a href="#mcetoc_1e52ravpo5">Trình bày tài liệu chỉnh chu</a></li>
+<li><a href="#mcetoc_1e52rco236">Cho phép người đọc tham gia vào việc chuẩn bị</a></li>
 <li><a href="#mcetoc_1e52rd93j7">Biết lắng nghe</a></li>
 <li><a href="#mcetoc_1e52rebu68">Trả lời thắc mắc</a></li>
 <li><a href="#mcetoc_1e52rek5v9">Làm tài liệu</a></li>
@@ -451,8 +482,8 @@
 </ul>
 <h3 id="mcetoc_1e4r7i50l2">Suy nghĩ phản biện</h3>
 <ul>
-<li>Suy nghĩ thấu đáo về những gì bạn nghe hoặc thấy, bảo đảm những gì bạn biết phải là thông tin chính xác, không bị nhào nặn bởi một tổ chức hay trào lưu nào đó.</li>
-<li>Ở một thế giới mà hầu hết mọi thứ có thể mua bằng tiền thì bạn hãy cẩn thận với những kết quả tìm kiếm, bởi vị trí của kết quả có thể bị mua đứt</li>
+<li>Suy nghĩ thấu đáo về những gì bạn nghe hoặc thấy, bảo đảm những gì bạn biết phải là thông tin chính xác, không bị nhào nặn bởi trào lưu hay cá nhân nào đó</li>
+<li>Ở một thế giới mà hầu hết mọi thứ có thể mua bằng tiền thì bạn hãy cẩn thận với những kết quả tìm kiếm</li>
 </ul>
 <p><strong>Lời khuyên thứ 10: Suy nghĩ thấu đáo về những điều bạn nghe và thấy</strong></p>
 <p>Một số câu hỏi có thể hỗ trợ cho việc này</p>
@@ -469,7 +500,7 @@
 <li>Một ngày làm việc của dev có rất nhiều khoảnh khắc cần phải giao tiếp với khách hàng, đồng nghiệp, trình bày ý tưởng ... nên cần phải làm tốt việc này</li>
 <li>Hãy đối xử với ngôn ngữ bạn dùng để giao tiếp như là một ngôn ngữ lập trình: có DRY không, có dễ dàng thích ứng với sự thay đổi không, có tính tự động hóa ...</li>
 </ul>
-<p><strong>Lời khuyên thứ 10: Ngôn ngữ giao tiếp cũng như ngôn ngữ lập trình</strong></p>
+<p><strong>Lời khuyên thứ 11: Ngôn ngữ giao tiếp cũng như ngôn ngữ lập trình</strong></p>
 <h3 id="mcetoc_1e52r964h1">Hiểu thính giả của bạn</h3>
 <ul>
 <li>Bạn giao tiếp với mục đích là truyền tải những nội dung mà bạn hiểu cho người khác, nên bạn cần hiểu rõ nhu cầu, mối quan tâm, và khả năng của những người nghe bạn nói</li>
@@ -479,16 +510,53 @@
 <h3 id="mcetoc_1e52r9jn52">Biết mình nên nói những gì</h3>
 <ul>
 <li>Chuẩn bị cho những gì bạn muốn nói</li>
-<li>Viết một dàn bài và tự hỏi bản thân: "Nội dung này có truyền tải được những gì tôi muốn nói và họ có thể hiểu được?". Hãy trui rèn đến khi bạn thỏa mãn được câu hỏi.</li>
+<li>Viết một dàn bài và tự hỏi bản thân: "Nội dung này có truyền tải được những gì tôi muốn nói và họ có thể hiểu được?". Hãy trui rèn đến khi bạn thỏa mãn được câu hỏi đó</li>
 <li>Điều này cũng áp dụng cho những cuộc họp, hoặc gặp mặt khách hàng</li>
 </ul>
 <h3 id="mcetoc_1e52ra0jd3">Chọn thời điểm</h3>
+<ul>
+<li>Ngoài việc hiểu được thính giả của bạn cần nghe gì, cần phải biết được ưu tiên của họ là gì</li>
+<li>Thời điểm nói cần phải phù hợp, tương tự với nội dung bạn nói</li>
+<li>Đôi lúc chỉ cần đặt câu hỏi "Đây có phải là thời điểm tốt để nói về ..."</li>
+</ul>
 <h3 id="mcetoc_1e52ra7cu4">Chọn cách thức</h3>
-<h3 id="mcetoc_1e52ravpo5">Trình bày chỉnh chu</h3>
-<h3 id="mcetoc_1e52rco236">Cho người nghe tham gia vào việc chuẩn bị</h3>
+<ul>
+<li>Chọn cách thức truyền tải phù hợp với thính giả</li>
+<li>Có những người chỉ muốn tóm tắt những điểm chính yếu, một số muốn một cuộc trao đổi dài trước khi vào đề</li>
+<li>Trình độ của họ trong lĩnh vực cần trao đổi là gì? Chuyên gia hay mới vào nghề? Nếu không chắc, phải hỏi</li>
+</ul>
+<h3 id="mcetoc_1e52ravpo5">Trình bày tài liệu chỉnh chu</h3>
+<ul>
+<li>Hiện nay có rất nhiều phần mềm để hỗ trợ làm tài liệu, nên không lý do gì mà bạn có thể tạo ra một tài liệu xấu xí</li>
+<li>Kiểm tra chính tả, tự động sau đó bằng mắt</li>
+</ul>
+<h3 id="mcetoc_1e52rco236">Cho phép người đọc tham gia vào việc chuẩn bị</h3>
+<ul>
+<li>Nếu có thể, cho phép những người đọc xem những bản nháp của tài liệu và nhận phản hồi từ họ</li>
+<li>Bạn có thể sẽ có mối quan hệ tốt hơn, và tài liệu có thể sẽ chỉnh chu hơn</li>
+</ul>
 <h3 id="mcetoc_1e52rd93j7">Biết lắng nghe</h3>
+<ul>
+<li>Để người khác lắng nghe bạn thì bạn phải lắng nghe họ trước</li>
+<li>Khuyến khích mọi người nói chuyện và đặt câu hỏi, hoặc mời họ trình bày lại nội dung cuộc họp theo ý hiểu của họ</li>
+<li>Biến cuộc họp thành một cuộc trao đổi, thì quan điểm của bạn sẽ được khẳng định hiệu quả hơn</li>
+</ul>
 <h3 id="mcetoc_1e52rebu68">Trả lời thắc mắc</h3>
+<ul>
+<li>Nếu bạn hỏi ai đó, và họ không trả lời, bạn sẽ thấy họ thật bất lịch sự</li>
+<li>Nhìn lại bản thân mình, có khi nào bạn cũng như thế? Trong cuộc sống bận rộn, rất dễ để chúng ta quên mất những thắc mắc của người khác</li>
+<li>Luôn trả lời khi ai đó đặt câu hỏi, một câu đơn giản như "tôi sẽ trả lời bạn sau nhé" luôn khiến người khác dễ chấp nhận hơn khi bạn chậm trễ, và tạo cảm giác bạn không quên họ</li>
+</ul>
+<p><strong>Lời khuyên thứ 12: Giao tiếp tốt nằm ở cả nội dung và cách bạn truyền tải</strong></p>
 <h3 id="mcetoc_1e52rek5v9">Làm tài liệu</h3>
+<ul>
+<li>Làm tài liệu cũng là một cách trao đổi thông tin</li>
+<li>Đây nên là một phần thiết yếu trong quá trình phát triển phần mềm</li>
+<li>Để không bị trùng lặp hay tốn nhiều thời gian, tài liệu có thể nằm trong code</li>
+<li>Có thể tạo ra tài liệu chỉnh chu bằng cách comment trong code, trên những modules và các function được export</li>
+<li>Những tài liệu không để mô tả API thì chỉ nên ghi lý do phát triển, mục đích tồn tại và điều nó đạt được. Những dòng code đủ để mô tả nó được thực hiện như thế nào, comment thêm chỉ làm trùng lặp và vi phạm nguyên tắc DRY</li>
+</ul>
+<p><strong>Lời khuyên thứ 13: Tài liệu nên xây dựng trong code, tách rời rất dễ làm nó lỗi thời</strong></p>
             ]]>
         </content>
     </entry>
