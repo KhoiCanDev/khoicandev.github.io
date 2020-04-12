@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-12T00:35:29+07:00</updated>
+    <updated>2020-04-12T22:58:18+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -51,10 +51,10 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-06T22:11:28+07:00</updated>
+        <updated>2020-04-12T22:58:08+07:00</updated>
             <summary>
                 <![CDATA[
-                    Cơ bảnBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
+                    Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -62,16 +62,17 @@
                 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
-<li><a href="#mcetoc_1e51nnfgj0">Cơ bản</a></li>
+<li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
+<li><a href="#mcetoc_1e5netfjv0">Triết lý đầu tư</a></li>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
 <li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
-<li><a href="#mcetoc_1e52aut4s0">Các chỉ số phân tích kỹ thuật</a></li>
-<li><a href="#mcetoc_1e4jf6s5d0">Các chỉ số tài chính phân tích cơ bản</a></li>
+<li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
+<li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a></li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
 </ul>
 </div>
-<h2 id="mcetoc_1e51nnfgj0">Cơ bản</h2>
+<h2 id="mcetoc_1e51nnfgj0">Khái niệm</h2>
 <table border="1">
 <tbody>
 <tr>
@@ -104,6 +105,12 @@
 </tr>
 </tbody>
 </table>
+<h2 id="mcetoc_1e5netfjv0">Triết lý đầu tư</h2>
+<ul>
+<li>Chọn ra những công ty tốt</li>
+<li>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng</li>
+<li>Chốt lời khi giá chứng khoán đảo chiều sang xu hướng giảm</li>
+</ul>
 <h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
 <li>Kết hợp 2 phương pháp: cơ bản + kỹ thuật
@@ -140,44 +147,41 @@
 <tbody>
 <tr>
 <td>Doanh số (revenue), lợi nhuận (income) và dòng tiền tăng ổn định trong quá khứ</td>
-<td> </td>
-</tr>
-<tr>
-<td>Hệ số PE, EGR, PEG</td>
-<td>PE nên bằng ERG (earning growth rate - hệ số tăng trưởng lợi nhuận)<br>PEG = PE / EGR<br>PEG ~ 1: giá CP hợp lý<br>PEG &gt; 1: giá CP mắc<br>PEG &lt; 1: giá CP rẻ</td>
+<td>Giá trị công ty và giá cổ phiếu sẽ tăng dần theo thời gian</td>
 </tr>
 <tr>
 <td>Lợi thế cạnh tranh bền vững</td>
-<td>Có hào kinh tế rộng (phổ biến, dẫn đầu thị trường, có sáng chế đặc biệt)<br>Biên lợi nhuận gộp &amp; biên lợi nhuận ròng phải cao (lng-lnr / dthu bán hàng) / 100</td>
+<td>Có hào kinh tế rộng<br>- Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành<br>- Quy mô khổng lồ<br>- Dẫn đầu thị trường<br>- Bằng sáng chế đặc biệt<br>- Chi phí chuyển đổi cao để giữ chân khách hàng<br>- Nắm giữ thế độc quyền<br>Biên lợi nhuận gộp (GP) &amp; biên lợi nhuận ròng (NP) phải cao hơn các đối thủ cạnh tranh</td>
 </tr>
 <tr>
 <td>Các yếu tố thúc đẩy tăng trưởng trong tương lai</td>
-<td>công ty có kế hoạch tăng trưởng vững chắc</td>
+<td>Thị trường tiêu thụ sản phẩm của công ty phát triển theo hướng có lợi cho công ty<br>Có kế hoạch tăng trưởng vững chắc<br>- Phát triển sản phẩm mới, có tính đột phá<br>- Sáng chế mới<br>- Mở rộng quy mô<br>- Mở ra thị trường mới<br>Tìm ở báo cáo thường niên, báo cáo phân tích, tỷ lệ tăng trưởng dài hạn dự đoán (LT Growth Rate)</td>
 </tr>
 <tr>
 <td>Nợ trong khả năng chi trả</td>
-<td>Số nợ dài hạn ít hơn 3 lần so với thu nhập ròng ngắn hạn (không áp dụng cho ngân hàng và công ty hàng hóa có mức nợ cao)</td>
+<td>Số nợ dài hạn (long term debt) ít hơn 3 lần so với thu nhập ròng ngắn hạn (net income)<br>Không áp dụng cho ngân hàng và công ty hàng hóa có mức nợ cao</td>
 </tr>
 <tr>
 <td>Lợi nhuận trên vốn chủ sở hữu (ROE) phải luôn trên mức trung bình (15%)</td>
-<td>Lợi nhuận ròng sau thuế / tổng số vốn của cổ đông * 100%</td>
+<td>Return of equity = lợi nhuận ròng sau thuế / tổng số vốn của cổ đông * 100%<br>Có nghĩa: công ty có lợi thế cạnh tranh bền vững, khoản đầu tư của cổ đông sẽ tăng trưởng với tỷ lệ kép hằng năm cao, khiến giá cổ phiếu tăng cao trong tương lai</td>
 </tr>
 <tr>
 <td>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</td>
 <td> </td>
 </tr>
 <tr>
-<td>Giá thấp hơn giá trị thật</td>
-<td>Giá cổ phiếu &lt; Giá trị cốt lõi</td>
+<td>Giá thấp hơn giá trị thật, giá cổ phiếu đảo chiều sang xu hướng tăng</td>
+<td>Giá cổ phiếu &lt; Giá trị cốt lõi<br>Khi có tin tức xấu, thị trường hoảng sợ<br>Đừng bao giờ cô bắt lấy con dao đang rơi</td>
 </tr>
 <tr>
-<td>Giá cổ phiếu đang trên xu hướng tăng</td>
-<td> </td>
+<td>Hệ số PE, EGR, PEG</td>
+<td>PE nên bằng ERG (earning growth rate - hệ số tăng trưởng lợi nhuận)<br>PEG = PE / EGR<br>PEG ~ 1: giá CP hợp lý<br>PEG &gt; 1: giá CP mắc<br>PEG &lt; 1: giá CP rẻ</td>
 </tr>
 </tbody>
 </table>
 <h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
 <ul>
+<li>Cổ phiếu đảo chiều sang xu hướng giảm</li>
 <li>Cơ cấu tổ chức điều hành công ty có sự xáo trộn</li>
 <li>Lợi nhuận giảm sút liên tục 2-3 quý</li>
 <li>Thị giá cổ phiếu lớn hơn nhiều lần so với giá trị thực</li>
