@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-14T22:31:39+07:00</updated>
+    <updated>2020-04-15T22:46:57+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -71,7 +71,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-12T22:58:08+07:00</updated>
+        <updated>2020-04-15T22:46:47+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -133,34 +133,34 @@
 </ul>
 <h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
-<li>Kết hợp 2 phương pháp: cơ bản + kỹ thuật
+<li id="mcetoc_1e5v56qna0">Kết hợp 2 phương pháp: cơ bản + kỹ thuật
 <ul>
 <li>Cơ bản cho biết giá trị tiềm năng của cổ phiếu</li>
 <li>Kỹ thuật để xác định thời điểm nhà đầu tư lạc quan đủ để đẩy CP lên giá trị thật, xác định thời điểm mua CP giá rẻ</li>
 </ul>
 </li>
-<li>Đa dạng hóa đầu tư theo từng loại cổ phiếu
-<ul>
-<li>Cổ phiếu phòng thủ
-<ul>
-<li>Hàng tiêu dùng, sức khỏe, dịch vụ công cộng, nhu cầu thiết yếu, năng lượng, vốn hóa lớn</li>
-<li>Đi lên khi kinh tế khó khăn, đi xuống khi kinh tế sôi động</li>
+<li>Đa dạng hóa đầu tư theo từng loại cổ phiếu</li>
 </ul>
-</li>
-<li>Cổ phiếu chu kỳ
+<table border="1">
+<tbody>
+<tr>
+<td>Cổ phiếu phòng thủ</td>
+<td>Cổ phiếu chu kỳ</td>
+</tr>
+<tr>
+<td>- Hàng tiêu dùng, sức khỏe, DV công cộng, nhu cầu thiết yếu, năng lượng, vốn hóa lớn<br>- Đi lên khi kinh tế khó khăn, đi xuống khi kinh tế sôi động</td>
+<td>- Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu<br>- Tăng mạnh khi kinh tế phát triển, giảm sâu khi kinh tế khủng hoảng</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li>Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu</li>
-<li>Tăng mạnh khi kinh tế phát triển, giảm sâu khi kinh tế khủng hoảng</li>
-</ul>
-</li>
-</ul>
-</li>
 <li>Nắm giữ không quá 8-10 cổ phiếu</li>
 <li>Đừng mua hơn 2 cổ phiếu cùng nhóm ngành</li>
 <li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao và công ty nhỏ tăng trưởng nhanh</li>
 <li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
 <li>Phù hợp với lối sống và mức độ chịu rủi ro</li>
 <li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
+<li>Doanh nghiệp lớn cần theo dõi 1 tháng 1 lần, doanh nghiệp nhỏ, rủi ro, có tính chu kỳ cần theo dõi 1 tuần 1 lần</li>
 </ul>
 <h2 id="mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</h2>
 <table border="1">
@@ -199,6 +199,76 @@
 </tr>
 </tbody>
 </table>
+<h2 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h2>
+<ul>
+<li>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới
+<ul>
+<li>Ghi lại dòng tiền mặt từ hoạt động kinh doanh theo khung 12 tháng, tỷ lệ tăng trưởng dài hạn</li>
+<li>Tính dòng tiền dự đoán theo từng năm</li>
+</ul>
+</li>
+<li>Tính hệ số chiết khấu (Discount Factor - DF) phù hợp
+<ul>
+<li>Kiểm tra giá trị beta: lớn hơn 1 là cổ phiếu có tính biến động cao hơn chỉ số chung của thị trường, nhỏ hơn 1 là cổ phiếu có tính biến động thấp hơn</li>
+<li>
+<table>
+<tbody>
+<tr>
+<td>Beta</td>
+<td>Tỷ lệ chiết khấu</td>
+</tr>
+<tr>
+<td>Nhỏ hơn 0.80</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>1</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>6.8%</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>7.9%</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>8.9%</td>
+</tr>
+<tr>
+<td>Lớn hơn 1.6</td>
+<td>9%</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>Hệ số chiết khấu (DF) = 1 / tỷ lệ chiết khấu ^ n (n = số năm)</li>
+</ul>
+</li>
+<li>Chiết khấu tất cả dòng tiền tương lai thành giá trị hiện tại (DV) và lấy tổng cộng
+<ul>
+<li>Tính giá trị chiết khấu (DV) bằng cách nhân dòng tiền dự đoán với hệ số chiết khấu (DF)</li>
+<li>Tổng giá trị chiết khấu (DV) của 10 năm là giá trị thật của doanh nghiệp (PV)</li>
+</ul>
+</li>
+<li>Tìm giá trị thật của cổ phiếu
+<ul>
+<li>Giá trị thật của một cổ phiếu = PV / số lượng cổ phiếu đang lưu hành</li>
+<li>Giá trị bù = (Tiền mặt và các khoản tương đương - Tổng nợ) / số lượng CP đang lưu hành</li>
+<li>Giá trị thật chính xác hơn = Giá trị thật của một cổ phiếu - Giá trị bù</li>
+</ul>
+</li>
+</ul>
 <h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
 <ul>
 <li>Cổ phiếu đảo chiều sang xu hướng giảm</li>
