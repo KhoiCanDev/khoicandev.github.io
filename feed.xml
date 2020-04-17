@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-15T22:46:57+07:00</updated>
+    <updated>2020-04-17T22:58:19+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -71,7 +71,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-15T22:46:47+07:00</updated>
+        <updated>2020-04-17T22:58:06+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -83,9 +83,9 @@
 <h3>Table of Contents</h3>
 <ul>
 <li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
-<li><a href="#mcetoc_1e5netfjv0">Triết lý đầu tư</a></li>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
 <li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
+<li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
 <li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a></li>
@@ -125,14 +125,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="mcetoc_1e5netfjv0">Triết lý đầu tư</h2>
+<h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
 <li>Chọn ra những công ty tốt</li>
 <li>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng</li>
 <li>Chốt lời khi giá chứng khoán đảo chiều sang xu hướng giảm</li>
-</ul>
-<h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
-<ul>
 <li id="mcetoc_1e5v56qna0">Kết hợp 2 phương pháp: cơ bản + kỹ thuật
 <ul>
 <li>Cơ bản cho biết giá trị tiềm năng của cổ phiếu</li>
@@ -148,19 +145,32 @@
 <td>Cổ phiếu chu kỳ</td>
 </tr>
 <tr>
-<td>- Hàng tiêu dùng, sức khỏe, DV công cộng, nhu cầu thiết yếu, năng lượng, vốn hóa lớn<br>- Đi lên khi kinh tế khó khăn, đi xuống khi kinh tế sôi động</td>
-<td>- Các cty bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu<br>- Tăng mạnh khi kinh tế phát triển, giảm sâu khi kinh tế khủng hoảng</td>
+<td>- Hàng tiêu dùng, sức khỏe, DV công cộng, viễn thông, nhu cầu thiết yếu, năng lượng<br>- Vốn hóa lớn<br>- Đi lên khi kinh tế khó khăn, đi xuống khi kinh tế sôi động</td>
+<td>- Bán đồ xa xỉ, công nghệ, nhà ở, du lịch, công nghiệp, vật liệu<br>- Tăng mạnh khi kinh tế phát triển, giảm sâu khi kinh tế khủng hoảng</td>
 </tr>
 </tbody>
 </table>
 <ul>
 <li>Nắm giữ không quá 8-10 cổ phiếu</li>
 <li>Đừng mua hơn 2 cổ phiếu cùng nhóm ngành</li>
-<li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao và công ty nhỏ tăng trưởng nhanh</li>
+<li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao và công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</li>
 <li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
 <li>Phù hợp với lối sống và mức độ chịu rủi ro</li>
 <li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
 <li>Doanh nghiệp lớn cần theo dõi 1 tháng 1 lần, doanh nghiệp nhỏ, rủi ro, có tính chu kỳ cần theo dõi 1 tuần 1 lần</li>
+<li>Có tính kỷ luật trong việc bán ra</li>
+<li>Đặt lệnh dừng lỗ dưới giá mua khoảng 6 - 8%</li>
+<li>Bảo toàn lợi nhuận bằng cách bán ra 5% dưới đỉnh</li>
+<li>Tính quy mô đầu tư
+<ul>
+<li>% Rủi ro giao dịch: 1.5 - 3%</li>
+<li>Giá cắt lỗ = Giá cổ phiếu giảm 8% giá mua</li>
+<li>$ Rủi ro trên cổ phiếu = Giá cổ phiếu - Giá cắt lỗ</li>
+<li>Số lượng cổ phiếu = (% Rủi ro giao dịch * Vốn) / ($ Rủi ro trên cổ phiếu)</li>
+</ul>
+</li>
+<li>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (dùng số thấp hơn)</li>
+<li>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</li>
 </ul>
 <h2 id="mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</h2>
 <table border="1">
