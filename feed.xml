@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-04-17T22:58:19+07:00</updated>
+    <updated>2020-04-18T23:08:38+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -71,7 +71,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-04-17T22:58:06+07:00</updated>
+        <updated>2020-04-18T23:08:30+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -287,6 +287,13 @@
 <li>Thị giá cổ phiếu lớn hơn nhiều lần so với giá trị thực</li>
 <li>Không còn lý do để lựa chọn cổ phiếu đó</li>
 <li>Sự hài lòng đối với danh mục đầu tư hiện tại không còn nữa</li>
+</ul>
+<h2 id="mcetoc_1e66reo5a0">Các lệnh CK trong TCBS</h2>
+<ul>
+<li>ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
+<li>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
+<li>LO: mua hoặc bán ở 1 mức giá xác định hoặc tốt hơn (95%)</li>
+<li>MP: mua hoặc bán ở mức giá thấp nhất / cao nhất trên thị trường (ít dùng)</li>
 </ul>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
 <ul>
