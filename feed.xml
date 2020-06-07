@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-05-28T22:51:57+07:00</updated>
+    <updated>2020-06-07T19:14:57+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -207,7 +207,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-05-18T21:30:27+07:00</updated>
+        <updated>2020-06-07T19:14:44+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -223,9 +223,13 @@
 <li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
 <li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
-<li><a href="#mcetoc_1e66reo5a0">Các lệnh CK trong TCBS</a></li>
+<li><a href="#mcetoc_1e66reo5a0">Các lệnh trên sàn GD</a></li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
-<li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a></li>
+<li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a>
+<ul>
+<li><a href="#mcetoc_1ea7888bij">Báo cáo kết quả hoạt động kinh doanh</a></li>
+</ul>
+</li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
 </ul>
 </div>
@@ -428,7 +432,7 @@
 <li>Không còn lý do để lựa chọn cổ phiếu đó</li>
 <li>Sự hài lòng đối với danh mục đầu tư hiện tại không còn nữa</li>
 </ul>
-<h2 id="mcetoc_1e66reo5a0">Các lệnh CK trong TCBS</h2>
+<h2 id="mcetoc_1e66reo5a0">Các lệnh trên sàn GD</h2>
 <ul>
 <li>ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
 <li>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
@@ -456,6 +460,91 @@
 <li>Đặt lệnh dừng lỗ (stop loss): dưới đường hỗ trợ mới một cây nến</li>
 </ul>
 <h2 id="mcetoc_1e4jf6s5d0">Phân tích cơ bản</h2>
+<h3 id="mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</h3>
+<ul>
+<li>Được công bố vào mỗi quý và cuối năm, phản ảnh tình hình doanh nghiệp ở thời điểm đó</li>
+<li>Gồm 3 phần: doanh thu, chi phí, lãi lỗ</li>
+</ul>
+<table style="border-collapse: collapse; width: 100%; height: 175px;" border="1">
+<tbody>
+<tr style="height: 49px;">
+<td style="width: 22.9717%; height: 49px;">Mục</td>
+<td style="width: 25.2688%; height: 49px;">Ý nghĩa</td>
+<td style="width: 33.3333%; height: 49px;">Phân tích</td>
+</tr>
+<tr style="height: 77px;">
+<td style="width: 22.9717%; height: 77px;">Doanh thu thuần</td>
+<td style="width: 25.2688%; height: 77px;">Tổng số tiền thu được</td>
+<td style="width: 33.3333%; height: 77px;">Không có nhiều ý nghĩa</td>
+</tr>
+<tr style="height: 49px;">
+<td style="width: 22.9717%; height: 49px;">Giá vốn hàng bán</td>
+<td style="width: 25.2688%; height: 49px;">Chi phí của DN</td>
+<td style="width: 33.3333%; height: 49px;">
+<ul>
+<li>Chi phí mua hàng hóa</li>
+<li>Vật liệu</li>
+<li>Nhân công</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Lợi nhuận gộp</td>
+<td style="width: 25.2688%;">Khác biệt giũa doanh thu thuần và giá vốn hàng bán</td>
+<td style="width: 33.3333%;">Tính ra được tỷ suất / biên lợi nhuận gộp: LNG / DTT<br>Những DN có LTCT có biên lợi nhuận gộp cao &gt;= 40%<br>Khi &lt; 40% nghĩa là DN đang hoạt động trong ngành có tính cạnh tranh cao<br>- Chi phí nghiên cứu lớn<br>- Chi phí bán hàng, quản lý lớn<br>- Chi phí tiền lãi cao</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Chi phí bán hàng &amp; quản lý KD</td>
+<td style="width: 25.2688%;">Lương, quảng cáo, đi lại, phí pháp lý, hoa hồng, chi phí lương ...</td>
+<td style="width: 33.3333%;">Phải nhất quán, tỷ lệ dao động nhỏ (chi phí / lợi nhuận gộp)<br>Tỉ lệ tốt từ 30~80%</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">(Chi phí nghiên cứu và phát triển)</td>
+<td style="width: 25.2688%;"> </td>
+<td style="width: 33.3333%;">Những DN dựa vào sáng chế và lợi thế công nghệ thường không bền vững về lâu dài</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Chi phí khấu hao</td>
+<td style="width: 25.2688%;"> </td>
+<td style="width: 33.3333%;">Chi phí khấu hao / LNG thấp: &lt;= 10%</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Chi phí lãi vay</td>
+<td style="width: 25.2688%;">Phần tiền lãi đã chi trả, trong cả quý hoặc cả năm, cho số nợ xuất hiện trên bảng CĐKT</td>
+<td style="width: 33.3333%;">Tỷ lệ lãi vay phải trả so với thu nhập từ HĐKD thấp là DN có lợi thế cạnh tranh</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">(Lãi/lỗ do thanh lý tài sản)</td>
+<td style="width: 25.2688%;">Ghi nhận khi bán tài sản không phải hàng tồn kho</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Lợi nhuận khác</td>
+<td style="width: 25.2688%;">Tiền thanh lý TSCĐ (đất đai nhà xưởng)<br>Hợp đồng bản quyền</td>
+<td style="width: 33.3333%;">Nên tách mục này ra khỏi lợi nhuận thuần khi xác định DN có lợi thế cạnh tranh</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Lợi nhuận trước thuế</td>
+<td style="width: 25.2688%;">Thu nhập của DN sau khi trừ hết chi phí<br>Chưa trừ thuế TNDN</td>
+<td style="width: 33.3333%;">Dùng để tính toán lợi nhuận khi mua CP</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Thuế thu nhập doanh nghiệp</td>
+<td style="width: 25.2688%;"> </td>
+<td style="width: 33.3333%;">Nên phản ánh đúng lợi nhuận trước thuế</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Lợi nhuận thuần</td>
+<td style="width: 25.2688%;">Thu nhập của DN sau khi trừ chi phí và thuế</td>
+<td style="width: 33.3333%;">Nên thể hiện xu hướng tăng trưởng từ trước đến giờ<br>Tỷ lệ LNT / tổng doanh thu: <br>- cao thể hiện lợi thế cạnh tranh bền vững<br>- thấp thể hiện ngành hoạt động có tính cạnh tranh cao, hoặc đó là ngân hàng hoặc các công ty tài chính (dùng đòn bẩy / rủi ro để kiếm lợi nhuận)</td>
+</tr>
+<tr>
+<td style="width: 22.9717%;">Thu nhập trên mỗi CP (EPS)</td>
+<td style="width: 25.2688%;">EPS = lợi nhuận thuần / CP đang lưu hành</td>
+<td style="width: 33.3333%;">Cần có sự nhất quán và xu hướng tăng trưởng EPS trong 10 năm<br>Thể hiện DN đang bán sản phẩm không cần phải chi nhiều để cải tiến, thay đổi<br>Có lợi thế KT đủ mạnh để dành chi phí quảng cáo sản phẩm, mở rộng sản xuất</td>
+</tr>
+</tbody>
+</table>
 <table border="1">
 <tbody>
 <tr>
