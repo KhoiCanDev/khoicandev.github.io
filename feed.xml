@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-06-07T19:14:57+07:00</updated>
+    <updated>2020-06-10T23:11:18+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -207,7 +207,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-07T19:14:44+07:00</updated>
+        <updated>2020-06-10T23:11:08+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -227,46 +227,47 @@
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
 <li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a>
 <ul>
-<li><a href="#mcetoc_1ea7888bij">Báo cáo kết quả hoạt động kinh doanh</a></li>
+<li><a href="#mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</a></li>
+<li><a href="#mcetoc_1eafcfqq0d">Bảng cân đối kế toán</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
 </ul>
 </div>
 <h2 id="mcetoc_1e51nnfgj0">Khái niệm</h2>
-<table border="1">
+<table style="height: 777px;" border="1">
 <tbody>
-<tr>
-<td>Biểu đồ nến</td>
-<td>Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
+<tr style="height: 195px;">
+<td style="height: 195px; width: 175px;">Biểu đồ nến</td>
+<td style="height: 195px; width: 541px;">Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
 </tr>
-<tr>
-<td>Going long</td>
-<td>Mua theo vị thế giá lên</td>
+<tr style="height: 50px;">
+<td style="height: 50px; width: 175px;">Going long</td>
+<td style="height: 50px; width: 541px;">Mua theo vị thế giá lên</td>
 </tr>
-<tr>
-<td>Going short</td>
-<td>Bán theo vị thế giá xuống</td>
+<tr style="height: 50px;">
+<td style="height: 50px; width: 175px;">Going short</td>
+<td style="height: 50px; width: 541px;">Bán theo vị thế giá xuống</td>
 </tr>
-<tr>
-<td>Giá trị vốn hóa</td>
-<td>Giá trị vốn hóa = Giá cổ phiếu * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
+<tr style="height: 79px;">
+<td style="height: 79px; width: 175px;">Giá trị vốn hóa</td>
+<td style="height: 79px; width: 541px;">Giá trị vốn hóa = Giá cổ phiếu * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
 </tr>
-<tr>
-<td>Điều khiến giá CP tăng giảm</td>
-<td>Cung và cầu, cảm xúc thị trường<br>Thị trường lạc quan: cầu &gt; cung : mua &gt; bán : giá tăng<br>Thị trường tụt giảm: cầu &lt; cung : mua &lt; bán : giá giảm</td>
+<tr style="height: 108px;">
+<td style="height: 108px; width: 175px;">Điều khiến giá CP tăng giảm</td>
+<td style="height: 108px; width: 541px;">Cung và cầu, cảm xúc thị trường<br>Thị trường lạc quan: cầu &gt; cung : mua &gt; bán : giá tăng<br>Thị trường tụt giảm: cầu &lt; cung : mua &lt; bán : giá giảm</td>
 </tr>
-<tr>
-<td>Phân tích cơ bản</td>
-<td>Phân tích giá trị, tiềm năng tăng trưởng, lợi thế cạnh tranh, dự báo tài chính ... của doanh nghiệp<br>Giá cổ phiếu sẽ tăng khi doanh nghiệp tăng giá trị</td>
+<tr style="height: 108px;">
+<td style="height: 108px; width: 175px;">Phân tích cơ bản</td>
+<td style="height: 108px; width: 541px;">Phân tích giá trị, tiềm năng tăng trưởng, lợi thế cạnh tranh, dự báo tài chính ... của doanh nghiệp<br>Giá cổ phiếu sẽ tăng khi doanh nghiệp tăng giá trị</td>
 </tr>
-<tr>
-<td>Phân tích kỹ thuật</td>
-<td>Trong ngắn hạn, thị trường CK được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được NĐT trở nên lạc quan hay bi quan</td>
+<tr style="height: 79px;">
+<td style="height: 79px; width: 175px;">Phân tích kỹ thuật</td>
+<td style="height: 79px; width: 541px;">Trong ngắn hạn, thị trường được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được NĐT lạc quan hay bi quan</td>
 </tr>
-<tr>
-<td>Biên độ dao động</td>
-<td>- HOSE: 7%<br>- HNX: 10%<br>- US: không có giới hạn</td>
+<tr style="height: 108px;">
+<td style="height: 108px; width: 175px;">Biên độ dao động</td>
+<td style="height: 108px; width: 541px;">- HOSE: 7%<br>- HNX: 10%<br>- US: không có giới hạn</td>
 </tr>
 </tbody>
 </table>
@@ -462,7 +463,7 @@
 <h2 id="mcetoc_1e4jf6s5d0">Phân tích cơ bản</h2>
 <h3 id="mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</h3>
 <ul>
-<li>Được công bố vào mỗi quý và cuối năm, phản ảnh tình hình doanh nghiệp ở thời điểm đó</li>
+<li>Được công bố vào mỗi quý và cuối năm, phản ảnh tình hình DN ở thời điểm đó</li>
 <li>Gồm 3 phần: doanh thu, chi phí, lãi lỗ</li>
 </ul>
 <table style="border-collapse: collapse; width: 100%; height: 175px;" border="1">
@@ -499,7 +500,7 @@
 <td style="width: 33.3333%;">Phải nhất quán, tỷ lệ dao động nhỏ (chi phí / lợi nhuận gộp)<br>Tỉ lệ tốt từ 30~80%</td>
 </tr>
 <tr>
-<td style="width: 22.9717%;">(Chi phí nghiên cứu và phát triển)</td>
+<td style="width: 22.9717%;">Chi phí nghiên cứu và phát triển *</td>
 <td style="width: 25.2688%;"> </td>
 <td style="width: 33.3333%;">Những DN dựa vào sáng chế và lợi thế công nghệ thường không bền vững về lâu dài</td>
 </tr>
@@ -514,7 +515,7 @@
 <td style="width: 33.3333%;">Tỷ lệ lãi vay phải trả so với thu nhập từ HĐKD thấp là DN có lợi thế cạnh tranh</td>
 </tr>
 <tr>
-<td style="width: 22.9717%;">(Lãi/lỗ do thanh lý tài sản)</td>
+<td style="width: 22.9717%;">Lãi/lỗ do thanh lý tài sản *</td>
 <td style="width: 25.2688%;">Ghi nhận khi bán tài sản không phải hàng tồn kho</td>
 <td style="width: 33.3333%;"> </td>
 </tr>
@@ -542,6 +543,53 @@
 <td style="width: 22.9717%;">Thu nhập trên mỗi CP (EPS)</td>
 <td style="width: 25.2688%;">EPS = lợi nhuận thuần / CP đang lưu hành</td>
 <td style="width: 33.3333%;">Cần có sự nhất quán và xu hướng tăng trưởng EPS trong 10 năm<br>Thể hiện DN đang bán sản phẩm không cần phải chi nhiều để cải tiến, thay đổi<br>Có lợi thế KT đủ mạnh để dành chi phí quảng cáo sản phẩm, mở rộng sản xuất</td>
+</tr>
+</tbody>
+</table>
+<p>* : không có trong mẫu KQKD của VN</p>
+<h3 id="mcetoc_1eafcfqq0d">Bảng cân đối kế toán</h3>
+<p>Là ảnh chụp ở một thời điểm cụ thể (cuối quý / cuối năm)</p>
+<p>Bao gồm tài sản và nợ (ngắn hạn, dài hạn) và vốn chủ sở hữu</p>
+<p>Nợ ngắn hạn: tiền nợ trong vòng 1 năm - bù đắp cho các khoản Tiền mặt và Các khoản đầu tư ngắn hạn, Tổng hàng tồn kho, Tổng các khoản phải thu và Chi phí trả trước</p>
+<p>Nợ dài hạn: nợ đến hạn trong 1 năm hoặc lâu hơn - tiền nợ NCC hàng hóa, thuế chưa trả, tiền vay ngân hàng và các khoản nợ trái phiếu</p>
+<p>Giá trị tài sản ròng (vốn chủ sở hữu) = Tài sản - nợ</p>
+<p>Vòng quay tài sản lưu động: Tiền mặt - Tồn kho - Các khoản phải thu - Tiền mặt</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">Mục</td>
+<td style="width: 33.3333%;">Ý nghĩa</td>
+<td style="width: 33.3333%;">Phân tích</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tài sản</td>
+<td style="width: 33.3333%;"> </td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tài sản lưu động</td>
+<td style="width: 33.3333%;">Tiền mặt hoặc có thể được chuyển thành tiền mặt trong khoảng thời gian rất ngắn (trong vòng 1 năm)<br>Liệt kê trên bảng CĐKT theo thứ tự thanh khoản</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Các tài sản khác</td>
+<td style="width: 33.3333%;">Không lưu động, không hoặc không thể chuyển đổi thành tiền mặt trong vòng 1 năm sắp tới</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tiền mặt và các khoản tương đương</td>
+<td style="width: 33.3333%;">Tiền và các khoản tương đương tiền như: chứng chỉ tiền gửi ngắn hạn, trái phiếu kho bạc thời hạn 3 tháng, tài sản có tính thanh khoản cao khác</td>
+<td style="width: 33.3333%;">
+<p>Điều tốt khi mục này cao do DN tạo ra nhiều tiền mặt từ hoạt động kinh doanh, it hoặc không có nợ, có ngành tạo ra nhiều tiền mặt hơn chi phí</p>
+<p>Nếu cao do bán một ngành kinh doanh, hoặc bán lượng lớn trái phiếu, là điều không tốt</p>
+</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Hàng tồn kho</td>
+<td style="width: 33.3333%;">Nhưng sản phẩm DN mua bán</td>
+<td style="width: 33.3333%;">
+<p>Điều tốt khi: lượng hàng tồn kho và lợi nhuận tăng trưởng tương ứng</p>
+</td>
 </tr>
 </tbody>
 </table>
