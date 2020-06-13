@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-06-10T23:11:18+07:00</updated>
+    <updated>2020-06-13T22:59:34+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -207,7 +207,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-10T23:11:08+07:00</updated>
+        <updated>2020-06-13T22:59:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -549,11 +549,11 @@
 <p>* : không có trong mẫu KQKD của VN</p>
 <h3 id="mcetoc_1eafcfqq0d">Bảng cân đối kế toán</h3>
 <p>Là ảnh chụp ở một thời điểm cụ thể (cuối quý / cuối năm)</p>
-<p>Bao gồm tài sản và nợ (ngắn hạn, dài hạn) và vốn chủ sở hữu</p>
+<p>Bao gồm tài sản, nợ (ngắn hạn, dài hạn) và vốn chủ sở hữu</p>
 <p>Nợ ngắn hạn: tiền nợ trong vòng 1 năm - bù đắp cho các khoản Tiền mặt và Các khoản đầu tư ngắn hạn, Tổng hàng tồn kho, Tổng các khoản phải thu và Chi phí trả trước</p>
 <p>Nợ dài hạn: nợ đến hạn trong 1 năm hoặc lâu hơn - tiền nợ NCC hàng hóa, thuế chưa trả, tiền vay ngân hàng và các khoản nợ trái phiếu</p>
-<p>Giá trị tài sản ròng (vốn chủ sở hữu) = Tài sản - nợ</p>
-<p>Vòng quay tài sản lưu động: Tiền mặt - Tồn kho - Các khoản phải thu - Tiền mặt</p>
+<p>Vốn chủ sở hữu (Giá trị tài sản ròng) = Tài sản - nợ</p>
+<p>Vòng quay tài sản lưu động: Tiền mặt -&gt; Tồn kho -&gt; Các khoản phải thu -&gt; Tiền mặt</p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -587,9 +587,88 @@
 <tr>
 <td style="width: 33.3333%;">Hàng tồn kho</td>
 <td style="width: 33.3333%;">Nhưng sản phẩm DN mua bán</td>
-<td style="width: 33.3333%;">
-<p>Điều tốt khi: lượng hàng tồn kho và lợi nhuận tăng trưởng tương ứng</p>
-</td>
+<td style="width: 33.3333%;">Tốt khi: lượng hàng tồn kho và lợi nhuận tăng trưởng tương ứng</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Các khoản phải thu thuần</td>
+<td style="width: 33.3333%;">- Tiền người khác nợ DN<br>- Doanh thu từ hàng hóa đã chuyển cho người mua nhưng còn chờ thanh toán<br>- Các khoản phải thu thuần = Các khoản phải thu - nợ xấu</td>
+<td style="width: 33.3333%;">Tốt khi: tỷ lệ các khoản phải thu thuần so với tổng doanh thu thấp hơn các đối thủ, tỷ lệ này phải ổn định</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Chi phí tạm ứng (trả trước)<br>Tải sản lưu động khác</td>
+<td style="width: 33.3333%;">- Trả tiền trước cho hàng hóa / dịch vụ trong tương lai gần nhưng chưa nhận được (CP tạm ứng)<br>- Tài sản phi tiền mặt đến hạn trong năm nhưng chưa nhận đc (hoàn thuế thu nhập DN)</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Hệ số thanh toán hiện hành (Current ratio)</td>
+<td style="width: 33.3333%;">TS lưu động / nợ ngắn hạn</td>
+<td style="width: 33.3333%;">- CR &lt; 1 không có nghĩa là DN ko có lợi thế<br>- Những DN có khả năng tạo lợi nhuận tốt có khả năng trang trải các khoản nợ ngắn hạn dễ dàng</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Đất đai, nhà xưởng, thiết bị</td>
+<td style="width: 33.3333%;">Khấu hao: chi phí hao mòn hàng năm của nhà xưởng, thiết bị</td>
+<td style="width: 33.3333%;">- Có lợi thế: không cần phải liên tục nâng cấp nhà xưởng và thiết bị cho đến khi chúng bị hao mòn<br>- Lợi thế không vững: phải nâng cấp không ngừng để duy trì sức cạnh tranh, gây ra chi phí thường xuyên đáng kể</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Lợi thế thương mại</td>
+<td style="width: 33.3333%;">Khi DN mua lại 1 DN khác vượt quá giá trị sổ sách, phần vượt quá sẽ được ghi vào lợi thế thương mại</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tài sản vô hình</td>
+<td style="width: 33.3333%;">- Bằng sáng chế, bản quyền tác giả, nhãn hiệu, nhượng quyền thương mại ...<br>- Không đươc kê khai TSVH được phát triển nội bộ trong bảng KĐKT<br>- Bằng sáng chế: phân bổ trong suốt thời gian hữu dụng (hằng năm)</td>
+<td style="width: 33.3333%;">Những TSVH nội bộ là lợi thế nếu chúng có giá trị lớn (công thức coca)</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Các khoản đầu tư dài hạn</td>
+<td style="width: 33.3333%;">- Lâu hơn 1 năm: cổ phiếu, trái phiếu, BĐS ...<br>- Đầu tư vào chi nhánh, cty con<br>- Ghi nhận bằng chi phí hoặc thị giá, tùy cái nào thấp hơn</td>
+<td style="width: 33.3333%;">Cho biết quan điểm đầu tư của bộ máy quản lý cấp cao</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tài sản dài hạn khác</td>
+<td style="width: 33.3333%;">- Chi phí tạm ứng<br>- Các khoản hoàn thuế dài hạn được nhận trong những năm tiếp theo</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td colspan="3">TS lưu động + TS cố định = Tổng nợ + Vốn chủ sở hữu<br>ROA (tỉ suất lợi nhuận trên tổng tài sản) = lợi nhuận thuần / tổng tài sản<br>Tỉ lệ ROA tốt nên &gt; 7.5, tăng dần theo từng năm (không áp dụng cho các DN dùng đòn bẩy tài chính nhiều như ngân hàng, cty tài chính)</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Nợ hiện hành</td>
+<td style="width: 33.3333%;">Các khoản nợ đến hạn trong năm tài chính</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Các khoản phải trả<br>Chi phí trích trước<br>Nợ ngắn hạn khác</td>
+<td style="width: 33.3333%;">- Nợ nhà cung cấp<br>- Phần nợ DN đã gánh chịu nhưng chưa nhận đc yêu cầu thanh toán; thuế doanh thu phải nộp; lương phải trả ...<br>- Các khoản nợ ngắn hạn không đủ điều kiện vào các mục bên trên</td>
+<td style="width: 33.3333%;">Cung cấp ít thông tin về tình hình và lợi thế cạnh tranh của DN</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Nợ ngắn hạn</td>
+<td style="width: 33.3333%;">Số tiền DN đã vay và đến hạn, phải trả trong vòng 1 năm</td>
+<td style="width: 33.3333%;">Lưu ý khi đầu tư vào các định chế tài chính: tránh xa các DN vay ngắn hạn nhiều hơn dài hạn, dễ dẫn đến các thảm họa tài chính trong dài hạn</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Nợ dài hạn đến hạn</td>
+<td style="width: 33.3333%;">Nợ dài hạn đến hạn và phải được trả hết trong năm hiện tại</td>
+<td style="width: 33.3333%;">DN bền vững: ít hoặc không có nợ dài hạn đến hạn</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Nợ dài hạn</td>
+<td style="width: 33.3333%;">Nợ đến hạn vào bất cứ lúc nào sau 1 năm</td>
+<td style="width: 33.3333%;">DN lợi thế: ít hoặc không có nợ dài hạn trong 10 năm</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Thuế thu nhập DN chậm nộp<br>Quyền lợi cổ đông thiểu số<br>Nợ khác</td>
+<td style="width: 33.3333%;">- Tiền thuế đến hạn chưa được thanh toán<br>- Giá trị cổ phần còn lại của DN B khi DN A thâu tóm &gt;= 80% cổ phần DN B<br>- Các khoản nợ hỗn hợp</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Tổng nợ</td>
+<td style="width: 33.3333%;">Tổng tất cả khoản nợ của DN</td>
+<td style="width: 33.3333%;"> </td>
+</tr>
+<tr>
+<td colspan="3">Hệ số nợ trên vốn chủ sở hữu (D/E) = Tổng nợ / Vốn chủ sở hữu<br>Cổ phiếu quỹ nên được cộng vào Vốn chủ sở hữu để tính D/E<br>D/E thấp hơn 0.8 là tốt, không áp dụng cho các định chế tài chính, DN loại này cần duy trì D/E càng thấp càng tốt<br>Giá trị sổ sách = vốn chủ sở hữu = tổng tài sản - tổng nợ</td>
 </tr>
 </tbody>
 </table>
