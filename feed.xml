@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-06-13T22:59:34+07:00</updated>
+    <updated>2020-06-16T23:07:02+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -207,7 +207,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-13T22:59:24+07:00</updated>
+        <updated>2020-06-16T23:06:54+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -435,10 +435,10 @@
 </ul>
 <h2 id="mcetoc_1e66reo5a0">Các lệnh trên sàn GD</h2>
 <ul>
-<li>ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
-<li>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn) (ít dùng ~ 5%)</li>
+<li>ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn)</li>
+<li>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn)</li>
 <li>LO: mua hoặc bán ở 1 mức giá xác định hoặc tốt hơn (95%)</li>
-<li>MP: mua hoặc bán ở mức giá thấp nhất / cao nhất trên thị trường (ít dùng)</li>
+<li>MP: mua hoặc bán ở mức giá thấp nhất / cao nhất trên thị trường</li>
 </ul>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
 <ul>
@@ -669,6 +669,18 @@
 </tr>
 <tr>
 <td colspan="3">Hệ số nợ trên vốn chủ sở hữu (D/E) = Tổng nợ / Vốn chủ sở hữu<br>Cổ phiếu quỹ nên được cộng vào Vốn chủ sở hữu để tính D/E<br>D/E thấp hơn 0.8 là tốt, không áp dụng cho các định chế tài chính, DN loại này cần duy trì D/E càng thấp càng tốt<br>Giá trị sổ sách = vốn chủ sở hữu = tổng tài sản - tổng nợ</td>
+</tr>
+<tr>
+<td colspan="3">Cổ phiếu ưu đãi và cổ phiếu thường<br>- DN tăng vốn đầu tư bằng cách phát hành CP, TP ra công chúng<br>- "CP thường" đại diện cho quyền sở hữu trong DN, cổ đông thường sở hữu "CP thường" có quyền bầu ra HĐQT, HĐQT sẽ thuê GD điều hành (CEO). Các cổ đông thường sẽ nhận cổ tức nếu HĐQT biểu quyết chi trả<br>- "CP ưu đãi", không có quyền biểu quyết nhưng nhận được cổ tức cố định, hoặc được điều chỉnh trước khi cổ đông thường nhận cổ tức. Cổ đông ưu đãi được ưu tiên khi DN bị phá sản<br>- CP ưu đãi và CP thường được ghi sổ với mệnh giá, và bất cứ khoản cổ phần nào bán vượt mệnh giá sẽ được ghi vào "thặng dư vốn cổ phần"<br>- Các DN bền vững thường không có CP ứu đãi trong cơ cấu vốn, vì CP ưu đãi phải trả cổ tức, tương tự với phát sinh nợ, do cổ tức cho CP ưu đãi không được khấu trừ từ thu nhập trước thuế -&gt; tốn kém khi phát hành</td>
+</tr>
+<tr>
+<td colspan="3">Lợi nhuận chưa phân phối<br>- Là lợi nhuận đã trừ mọi chi phí, dùng để trả cổ tức, mua cổ phiếu quỹ, hoặc giữ lại để phát triển DN<br>- Khi được giữ lại DN, lợi nhuận đó được ghi vào LNCPP<br>- LNCPP = lãi thuần sau thuế - cổ tức - chi phí mua CP quỹ trong cả năm<br>- LNCPP là số lũy kế: mỗi năm được cộng vào tổng số tích lũy của các năm trước. Nếu DN lỗ, số tiền lỗ sẽ được trừ vào LNCPP tích lũy trong quá khứ, sẽ âm nếu lỗ nhiều hơn số đã tích lũy<br>- LNCPP không tăng có nghĩa giá trị tài sản ròng không thay đổi, không làm cho cổ đông giàu có hơn<br>- Khi 2 DN sáp nhập thì LNCPP được kết hợp<br>- Các DN có bộ máy kinh tế đủ mạnh sẽ không cần giữ vốn lớn để tích lũy. Họ sẽ chi mua CP quỹ và chia cổ tức</td>
+</tr>
+<tr>
+<td colspan="3">Cổ phiếu quỹ<br>- DN mua CP quỹ dể hủy hoặc phát hành lại sau đó<br>- Nếu được giữ lại, nó được ghi vào mục CP quỹ dưới mục vốn chủ sở hữu<br>- Được ghi nhận như 1 sự sụt giảm trong vốn chủ sở hữu (số âm)<br>- DN có lợi thế, nhiều tiền mặt nhàn rỗi, có thể dùng để mua CP quỹ, có CP quỹ trên bảng cân đối kế toán<br>- Khi DN mua CP quỹ sẽ làm giảm vốn chủ sở hữu, làm tăng ROE (tỷ suất lợi nhuận / vốn chủ sở hữu)<br>- ROE cao là dấu hiệu của DN bền vững, nhưng nên tính ROE với CP quỹ dương để xác thực</td>
+</tr>
+<tr>
+<td colspan="3">ROE: tỷ suất lợi nhuận trên vốn chủ sở hữu</td>
 </tr>
 </tbody>
 </table>
