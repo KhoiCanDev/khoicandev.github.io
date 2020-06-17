@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-06-16T23:07:02+07:00</updated>
+    <updated>2020-06-17T22:59:05+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -207,7 +207,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-16T23:06:54+07:00</updated>
+        <updated>2020-06-17T22:58:19+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -229,6 +229,7 @@
 <ul>
 <li><a href="#mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</a></li>
 <li><a href="#mcetoc_1eafcfqq0d">Bảng cân đối kế toán</a></li>
+<li><a href="#mcetoc_1eb1ekccp1">Báo cáo lưu chuyển tiền tệ</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
@@ -680,75 +681,39 @@
 <td colspan="3">Cổ phiếu quỹ<br>- DN mua CP quỹ dể hủy hoặc phát hành lại sau đó<br>- Nếu được giữ lại, nó được ghi vào mục CP quỹ dưới mục vốn chủ sở hữu<br>- Được ghi nhận như 1 sự sụt giảm trong vốn chủ sở hữu (số âm)<br>- DN có lợi thế, nhiều tiền mặt nhàn rỗi, có thể dùng để mua CP quỹ, có CP quỹ trên bảng cân đối kế toán<br>- Khi DN mua CP quỹ sẽ làm giảm vốn chủ sở hữu, làm tăng ROE (tỷ suất lợi nhuận / vốn chủ sở hữu)<br>- ROE cao là dấu hiệu của DN bền vững, nhưng nên tính ROE với CP quỹ dương để xác thực</td>
 </tr>
 <tr>
-<td colspan="3">ROE: tỷ suất lợi nhuận trên vốn chủ sở hữu</td>
+<td colspan="3">ROE: tỷ suất lợi nhuận trên vốn chủ sở hữu<br>Vốn CSH từ 3 nguồn: phát hành CP ra công chúng, bán CP thường và CP ưu đãi, lợi nhuận chưa phân phối tích lũy<br>ROE = lãi thuần / VCSH = tỷ suất lợi nhuận / VCSH<br>ROE cao có nghĩa DN đang sử dụng lợi nhuận chưa phân phối hiệu quả<br>Tỷ suất cao sẽ tích lũy -&gt; tăng giá trị DN -&gt; tăng giá CP<br>Lưu ý: DN cho thấy quá trình lợi nhuận thuần cao, nhưng vốn CSH âm thì cũng là DN tốt</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mcetoc_1eb1ekccp1">Báo cáo lưu chuyển tiền tệ</h3>
+<p>Vì các DN đều sử dụng phương pháp kế toán dựa trên cơ sở giao dịch phát sinh, nên BCLCTT được lập ra để ghi nhận lượng tiền mặt vào ra khỏi DN</p>
+<p>Cho biết dòng tiền dương (thu &gt; chi) hoặc âm (thu &lt; chi)</p>
+<p>Báo cáo cho 1 khoảng thời gian</p>
+<p>Gồm 3 phần:<br>- Tiền mặt từ hoạt động kinh doanh<br>- Tiền mặt từ hoạt động đầu tư: chi phí vốn &amp; hoạt động đầu tư khác<br>- Tiền mặt từ hoạt động tài chính<br>Tổng 3 phần = thay đổi ròng trong dòng tiền</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">Mục</td>
+<td style="width: 33.3333%;">Ý nghĩa</td>
+<td style="width: 33.3333%;">Phân tích</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Chi phí vốn</td>
+<td style="width: 33.3333%;">Là chi phí tiền mặt hoặc tài sản DN đang có trạng thái cố định (nắm giữ hơn 1 năm) - đất đai, nhà xưởng, thiết bị<br>Chi phí cho TS vô hình: bằng sáng chế<br>Là tài sản chi tiêu trong khoảng thời gian hơn 1 năm qua khấu hao hoặc phân bổ</td>
+<td style="width: 33.3333%;">DN có lợi thế thường sử dụng 1 phần tỷ lệ lợi nhuận nhỏ để dành cho chi phí vốn<br>Xem xét tỷ lệ giữa chi phí vốn và lợi nhuận thuần trong 10 năm để đánh giá: tỷ lệ tốt &lt;= 50%</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Thu từ việc phát hành (thu hồi) CP (thuần)</td>
+<td style="width: 33.3333%;">Khi chia cổ tức phải đóng thuế 1 phần nên khó có thể tăng thu nhập chỉ dựa vào cổ tức<br>Việc DN mua CP quỹ làm giảm số lượng CP có trên thị trường, làm giá CP tăng<br>Tương tự, việc phát hành thêm CP làm giá CP giảm</td>
+<td style="width: 33.3333%;"> </td>
 </tr>
 </tbody>
 </table>
 <table border="1">
 <tbody>
 <tr>
-<td>Tỷ số thanh toán hiện hành (Current ratio)</td>
-<td>Lớn hơn 1</td>
-</tr>
-<tr>
-<td>Tỷ số thanh toán nhanh (Quick ratio)</td>
-<td>Lớn hơn 1</td>
-</tr>
-<tr>
-<td>Khả năng thanh toán lãi vay</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tỷ số Nợ vay trên Tổng tài sản</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tỷ số Vốn chủ sở hữu trên Tổng tài sản</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tài sản ngắn hạn/Tổng tài sản</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tài sản dài hạn/Tổng tài sản</td>
-<td> </td>
-</tr>
-<tr>
 <td>Vòng quay hàng tồn kho</td>
 <td>Chỉ số càng lớn thể hiện hàng hóa luân chuyển nhanh, lưu kho thấp<br>Cần so sánh với chỉ số trung bình trong ngành</td>
-</tr>
-<tr>
-<td>Thời gian tồn kho bình quân</td>
-<td> </td>
-</tr>
-<tr>
-<td>Vòng quay phải thu khách hàng</td>
-<td> </td>
-</tr>
-<tr>
-<td>Thời gian thu tiền khách hàng bình quân</td>
-<td>Cần xem xét trong mối liên hệ với các thông tin khác. Nếu chính sách là bán chịu trong 38 ngày thì vòng quay 45 ngày cho thấy cty đang gặp khó khăn trong việc thu nợ đúng hạn.</td>
-</tr>
-<tr>
-<td>Thời gian trả tiền khách hàng bình quân</td>
-<td> </td>
-</tr>
-<tr>
-<td>Vòng quay tài sản cố định (Hiệu suất sử dụng tài sản cố định)</td>
-<td> </td>
-</tr>
-<tr>
-<td>Vòng quay tổng tài sản (Hiệu suất sử dụng toàn bộ tài sản)</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tỷ suất sinh lợi trên tổng tài sản bình quân (ROAA)</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tỷ suất lợi nhuận trên vốn chủ sở hữu bình quân (ROEA)</td>
-<td> </td>
 </tr>
 <tr>
 <td>Thu nhập trên mỗi cổ phần (EPS)</td>
