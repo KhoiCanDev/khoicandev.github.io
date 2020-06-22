@@ -18,7 +18,7 @@
         <id>https://khoican.dev/nhung-ngay-thu-ba-voi-thay-morrie-mitch-albom.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Tui nghĩQuyển này đủ ngắn để hoàn thành trong 2 ngày cuối tuần. Nội dung rung động lòng người, nhưng rất thực tế, vì nó là hồi ký giữa một&hellip;
@@ -48,7 +48,7 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Bản chất của thiết kế tốtLời khuyên thứ 14: Thiết kế tốt dễ dàng thay đổi hơn thiết kế tồi Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp&hellip;
@@ -123,7 +123,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -237,7 +237,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -273,14 +273,6 @@
 <tr style="height: 195px;">
 <td style="height: 195px; width: 175px;">Biểu đồ nến</td>
 <td style="height: 195px; width: 541px;">Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
-</tr>
-<tr style="height: 50px;">
-<td style="height: 50px; width: 175px;">Going long</td>
-<td style="height: 50px; width: 541px;">Mua theo vị thế giá lên</td>
-</tr>
-<tr style="height: 50px;">
-<td style="height: 50px; width: 175px;">Going short</td>
-<td style="height: 50px; width: 541px;">Bán theo vị thế giá xuống</td>
 </tr>
 <tr style="height: 79px;">
 <td style="height: 79px; width: 175px;">Giá trị vốn hóa</td>
@@ -354,7 +346,7 @@
 </tr>
 <tr>
 <td>Lợi thế cạnh tranh bền vững</td>
-<td>Có hào kinh tế rộng<br>- Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành<br>- Quy mô khổng lồ<br>- Dẫn đầu thị trường<br>- Bằng sáng chế đặc biệt<br>- Chi phí chuyển đổi cao để giữ chân khách hàng<br>- Nắm giữ thế độc quyền<br>Biên lợi nhuận gộp (GP) &amp; biên lợi nhuận ròng (NP) phải cao hơn các đối thủ cạnh tranh</td>
+<td>- Có hào kinh tế rộng<br>- Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành<br>- Quy mô khổng lồ<br>- Dẫn đầu thị trường<br>- Bằng sáng chế đặc biệt<br>- Chi phí chuyển đổi cao để giữ chân khách hàng<br>- Nắm giữ thế độc quyền<br>Biên lợi nhuận gộp (GM) &amp; biên lợi nhuận ròng (NM) phải cao hơn các đối thủ cạnh tranh</td>
 </tr>
 <tr>
 <td>Các yếu tố thúc đẩy tăng trưởng trong tương lai</td>
@@ -513,7 +505,7 @@
 <tr>
 <td style="width: 22.9717%;">Lợi nhuận gộp</td>
 <td style="width: 25.2688%;">Khác biệt giũa doanh thu thuần và giá vốn hàng bán</td>
-<td style="width: 33.3333%;">Tính ra được tỷ suất / biên lợi nhuận gộp: LNG / DTT<br>Những DN có LTCT có biên lợi nhuận gộp cao &gt;= 40%<br>Khi &lt; 40% nghĩa là DN đang hoạt động trong ngành có tính cạnh tranh cao<br>- Chi phí nghiên cứu lớn<br>- Chi phí bán hàng, quản lý lớn<br>- Chi phí tiền lãi cao</td>
+<td style="width: 33.3333%;">Tính ra được tỷ suất (biên) lợi nhuận gộp: LNG / DTT<br>Những DN có LTCT có biên lợi nhuận gộp cao &gt;= 40%<br>Khi &lt; 40% nghĩa là DN đang hoạt động trong ngành có tính cạnh tranh cao<br>- Chi phí nghiên cứu lớn<br>- Chi phí bán hàng, quản lý lớn<br>- Chi phí tiền lãi cao</td>
 </tr>
 <tr>
 <td style="width: 22.9717%;">Chi phí bán hàng &amp; quản lý KD</td>
@@ -767,7 +759,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1035,7 +1027,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1079,7 +1071,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-21T22:46:45+07:00</updated>
+        <updated>2020-06-22T22:49:20+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
