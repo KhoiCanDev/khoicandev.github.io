@@ -18,7 +18,7 @@
         <id>https://khoican.dev/nhung-ngay-thu-ba-voi-thay-morrie-mitch-albom.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Tui nghĩQuyển này đủ ngắn để hoàn thành trong 2 ngày cuối tuần. Nội dung rung động lòng người, nhưng rất thực tế, vì nó là hồi ký giữa một&hellip;
@@ -48,7 +48,7 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Bản chất của thiết kế tốtLời khuyên thứ 14: Thiết kế tốt dễ dàng thay đổi hơn thiết kế tồi Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp&hellip;
@@ -123,7 +123,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -237,7 +237,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -250,7 +250,6 @@
 <ul>
 <li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
-<li><a href="#mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</a></li>
 <li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
@@ -298,8 +297,36 @@
 </table>
 <h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
 <ul>
-<li>Chọn ra những công ty tốt</li>
-<li>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng</li>
+<li>Chọn ra những công ty có lợi thế cạnh tranh bền vững
+<ul>
+<li>Có hào kinh tế rộng</li>
+<li>Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành</li>
+<li>Quy mô khổng lồ</li>
+<li>Dẫn đầu thị trường</li>
+<li>Bằng sáng chế đặc biệt</li>
+<li>Chi phí chuyển đổi cao để giữ chân khách hàng</li>
+<li>Nắm giữ thế độc quyền</li>
+<li>Biên lợi nhuận gộp (GM) &amp; biên lợi nhuận ròng (NM) phải cao hơn các đối thủ cạnh tranh</li>
+<li>Có các yếu tố thúc đẩy tăng trưởng trong tương lai
+<ul>
+<li>Thị trường tiêu thụ sản phẩm của công ty phát triển theo hướng có lợi cho công ty</li>
+<li>Có kế hoạch tăng trưởng vững chắc</li>
+<li>Phát triển sản phẩm mới, có tính đột phá</li>
+<li>Sáng chế mới</li>
+<li>Mở rộng quy mô</li>
+<li>Mở ra thị trường mới</li>
+<li>Tìm các mục này ở báo cáo thường niên, báo cáo phân tích, tỷ lệ tăng trưởng dài hạn dự đoán (LT Growth Rate)</li>
+</ul>
+</li>
+<li>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</li>
+</ul>
+</li>
+<li>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng
+<ul>
+<li>Khi có tin tức xấu, thị trường hoảng sợ</li>
+<li>Nhưng đừng bao giờ cố bắt lấy con dao đang rơi</li>
+</ul>
+</li>
 <li>Chốt lời khi giá chứng khoán đảo chiều sang xu hướng giảm</li>
 <li id="mcetoc_1e5v56qna0">Kết hợp 2 phương pháp: cơ bản + kỹ thuật
 <ul>
@@ -322,8 +349,7 @@
 </tbody>
 </table>
 <ul>
-<li>Nắm giữ không quá 8 - 10 CP, không mua hơn 2 CP cùng nhóm ngành</li>
-<li>Không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</li>
+<li>Nắm giữ không quá 8 - 10 CP, không mua hơn 2 CP cùng nhóm ngành, không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</li>
 <li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
 <li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
 <li>Tính quy mô đầu tư
@@ -334,46 +360,9 @@
 <li>Số lượng cổ phiếu = (% Rủi ro giao dịch * Vốn) / ($ Rủi ro trên cổ phiếu)</li>
 </ul>
 </li>
-<li>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (dùng số thấp hơn)</li>
+<li>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (chọn số nào thấp hơn)</li>
 <li>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</li>
 </ul>
-<h2 id="mcetoc_1e412tde82">Tiêu chuẩn mua vào cổ phiếu</h2>
-<table border="1">
-<tbody>
-<tr>
-<td>Doanh số (revenue), lợi nhuận (income) và dòng tiền tăng ổn định trong quá khứ</td>
-<td>Giá trị công ty và giá cổ phiếu sẽ tăng dần theo thời gian</td>
-</tr>
-<tr>
-<td>Lợi thế cạnh tranh bền vững</td>
-<td>- Có hào kinh tế rộng<br>- Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành<br>- Quy mô khổng lồ<br>- Dẫn đầu thị trường<br>- Bằng sáng chế đặc biệt<br>- Chi phí chuyển đổi cao để giữ chân khách hàng<br>- Nắm giữ thế độc quyền<br>Biên lợi nhuận gộp (GM) &amp; biên lợi nhuận ròng (NM) phải cao hơn các đối thủ cạnh tranh</td>
-</tr>
-<tr>
-<td>Các yếu tố thúc đẩy tăng trưởng trong tương lai</td>
-<td>Thị trường tiêu thụ sản phẩm của công ty phát triển theo hướng có lợi cho công ty<br>Có kế hoạch tăng trưởng vững chắc<br>- Phát triển sản phẩm mới, có tính đột phá<br>- Sáng chế mới<br>- Mở rộng quy mô<br>- Mở ra thị trường mới<br>Tìm ở báo cáo thường niên, báo cáo phân tích, tỷ lệ tăng trưởng dài hạn dự đoán (LT Growth Rate)</td>
-</tr>
-<tr>
-<td>Nợ trong khả năng chi trả</td>
-<td>Số nợ dài hạn (long term debt) ít hơn 3 lần so với thu nhập ròng ngắn hạn (net income)<br>Không áp dụng cho ngân hàng và công ty hàng hóa có mức nợ cao</td>
-</tr>
-<tr>
-<td>Lợi nhuận trên vốn chủ sở hữu (ROE) phải luôn trên mức trung bình (15%)</td>
-<td>Return of equity = lợi nhuận ròng sau thuế / tổng số vốn của cổ đông * 100%<br>Có nghĩa: công ty có lợi thế cạnh tranh bền vững, khoản đầu tư của cổ đông sẽ tăng trưởng với tỷ lệ kép hằng năm cao, khiến giá cổ phiếu tăng cao trong tương lai</td>
-</tr>
-<tr>
-<td>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</td>
-<td> </td>
-</tr>
-<tr>
-<td>Giá thấp hơn giá trị thật, giá cổ phiếu đảo chiều sang xu hướng tăng</td>
-<td>Giá cổ phiếu &lt; Giá trị cốt lõi<br>Khi có tin tức xấu, thị trường hoảng sợ<br>Đừng bao giờ cô bắt lấy con dao đang rơi</td>
-</tr>
-<tr>
-<td>Hệ số PE, EGR, PEG</td>
-<td>PE nên bằng ERG (earning growth rate - hệ số tăng trưởng lợi nhuận)<br>PEG = PE / EGR<br>PEG ~ 1: giá CP hợp lý<br>PEG &gt; 1: giá CP mắc<br>PEG &lt; 1: giá CP rẻ</td>
-</tr>
-</tbody>
-</table>
 <h2 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h2>
 <ul>
 <li>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới
@@ -717,7 +706,7 @@
 </tr>
 <tr>
 <td>ROE (Return on Equity)</td>
-<td>- Tỷ suất lợi nhuận trên vốn chủ sở hữu<br>- Vốn CSH từ 3 nguồn: phát hành CP ra công chúng, bán CP thường và CP ưu đãi, lợi nhuận chưa phân phối tích lũy<br>- ROE = lãi thuần / VCSH = tỷ suất lợi nhuận / VCSH<br>- ROE cao có nghĩa DN đang sử dụng lợi nhuận chưa phân phối hiệu quả<br>- Tỷ suất cao sẽ tích lũy -&gt; tăng giá trị DN -&gt; tăng giá CP<br>- Lưu ý: DN cho thấy quá trình lợi nhuận thuần cao, nhưng vốn CSH âm thì cũng là DN tốt</td>
+<td>- Tỷ suất lợi nhuận trên vốn chủ sở hữu<br>- Vốn CSH từ 3 nguồn: phát hành CP ra công chúng, bán CP thường và CP ưu đãi, lợi nhuận chưa phân phối tích lũy<br>- ROE = lãi thuần / VCSH = tỷ suất lợi nhuận / VCSH<br>- ROE cao có nghĩa DN đang sử dụng lợi nhuận chưa phân phối hiệu quả<br>- Tỷ suất cao sẽ tích lũy -&gt; tăng giá trị DN -&gt; tăng giá CP<br>- Trung bình 10 năm, 5 năm, 1 năm trên mức trung bình (15%)<br>- Lưu ý: DN cho thấy quá trình lợi nhuận thuần cao, nhưng vốn CSH âm thì cũng là DN tốt</td>
 </tr>
 <tr>
 <td>ROA (Return on Asset)</td>
@@ -759,7 +748,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1027,7 +1016,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1071,7 +1060,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-22T22:50:58+07:00</updated>
+        <updated>2020-06-24T21:43:24+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
