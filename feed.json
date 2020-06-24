@@ -21,23 +21,23 @@
             "tags": [
                    "Sách"
             ],
-            "date_published": "2020-06-24T23:24:06+07:00",
-            "date_modified": "2020-06-24T23:24:06+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html",
             "url": "https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html",
             "title": "Developer thực dụng - Phần 2 - Phương pháp thực dụng",
             "summary": " Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho&hellip;",
-            "content_html": "<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li><a href=\"#mcetoc_1e6h690to0\">Bản chất của thiết kế tốt</a></li>\n<li><a href=\"#mcetoc_1e6jnv1dr0\">DRY - Sự trùng lặp xấu xa</a>\n<ul>\n<li><a href=\"#mcetoc_1e6jq26c11\">DRY vượt khỏi bối cảnh code</a></li>\n<li><a href=\"#mcetoc_1e6jq6i8b2\">DRY trong code</a></li>\n<li><a href=\"#mcetoc_1e6jq6klt3\">Trùng lặp trong tài liệu</a></li>\n<li><a href=\"#mcetoc_1e6jq6ndn4\">Trùng lặp trong sự biểu đạt</a></li>\n<li><a href=\"#mcetoc_1e6jq6qcj5\">Trùng lặp giữa những developer</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1e6jq6spa6\">Hệ thống trực giao</a></li>\n<li><a href=\"#mcetoc_1e6jq6vhr7\">Khả năng hoàn tác</a></li>\n<li><a href=\"#mcetoc_1e6jq72lq8\">Viên đạn dẫn đường</a></li>\n<li><a href=\"#mcetoc_1e6jq75pi9\">Bản thử và ghim chú</a></li>\n<li><a href=\"#mcetoc_1e6jq78e3a\">Ngôn ngữ nghiệp vụ</a></li>\n<li><a href=\"#mcetoc_1e6jq7b5ib\">Canh đo thời gian</a></li>\n</ul>\n</div>\n<h2 id=\"mcetoc_1e6h690to0\">Bản chất của thiết kế tốt</h2>\n<p><strong>Lời khuyên thứ 14: Thiết kế tốt dễ dàng thay đổi hơn thiết kế tồi</strong></p>\n<ul>\n<li>Một vật được thiết kế tốt nếu nó mang lại cảm giác thuận tiện cho người sử dụng chúng. Tương tự, với code thì nó phải mang lại sự thuận tiện khi thay đổi (nguyên tắc ETC - easier to change)</li>\n<li>Mọi nguyên tắc thiết kế đều là một bản đặc biệt của ETC.\n<ul>\n<li>Như việc <strong>decoupling</strong> - tách rời những thành phần có mối quan tâm khác nhau, thì việc cập nhật những thành phần đó sẽ dễ dàng hơn.</li>\n<li>Nguyên tắc <strong>single responsibility</strong> - một thay đổi ở requirement chỉ ảnh hưởng đến một module duy nhất.</li>\n<li>Tại sao<strong> đặt tên</strong> lại quan trọng, vì những cái tên dễ hiểu sẽ làm code dễ đọc hơn, và bạn phải đọc code trước khi có thể change code.</li>\n</ul>\n</li>\n<li>Vì ETC là giá trị, không phải là luật lệ, bạn nên suy nghĩ đến ETC trước khi bắt tay làm một việc gì đó. Tự hỏi \"thứ tôi vừa làm khiến hệ thống dễ thay đổi hay khó thay đổi hơn?\". Thường thì, common sense của bạn sẽ chính xác</li>\n<li>Nếu không biết hướng đi: bạn có thể thứ (1) cố gắng làm thứ bạn xây dựng có thể thay thế - tách rời và gắn kết (2) ghi chú về những lựa chọn bạn có hiện tại, và những thay đổi có thể xảy đến, và đến khi change code, bạn có thể xem lại và nhận xét</li>\n</ul>\n<h2 id=\"mcetoc_1e6jnv1dr0\">DRY - Sự trùng lặp xấu xa</h2>\n<ul>\n<li>Kiến thức của hệ thống thường không bền và dễ bị thay đổi, có thể thay đổi sau buổi họp, hoặc nhà cầm quyền thay đổi một vài luật lệ ... Những điều này làm developer phải luôn cập nhật và điều chỉnh hệ thống lại cho phù hợp, khiến chúng ta luôn ở trong trạng thái bảo trì hệ thống</li>\n<li>Khi thực hiện những thay đổi kể trên, chúng ta rất dễ để cho sự trùng lặp kiến thức xảy ra, khiến cho việc bảo trì hệ thống biến thành ác mộng</li>\n<li>Và cách duy nhất để phát triển hệ thống một cách bền vững, dễ bảo trì và dễ hiểu, là áp dụng nguyên tắc DRY: bất kể phần kiến thức nào cũng chỉ có một nơi biểu đạt, không mơ hồ, có tính chính xác cao trong hệ thống</li>\n<li>Khi việc lặp lại xảy ra, khi thay đổi một chỗ, bạn phải nhớ thay đổi chỗ nào khác nữa. Vấn đề chính không phải bạn có nhớ hay không, mà là khi nào bạn sẽ quên</li>\n<li>Và việc trùng lặp không chỉ xảy ra với code, nó còn xảy ra với các tính huống khác</li>\n</ul>\n<p><strong>Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp lại chính việc mình đã làm</strong></p>\n<h3 id=\"mcetoc_1e6jq26c11\">DRY vượt khỏi bối cảnh code</h3>\n<ul>\n<li>DRY còn là về sự lặp lại của kiến thức, của những ý định. Đó là việc mô tả một vấn đề ở 2 nơi khác nhau, và còn có thể có biểu đạt ở 2 cách khác nhau</li>\n<li>Đây là cách đánh giá: khi một vấn đề nhỏ cần được cập nhật code, bạn có phải đi đổi ở nhiều nơi, ở nhiều định dạng khác nhau? Bạn phải đổi code, tài liệu, cấu trúc database ... . Nếu có, thì code bạn chưa DRY</li>\n</ul>\n<h3 id=\"mcetoc_1e6jq6i8b2\">DRY trong code</h3>\n<p>Ví dụ dễ thấy nhất:</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/t9DExNXU\"></iframe></div></p>\n<p>Điều đầu tiên là sự trùng lặp của việc kiểm tra số dương / số âm để in ra cho đúng, ta có thể chuyển nó ra một hàm khác</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/RkMnPTzn\"></iframe></div></p>\n<p>Điều lặp lại tiếp theo là sự lặp lại của quy định format số, ta có thể tái sử dụng hàm vừa viết</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/F7aTUxJF\"></iframe></div></p>\n<p>Điều tiếp theo nữa là gì? Nếu khách hàng yêu cầu thêm 1 khoảng trắng giữa label và số, ta phải đổi 5 dòng, do vậy ta có thể cập nhật như sau</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/dxJ4FXLb\"></iframe></div></p>\n<p>Lúc này, nếu muốn đổi format số, ta chỉ cần đổi hàm FormatAmount, còn muốn đổi fomat dòng, ta chỉ cần đổi hàm PrintLine</p>\n<p><strong>Tuy nhiên, không phải sự trùng lặp code nào cũng là sự trùng lặp kiến thức</strong></p>\n<p>Ví dụ ở một trang thương mại điện tử, khách hàng yêu cầu bạn phải kiểm tra tuổi của user, và số lượng món hàng mà user đặt hàng. Quy định nó phải là số nguyên dương</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/EAp4pYs3\"></iframe></div></p>\n<p>Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>\n<h3 id=\"mcetoc_1e6jq6klt3\">Trùng lặp trong tài liệu</h3>\n<h3 id=\"mcetoc_1e6jq6ndn4\">Trùng lặp trong sự biểu đạt</h3>\n<h3 id=\"mcetoc_1e6jq6qcj5\">Trùng lặp giữa những developer</h3>\n<h2 id=\"mcetoc_1e6jq6spa6\">Hệ thống trực giao</h2>\n<h2 id=\"mcetoc_1e6jq6vhr7\">Khả năng hoàn tác</h2>\n<h2 id=\"mcetoc_1e6jq72lq8\">Viên đạn dẫn đường</h2>\n<h2 id=\"mcetoc_1e6jq75pi9\">Bản thử và ghim chú</h2>\n<h2 id=\"mcetoc_1e6jq78e3a\">Ngôn ngữ nghiệp vụ</h2>\n<h2 id=\"mcetoc_1e6jq7b5ib\">Canh đo thời gian</h2>",
+            "content_html": "<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li><a href=\"#mcetoc_1e6h690to0\">Bản chất của thiết kế tốt</a></li>\n<li><a href=\"#mcetoc_1e6jnv1dr0\">DRY - Sự trùng lặp xấu xa</a>\n<ul>\n<li><a href=\"#mcetoc_1e6jq26c11\">DRY vượt khỏi bối cảnh code</a></li>\n<li><a href=\"#mcetoc_1e6jq6i8b2\">DRY trong code</a></li>\n<li><a href=\"#mcetoc_1e6jq6klt3\">Trùng lặp trong tài liệu</a></li>\n<li><a href=\"#mcetoc_1e6jq6ndn4\">Trùng lặp trong sự biểu đạt</a></li>\n<li><a href=\"#mcetoc_1e6jq6qcj5\">Trùng lặp giữa những developer</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1e6jq6spa6\">Hệ thống trực giao</a></li>\n<li><a href=\"#mcetoc_1e6jq6vhr7\">Khả năng hoàn tác</a></li>\n<li><a href=\"#mcetoc_1e6jq72lq8\">Viên đạn dẫn đường</a></li>\n<li><a href=\"#mcetoc_1e6jq75pi9\">Bản thử và ghim chú</a></li>\n<li><a href=\"#mcetoc_1e6jq78e3a\">Ngôn ngữ nghiệp vụ</a></li>\n<li><a href=\"#mcetoc_1e6jq7b5ib\">Canh đo thời gian</a></li>\n</ul>\n</div>\n<h2 id=\"mcetoc_1e6h690to0\">Bản chất của thiết kế tốt</h2>\n<p><strong>Lời khuyên thứ 14: Thiết kế tốt dễ dàng thay đổi hơn thiết kế tồi</strong></p>\n<ul>\n<li>Một vật được thiết kế tốt nếu nó mang lại cảm giác thuận tiện cho người sử dụng chúng. Tương tự, với code thì nó phải mang lại sự thuận tiện khi thay đổi (nguyên tắc ETC - easier to change)</li>\n<li>Mọi nguyên tắc thiết kế đều là một bản đặc biệt của ETC.\n<ul>\n<li>Như việc <strong>decoupling</strong> - tách rời những thành phần có mối quan tâm khác nhau, thì việc cập nhật những thành phần đó sẽ dễ dàng hơn.</li>\n<li>Nguyên tắc <strong>single responsibility</strong> - một thay đổi ở requirement chỉ ảnh hưởng đến một module duy nhất.</li>\n<li>Tại sao<strong> đặt tên</strong> lại quan trọng, vì những cái tên dễ hiểu sẽ làm code dễ đọc hơn, và bạn phải đọc code trước khi có thể change code.</li>\n</ul>\n</li>\n<li>Vì ETC là giá trị, không phải là luật lệ, bạn nên suy nghĩ đến ETC trước khi bắt tay làm một việc gì đó. Tự hỏi \"thứ tôi vừa làm khiến hệ thống dễ thay đổi hay khó thay đổi hơn?\". Thường thì, common sense của bạn sẽ chính xác</li>\n<li>Nếu không biết hướng đi: bạn có thể thứ (1) cố gắng làm thứ bạn xây dựng có thể thay thế - tách rời và gắn kết (2) ghi chú về những lựa chọn bạn có hiện tại, và những thay đổi có thể xảy đến, và đến khi change code, bạn có thể xem lại và nhận xét</li>\n</ul>\n<h2 id=\"mcetoc_1e6jnv1dr0\">DRY - Sự trùng lặp xấu xa</h2>\n<ul>\n<li>Kiến thức của hệ thống thường không bền và dễ bị thay đổi, có thể thay đổi sau buổi họp, hoặc nhà cầm quyền thay đổi một vài luật lệ ... Những điều này làm developer phải luôn cập nhật và điều chỉnh hệ thống lại cho phù hợp, khiến chúng ta luôn ở trong trạng thái bảo trì hệ thống</li>\n<li>Khi thực hiện những thay đổi kể trên, chúng ta rất dễ để cho sự trùng lặp kiến thức xảy ra, khiến cho việc bảo trì hệ thống biến thành ác mộng</li>\n<li>Và cách duy nhất để phát triển hệ thống một cách bền vững, dễ bảo trì và dễ hiểu, là áp dụng nguyên tắc DRY: bất kể phần kiến thức nào cũng chỉ có một nơi biểu đạt, không mơ hồ, có tính chính xác cao trong hệ thống</li>\n<li>Khi việc lặp lại xảy ra, khi thay đổi một chỗ, bạn phải nhớ thay đổi chỗ nào khác nữa. Vấn đề chính không phải bạn có nhớ hay không, mà là khi nào bạn sẽ quên</li>\n<li>Và việc trùng lặp không chỉ xảy ra với code, nó còn xảy ra với các tính huống khác</li>\n</ul>\n<p><strong>Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp lại chính việc mình đã làm</strong></p>\n<h3 id=\"mcetoc_1e6jq26c11\">DRY vượt khỏi bối cảnh code</h3>\n<ul>\n<li>DRY còn là về sự lặp lại của kiến thức, của những ý định. Đó là việc mô tả một vấn đề ở 2 nơi khác nhau, và còn có thể có biểu đạt ở 2 cách khác nhau</li>\n<li>Đây là cách đánh giá: khi một vấn đề nhỏ cần được cập nhật code, bạn có phải đi đổi ở nhiều nơi, ở nhiều định dạng khác nhau? Bạn phải đổi code, tài liệu, cấu trúc database ... . Nếu có, thì code bạn chưa DRY</li>\n</ul>\n<h3 id=\"mcetoc_1e6jq6i8b2\">DRY trong code</h3>\n<p>Ví dụ dễ thấy nhất:</p>\n<div style=\"max-height: 400px;\"><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px;\" src=\"https://pastebin.com/embed_iframe/t9DExNXU\"></iframe></div></div>\n<p>Điều đầu tiên là sự trùng lặp của việc kiểm tra số dương / số âm để in ra cho đúng, ta có thể chuyển nó ra một hàm khác</p>\n<div style=\"max-height: 400px;\"><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/RkMnPTzn\"></iframe></div></div>\n<p>Điều lặp lại tiếp theo là sự lặp lại của quy định format số, ta có thể tái sử dụng hàm vừa viết</p>\n<div style=\"max-height: 400px;\"><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/F7aTUxJF\"></iframe></div></div>\n<p>Điều tiếp theo nữa là gì? Nếu khách hàng yêu cầu thêm 1 khoảng trắng giữa label và số, ta phải đổi 5 dòng, do vậy ta có thể cập nhật như sau</p>\n<div style=\"max-height: 400px;\"><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/dxJ4FXLb\"></iframe></div></div>\n<p>Lúc này, nếu muốn đổi format số, ta chỉ cần đổi hàm FormatAmount, còn muốn đổi fomat dòng, ta chỉ cần đổi hàm PrintLine</p>\n<p><strong>Tuy nhiên, không phải sự trùng lặp code nào cũng là sự trùng lặp kiến thức</strong></p>\n<p>Ví dụ ở một trang thương mại điện tử, khách hàng yêu cầu bạn phải kiểm tra tuổi của user, và số lượng món hàng mà user đặt hàng. Quy định nó phải là số nguyên dương</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" style=\"border: none; width: 100%; height: 400px; max-height: 400px;\" src=\"https://pastebin.com/embed_iframe/EAp4pYs3\"></iframe></div></p>\n<p>Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>\n<h3 id=\"mcetoc_1e6jq6klt3\">Trùng lặp trong tài liệu</h3>\n<h3 id=\"mcetoc_1e6jq6ndn4\">Trùng lặp trong sự biểu đạt</h3>\n<h3 id=\"mcetoc_1e6jq6qcj5\">Trùng lặp giữa những developer</h3>\n<h2 id=\"mcetoc_1e6jq6spa6\">Hệ thống trực giao</h2>\n<h2 id=\"mcetoc_1e6jq6vhr7\">Khả năng hoàn tác</h2>\n<h2 id=\"mcetoc_1e6jq72lq8\">Viên đạn dẫn đường</h2>\n<h2 id=\"mcetoc_1e6jq75pi9\">Bản thử và ghim chú</h2>\n<h2 id=\"mcetoc_1e6jq78e3a\">Ngôn ngữ nghiệp vụ</h2>\n<h2 id=\"mcetoc_1e6jq7b5ib\">Canh đo thời gian</h2>",
             "author": {
                 "name": "Khoi Can Dev"
             },
             "tags": [
                    "Sách"
             ],
-            "date_published": "2020-06-24T23:24:06+07:00",
-            "date_modified": "2020-06-24T23:24:06+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/course-science-of-well-being.html",
@@ -51,8 +51,8 @@
             "tags": [
                    "Ghi chú"
             ],
-            "date_published": "2020-06-24T23:24:06+07:00",
-            "date_modified": "2020-06-24T23:24:06+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/chung-khoan-notes.html",
@@ -66,8 +66,8 @@
             "tags": [
                    "Ghi chú"
             ],
-            "date_published": "2020-06-24T23:24:06+07:00",
-            "date_modified": "2020-06-24T23:24:07+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html",
@@ -81,8 +81,8 @@
             "tags": [
                    "Sách"
             ],
-            "date_published": "2020-06-24T23:24:07+07:00",
-            "date_modified": "2020-06-24T23:24:07+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/developer-thuc-dung-mo-dau.html",
@@ -96,8 +96,8 @@
             "tags": [
                    "Sách"
             ],
-            "date_published": "2020-06-24T23:24:07+07:00",
-            "date_modified": "2020-06-24T23:24:07+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         },
         {
             "id": "https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html",
@@ -111,8 +111,8 @@
             "tags": [
                    "Sách"
             ],
-            "date_published": "2020-06-24T23:24:07+07:00",
-            "date_modified": "2020-06-24T23:24:07+07:00"
+            "date_published": "2020-06-24T23:27:57+07:00",
+            "date_modified": "2020-06-24T23:27:57+07:00"
         }
     ]
 }
