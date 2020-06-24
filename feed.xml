@@ -18,7 +18,7 @@
         <id>https://khoican.dev/nhung-ngay-thu-ba-voi-thay-morrie-mitch-albom.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Tui nghĩQuyển này đủ ngắn để hoàn thành trong 2 ngày cuối tuần. Nội dung rung động lòng người, nhưng rất thực tế, vì nó là hồi ký giữa một&hellip;
@@ -48,10 +48,10 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
-                    Bản chất của thiết kế tốtLời khuyên thứ 14: Thiết kế tốt dễ dàng thay đổi hơn thiết kế tồi Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp&hellip;
+                     Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -62,10 +62,10 @@
 <li><a href="#mcetoc_1e6h690to0">Bản chất của thiết kế tốt</a></li>
 <li><a href="#mcetoc_1e6jnv1dr0">DRY - Sự trùng lặp xấu xa</a>
 <ul>
-<li><a href="#mcetoc_1e6jq26c11">DRY không chỉ có trong code</a></li>
+<li><a href="#mcetoc_1e6jq26c11">DRY vượt khỏi bối cảnh code</a></li>
 <li><a href="#mcetoc_1e6jq6i8b2">DRY trong code</a></li>
 <li><a href="#mcetoc_1e6jq6klt3">Trùng lặp trong tài liệu</a></li>
-<li><a href="#mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu diễn</a></li>
+<li><a href="#mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu đạt</a></li>
 <li><a href="#mcetoc_1e6jq6qcj5">Trùng lặp giữa những developer</a></li>
 </ul>
 </li>
@@ -96,14 +96,31 @@
 <li>Kiến thức của hệ thống thường không bền và dễ bị thay đổi, có thể thay đổi sau buổi họp, hoặc nhà cầm quyền thay đổi một vài luật lệ ... Những điều này làm developer phải luôn cập nhật và điều chỉnh hệ thống lại cho phù hợp, khiến chúng ta luôn ở trong trạng thái bảo trì hệ thống</li>
 <li>Khi thực hiện những thay đổi kể trên, chúng ta rất dễ để cho sự trùng lặp kiến thức xảy ra, khiến cho việc bảo trì hệ thống biến thành ác mộng</li>
 <li>Và cách duy nhất để phát triển hệ thống một cách bền vững, dễ bảo trì và dễ hiểu, là áp dụng nguyên tắc DRY: bất kể phần kiến thức nào cũng chỉ có một nơi biểu đạt, không mơ hồ, có tính chính xác cao trong hệ thống</li>
-<li>Khi việc lặp lại xảy ra, khi thay đổi một chỗ, bạn phải nhớ thay đổi chỗ nào khác nữa. Và vấn đề chính không phải bạn có nhớ hay không, cái chính là khi nào bạn sẽ quên</li>
+<li>Khi việc lặp lại xảy ra, khi thay đổi một chỗ, bạn phải nhớ thay đổi chỗ nào khác nữa. Vấn đề chính không phải bạn có nhớ hay không, mà là khi nào bạn sẽ quên</li>
 <li>Và việc trùng lặp không chỉ xảy ra với code, nó còn xảy ra với các tính huống khác</li>
 </ul>
 <p><strong>Lời khuyên thứ 15: DRY - Don't repeat yourself - Đừng lặp lại chính việc mình đã làm</strong></p>
-<h3 id="mcetoc_1e6jq26c11">DRY không chỉ có trong code</h3>
+<h3 id="mcetoc_1e6jq26c11">DRY vượt khỏi bối cảnh code</h3>
+<ul>
+<li>DRY còn là về sự lặp lại của kiến thức, của những ý định. Đó là việc mô tả một vấn đề ở 2 nơi khác nhau, và còn có thể có biểu đạt ở 2 cách khác nhau</li>
+<li>Đây là cách đánh giá: khi một vấn đề nhỏ cần được cập nhật code, bạn có phải đi đổi ở nhiều nơi, ở nhiều định dạng khác nhau? Bạn phải đổi code, tài liệu, cấu trúc database ... . Nếu có, thì code bạn chưa DRY</li>
+</ul>
 <h3 id="mcetoc_1e6jq6i8b2">DRY trong code</h3>
+<p>Ví dụ dễ thấy nhất:</p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/t9DExNXU"></iframe></div></p>
+<p>Điều đầu tiên là sự trùng lặp của việc kiểm tra số dương / số âm để in ra cho đúng, ta có thể chuyển nó ra một hàm khác</p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/RkMnPTzn"></iframe></div></p>
+<p>Điều lặp lại tiếp theo là sự lặp lại của quy định format số, ta có thể tái sử dụng hàm vừa viết</p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/F7aTUxJF"></iframe></div></p>
+<p>Điều tiếp theo nữa là gì? Nếu khách hàng yêu cầu thêm 1 khoảng trắng giữa label và số, ta phải đổi 5 dòng, do vậy ta có thể cập nhật như sau</p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/dxJ4FXLb"></iframe></div></p>
+<p>Lúc này, nếu muốn đổi format số, ta chỉ cần đổi hàm FormatAmount, còn muốn đổi fomat dòng, ta chỉ cần đổi hàm PrintLine</p>
+<p><strong>Tuy nhiên, không phải sự trùng lặp code nào cũng là sự trùng lặp kiến thức</strong></p>
+<p>Ví dụ ở một trang thương mại điện tử, khách hàng yêu cầu bạn phải kiểm tra tuổi của user, và số lượng món hàng mà user đặt hàng. Quy định nó phải là số nguyên dương</p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/EAp4pYs3"></iframe></div></p>
+<p>Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>
 <h3 id="mcetoc_1e6jq6klt3">Trùng lặp trong tài liệu</h3>
-<h3 id="mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu diễn</h3>
+<h3 id="mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu đạt</h3>
 <h3 id="mcetoc_1e6jq6qcj5">Trùng lặp giữa những developer</h3>
 <h2 id="mcetoc_1e6jq6spa6">Hệ thống trực giao</h2>
 <h2 id="mcetoc_1e6jq6vhr7">Khả năng hoàn tác</h2>
@@ -123,7 +140,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -237,7 +254,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -748,7 +765,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1016,7 +1033,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1060,7 +1077,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T21:43:24+07:00</updated>
+        <updated>2020-06-24T23:18:11+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
