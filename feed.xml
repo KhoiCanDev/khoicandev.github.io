@@ -18,7 +18,7 @@
         <id>https://khoican.dev/nhung-ngay-thu-ba-voi-thay-morrie-mitch-albom.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Tui nghĩQuyển này đủ ngắn để hoàn thành trong 2 ngày cuối tuần. Nội dung rung động lòng người, nhưng rất thực tế, vì nó là hồi ký giữa một&hellip;
@@ -48,7 +48,7 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                      Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho&hellip;
@@ -107,17 +107,17 @@
 </ul>
 <h3 id="mcetoc_1e6jq6i8b2">DRY trong code</h3>
 <p>Ví dụ dễ thấy nhất:</p>
-<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/t9DExNXU"></iframe></div></p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/t9DExNXU"></iframe></div></p>
 <p>Điều đầu tiên là sự trùng lặp của việc kiểm tra số dương / số âm để in ra cho đúng, ta có thể chuyển nó ra một hàm khác</p>
-<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/RkMnPTzn"></iframe></div></p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/RkMnPTzn"></iframe></div></p>
 <p>Điều lặp lại tiếp theo là sự lặp lại của quy định format số, ta có thể tái sử dụng hàm vừa viết</p>
-<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/F7aTUxJF"></iframe></div></p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/F7aTUxJF"></iframe></div></p>
 <p>Điều tiếp theo nữa là gì? Nếu khách hàng yêu cầu thêm 1 khoảng trắng giữa label và số, ta phải đổi 5 dòng, do vậy ta có thể cập nhật như sau</p>
-<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/dxJ4FXLb"></iframe></div></p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/dxJ4FXLb"></iframe></div></p>
 <p>Lúc này, nếu muốn đổi format số, ta chỉ cần đổi hàm FormatAmount, còn muốn đổi fomat dòng, ta chỉ cần đổi hàm PrintLine</p>
 <p><strong>Tuy nhiên, không phải sự trùng lặp code nào cũng là sự trùng lặp kiến thức</strong></p>
 <p>Ví dụ ở một trang thương mại điện tử, khách hàng yêu cầu bạn phải kiểm tra tuổi của user, và số lượng món hàng mà user đặt hàng. Quy định nó phải là số nguyên dương</p>
-<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%;" src="https://pastebin.com/embed_iframe/EAp4pYs3"></iframe></div></p>
+<p><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/EAp4pYs3"></iframe></div></p>
 <p>Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>
 <h3 id="mcetoc_1e6jq6klt3">Trùng lặp trong tài liệu</h3>
 <h3 id="mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu đạt</h3>
@@ -140,7 +140,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -254,7 +254,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -765,7 +765,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1033,7 +1033,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1077,7 +1077,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:20:10+07:00</updated>
+        <updated>2020-06-24T23:21:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
