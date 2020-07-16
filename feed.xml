@@ -18,7 +18,7 @@
         <id>https://khoican.dev/nhung-ngay-thu-ba-voi-thay-morrie-mitch-albom.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Tui nghĩQuyển này đủ ngắn để hoàn thành trong 2 ngày cuối tuần. Nội dung rung động lòng người, nhưng rất thực tế, vì nó là hồi ký giữa một&hellip;
@@ -48,10 +48,10 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
-                    Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code&hellip;
+                    Sẽ có lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -93,7 +93,7 @@
 </ul>
 <h2 id="mcetoc_1e6jnv1dr0">DRY - Sự trùng lặp xấu xa</h2>
 <ul>
-<li>Kiến thức của hệ thống thường không bền và dễ bị thay đổi, có thể thay đổi sau buổi họp, hoặc nhà cầm quyền thay đổi một vài luật lệ ... Những điều này làm developer phải luôn cập nhật và điều chỉnh hệ thống lại cho phù hợp, khiến chúng ta luôn ở trong trạng thái bảo trì hệ thống</li>
+<li>Kiến thức của hệ thống thường không bền và dễ bị thay đổi, có thể thay đổi sau buổi họp, hoặc có sự thay đổi trong luật pháp ... Những điều này làm developer phải luôn cập nhật và điều chỉnh hệ thống lại cho phù hợp, khiến chúng ta luôn ở trong trạng thái bảo trì hệ thống</li>
 <li>Khi thực hiện những thay đổi kể trên, chúng ta rất dễ để cho sự trùng lặp kiến thức xảy ra, khiến cho việc bảo trì hệ thống biến thành ác mộng</li>
 <li>Và cách duy nhất để phát triển hệ thống một cách bền vững, dễ bảo trì và dễ hiểu, là áp dụng nguyên tắc DRY: bất kể phần kiến thức nào cũng chỉ có một nơi biểu đạt, không mơ hồ, có tính chính xác cao trong hệ thống</li>
 <li>Khi việc lặp lại xảy ra, khi thay đổi một chỗ, bạn phải nhớ thay đổi chỗ nào khác nữa. Vấn đề chính không phải bạn có nhớ hay không, mà là khi nào bạn sẽ quên</li>
@@ -103,7 +103,7 @@
 <h3 id="mcetoc_1e6jq26c11">DRY vượt khỏi bối cảnh code</h3>
 <ul>
 <li>DRY còn là về sự lặp lại của kiến thức, của những ý định. Đó là việc mô tả một vấn đề ở 2 nơi khác nhau, và còn có thể có biểu đạt ở 2 cách khác nhau</li>
-<li>Đây là cách đánh giá: khi một vấn đề nhỏ cần được cập nhật code, bạn có phải đi đổi ở nhiều nơi, ở nhiều định dạng khác nhau? Bạn phải đổi code, tài liệu, cấu trúc database ... . Nếu có, thì code bạn chưa DRY</li>
+<li>Cách đánh giá: khi một vấn đề nhỏ cần được cập nhật code, bạn có phải đi đổi ở nhiều nơi, ở nhiều định dạng khác nhau? Bạn phải đổi code, tài liệu, cấu trúc database ... . Nếu có, thì code bạn chưa DRY</li>
 </ul>
 <h3 id="mcetoc_1e6jq6i8b2">DRY trong code</h3>
 <p>Ví dụ dễ thấy nhất:</p>
@@ -118,8 +118,13 @@
 <p><strong>Tuy nhiên, không phải sự trùng lặp code nào cũng là sự trùng lặp kiến thức</strong></p>
 <p>Ví dụ ở một trang thương mại điện tử, khách hàng yêu cầu bạn phải kiểm tra tuổi của user, và số lượng món hàng mà user đặt hàng. Quy định nó phải là số nguyên dương</p>
 <div style="max-height: 400px;"><div class="post__iframe"><iframe loading="lazy" style="border: none; width: 100%; height: 400px;" src="https://pastebin.com/embed_iframe/EAp4pYs3"></iframe></div></div>
-<p>Sẽ có một số bạn sẽ lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>
+<p>Sẽ có lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng kiến thức nó biểu đạt không hề trùng lặp. Hai hàm trên kiểm tra 2 đối tượng hoàn toàn khác nhau và có quy định kiểm tra giống nhau. Đó là sự trùng hợp, không phải sự trùng lặp.</p>
 <h3 id="mcetoc_1e6jq6klt3">Trùng lặp trong tài liệu</h3>
+<p>Ý định của một hàm chỉ nên biểu đạt trong thân hàm, việc thêm comment phía trên hàm sẽ dễ làm 2 phần này mất đi sự đồng bộ về mặt nội dung</p>
+<p>Chỉ nên comment trên hàm để biểu đạt ý nghĩa hoặc lý do hàm đó cần phải tồn tại</p>
+<h3 id="mcetoc_1e6jq6klt3">Trùng lặp trong data structure</h3>
+<p>Việc trùng lặp này dễ xảy ra trong data structure phổ biến như đơn hàng (giá trị đơn hàng là tổng các món trong đơn hàng), dữ liệu cá nhân (tên đầy đủ là kết hợp giữa họ và tên)</p>
+<p>Trong quá trình phát triển, có thể cân nhắc việc vi phạm DRY để tăng tốc độ ứng dụng. Khi đưa data structure cho bên ngoài sủ dụng, phải giới hạn việc vi phạm này trong nội bộ bằng cách dùng kỹ thuật như getter, setter</p>
 <h3 id="mcetoc_1e6jq6ndn4">Trùng lặp trong sự biểu đạt</h3>
 <h3 id="mcetoc_1e6jq6qcj5">Trùng lặp giữa những developer</h3>
 <h2 id="mcetoc_1e6jq6spa6">Hệ thống trực giao</h2>
@@ -140,7 +145,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -254,7 +259,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -765,7 +770,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1033,7 +1038,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1077,7 +1082,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-06-24T23:31:25+07:00</updated>
+        <updated>2020-07-16T23:49:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
