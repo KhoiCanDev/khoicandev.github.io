@@ -10,6 +10,51 @@
     <id>https://khoican.dev</id>
 
     <entry>
+        <title>Ghi chú một số course ở VietGrow</title>
+        <author>
+            <name>Khoi Can Dev</name>
+        </author>
+        <link href="https://khoican.dev/ghi-chu-mot-so-khoa-hoc-o-vietgrow.html"/>
+        <id>https://khoican.dev/ghi-chu-mot-so-khoa-hoc-o-vietgrow.html</id>
+
+        <updated>2020-08-12T23:01:23+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Giao tiếp hiệu quảGiao tiếp hiệu quả nằm ở cả 2 việc nói và nghe: những phản hồi khi có hiệu quả hay không được quyết định bởi những gì&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1efhmbtvhd">Giao tiếp hiệu quả</a>
+<ul>
+<li><a href="#mcetoc_1efhmbtvhe">Các rào cản</a></li>
+<li><a href="#mcetoc_1efhmetgh1r">Tam giác ngược, tam giác thuận</a></li>
+<li><a href="#mcetoc_1efhmetgh1s">Why - How - What</a></li>
+<li><a href="#mcetoc_1efhmetgh1t">Để thương lượng thành công</a></li>
+<li><a href="#mcetoc_1efhmetgh1u">Điều kiện nền tảng cho giao tiếp hiệu quả</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="mcetoc_1efhmbtvhd">Giao tiếp hiệu quả</h2>
+<p>Giao tiếp hiệu quả nằm ở cả 2 việc nói và nghe: những phản hồi khi có hiệu quả hay không được quyết định bởi những gì mình lắng nghe được</p>
+<h3 id="mcetoc_1efhmbtvhe">Các rào cản</h3>
+<p>- Suy diễn trong đầu: là những quan điểm cá nhân gắn với điều đã nghe và thấy được (ý kiến). Cần trả lời, hành động theo thực tế - điều gì đã xảy ra, tránh trả lời - hành động theo suy diễn trong đầu<br>- Giữ ngôn ngữ trong đầu: giữ ngôn ngữ trong đầu, không giao tiếp ra, sẽ dẫn tới giao tiếp không hiệu quả. Cần nói ra để vấn đề được giải quyết. Ngôn ngữ giữ trong đầu lâu ngày sẽ tạo ra nhận định, sự lắng nghe được mặc định sẵn. Cần kiểm soát giọng nói trong đầu.<br>- Các nỗi sợ: sợ mất lòng, sợ nói sai, sợ mất thể diện, những điều muốn nói không được nói ra, dẫn đến lắng nghe chịu đựng, cam chịu.</p>
+<h3 id="mcetoc_1efhmetgh1r">Tam giác ngược, tam giác thuận</h3>
+<p>- Tam giác ngược: đầu tiên nói quá nhiều về ngữ cảnh, lý do, giải thích, dông dài, sau cùng mới đi đến lời đề nghị (sợ người ta không hiểu nên cần biện minh trước đó<br>- Tam giác thuận: đưa lời đề nghị lên đầu tiên, và giải thích theo sau</p>
+<h3 id="mcetoc_1efhmetgh1s">Why - How - What</h3>
+<p>Cần tập trung vào Why (mục đích để đạt được những gì) để người nghe hiểu được tầm quan trọng của How (làm thế nào) và What (làm  những gì - đặc điểm gì)</p>
+<h3 id="mcetoc_1efhmetgh1t">Để thương lượng thành công</h3>
+<p>Thương lượng đơn giản là để đạt được sự đồng thuận của một người nào đó<br>Một số thủ thuật:<br>- Làm gương: làm tăng sự tin tưởng - có giọng điệu, tốc độ như người đối diện, lặp lại vài từ keyword mà người đó đã nói<br>- Dán nhãn: lắng nghe và tái tạo lại theo lời nói của mình (nghe có vẻ như là, dường như là). Nói ra những suy diễn mà người đối diện có thể có.<br>- Say no: tạo điều kiện cho người đối diện say no nhưng vẫn đạt được mục đích</p>
+<h3 id="mcetoc_1efhmetgh1u">Điều kiện nền tảng cho giao tiếp hiệu quả</h3>
+<p>- Intergrity: có trách nhiệm, trân trọng lời nói của mình<br>-- Làm những điều bạn nói, đúng thời hạn, đúng thiết kế<br>-- Thông báo cho những người có liên quan sớm nhất, khi nhận ra không thể làm được điều đã nói<br>-- Đưa ra lời hứa mới &amp; chịu trách nhiệm 100%<br>-&gt; sự tin tưởng<br>- Coi mình là gốc rễ của mọi vấn đề: chủ động tìm giải pháp thay vì ngồi chờ và hy vọng có phép màu xảy ra</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Developer thực dụng - Phần 2 - Phương pháp thực dụng</title>
         <author>
             <name>Khoi Can Dev</name>
@@ -18,7 +63,7 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Sẽ có lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó không đúng, bởi dù cho code có giống nhau, nhưng&hellip;
@@ -125,7 +170,7 @@
         <id>https://khoican.dev/course-science-of-well-being.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Week 1 - Giới thiệuKhoa học của hạnh phúc: tâm lý học tích cực và khoa học về thay đổi hành vi Hạnh phúc cũng cần phải được tập luyện Lối&hellip;
@@ -239,7 +284,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất&hellip;
@@ -750,7 +795,7 @@
         <id>https://khoican.dev/ten-dev-thuc-dung-phan-1-triet-ly-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Đó là cuộc đời của bạnHãy thay đổi khi bạn thấy không ổnKiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lýNgành dev là một&hellip;
@@ -1018,7 +1063,7 @@
         <id>https://khoican.dev/developer-thuc-dung-mo-dau.html</id>
             <category term="Sách"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmThực dụng - pragmatic - tiếng latin là pragmaticus - có nghĩa là "dân lành nghề"Bạn, một phần là người lắng nghe, người tư vấn, người diễn dịch, và&hellip;
@@ -1062,7 +1107,7 @@
         <id>https://khoican.dev/takeaways-the-last-lecture-randy-pausch.html</id>
             <category term="Sách"/>
 
-        <updated>2020-08-08T22:18:21+07:00</updated>
+        <updated>2020-08-12T23:01:23+07:00</updated>
             <summary>
                 <![CDATA[
                     Short stories of a professor that has an incurable cancer. The book, which you can call a complete transcript of his presentation, cover many moments that affect his life in&hellip;
