@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-09-01T20:03:39+07:00</updated>
+    <updated>2020-10-10T14:06:04+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-06-24T21:43:19+07:00</updated>
+        <updated>2020-10-10T14:06:04+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -373,7 +373,24 @@
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
 <li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
-<li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a></li>
+<li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
+<ul>
+<li><a href="#mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng</a>
+<ul>
+<li><a href="#mcetoc_1ek8irufecc">MA - Moving Average</a>
+<ul>
+<li><a href="#mcetoc_1ek8irufecd">SMA - Simple MA</a></li>
+<li><a href="#mcetoc_1ek8irufece">EMA - Exponential MA</a></li>
+<li><a href="#mcetoc_1ek8irufecf">WMA - Weighted MA</a></li>
+</ul>
+</li>
+<li> </li>
+</ul>
+</li>
+<li><a href="#mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</a></li>
+<li><a href="#mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</a></li>
+</ul>
+</li>
 <li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a>
 <ul>
 <li><a href="#mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</a></li>
@@ -396,7 +413,7 @@
 </tr>
 <tr style="height: 79px;">
 <td style="height: 79px; width: 175px;">Giá trị vốn hóa</td>
-<td style="height: 79px; width: 541px;">Giá trị vốn hóa = Giá cổ phiếu * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
+<td style="height: 79px; width: 541px;">Giá trị vốn hóa = Giá cổ phiếu hiện tại * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
 </tr>
 <tr style="height: 108px;">
 <td style="height: 108px; width: 175px;">Phân tích cơ bản</td>
@@ -417,8 +434,7 @@
 </tbody>
 </table>
 <h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
-<ul>
-<li>Chọn ra những công ty có lợi thế cạnh tranh bền vững
+<p>Chọn ra những công ty có lợi thế cạnh tranh bền vững</p>
 <ul>
 <li>Có hào kinh tế rộng</li>
 <li>Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành</li>
@@ -437,26 +453,26 @@
 <li>Mở rộng quy mô</li>
 <li>Mở ra thị trường mới</li>
 <li>Tìm các mục này ở báo cáo thường niên, báo cáo phân tích, tỷ lệ tăng trưởng dài hạn dự đoán (LT Growth Rate)</li>
-</ul>
-</li>
 <li>Ban lãnh đạo đang nắm giữ hoặc mua cổ phiếu công ty</li>
 </ul>
 </li>
-<li>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng
+</ul>
+<p>Đầu tư khi giá chứng khoán thấp hơn giá trị thật và đang trên xu hướng tăng</p>
+<ul>
+<li style="list-style-type: none;">
 <ul>
 <li>Khi có tin tức xấu, thị trường hoảng sợ</li>
 <li>Nhưng đừng bao giờ cố bắt lấy con dao đang rơi</li>
 </ul>
 </li>
-<li>Chốt lời khi giá chứng khoán đảo chiều sang xu hướng giảm</li>
-<li id="mcetoc_1e5v56qna0">Kết hợp 2 phương pháp: cơ bản + kỹ thuật
+</ul>
+<p>Chốt lời khi giá chứng khoán đảo chiều sang xu hướng giảm</p>
+<p>Kết hợp 2 phương pháp: cơ bản + kỹ thuật</p>
 <ul>
 <li>Cơ bản cho biết giá trị tiềm năng của cổ phiếu</li>
 <li>Kỹ thuật để xác định thời điểm nhà đầu tư lạc quan đủ để đẩy CP lên giá trị thật, xác định thời điểm mua CP giá rẻ</li>
 </ul>
-</li>
-<li>Đa dạng hóa đầu tư theo từng loại cổ phiếu</li>
-</ul>
+<p>Đa dạng hóa đầu tư theo từng loại cổ phiếu</p>
 <table border="1">
 <tbody>
 <tr>
@@ -469,33 +485,27 @@
 </tr>
 </tbody>
 </table>
-<ul>
-<li>Nắm giữ không quá 8 - 10 CP, không mua hơn 2 CP cùng nhóm ngành, không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</li>
-<li>Giữ 10% danh mục đầu tư bằng tiền mặt</li>
-<li>Xây dựng danh mục đầu tư theo chu kỳ thị trường</li>
-<li>Tính quy mô đầu tư
+<p>Nắm giữ không quá 8 - 10 CP, không mua hơn 2 CP cùng nhóm ngành, không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</p>
+<p>Giữ 10% danh mục đầu tư bằng tiền mặt</p>
+<p>Xây dựng danh mục đầu tư theo chu kỳ thị trường</p>
+<p>Tính quy mô đầu tư</p>
 <ul>
 <li>% Rủi ro giao dịch: 1.5 - 3%</li>
 <li>Giá cắt lỗ = Giá cổ phiếu giảm 8% giá mua</li>
 <li>$ Rủi ro trên cổ phiếu = Giá cổ phiếu - Giá cắt lỗ</li>
 <li>Số lượng cổ phiếu = (% Rủi ro giao dịch * Vốn) / ($ Rủi ro trên cổ phiếu)</li>
 </ul>
-</li>
-<li>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (chọn số nào thấp hơn)</li>
-<li>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</li>
-</ul>
+<p>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (chọn số nào thấp hơn)<br>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</p>
 <h2 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h2>
-<ul>
-<li>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới
+<p>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới</p>
 <ul>
 <li>Ghi lại dòng tiền mặt từ hoạt động kinh doanh theo khung 12 tháng, tỷ lệ tăng trưởng dài hạn</li>
 <li>Tính dòng tiền dự đoán theo từng năm</li>
 </ul>
-</li>
-<li>Tính hệ số chiết khấu (Discount Factor - DF) phù hợp
+<p>Tính hệ số chiết khấu (Discount Factor - DF) phù hợp</p>
 <ul>
 <li>Kiểm tra giá trị beta: lớn hơn 1 là cổ phiếu có tính biến động cao hơn chỉ số chung của thị trường, nhỏ hơn 1 là cổ phiếu có tính biến động thấp hơn</li>
-<li>
+</ul>
 <table>
 <tbody>
 <tr>
@@ -536,23 +546,19 @@
 </tr>
 </tbody>
 </table>
-</li>
+<ul>
 <li>Hệ số chiết khấu (DF) = 1 / tỷ lệ chiết khấu ^ n (n = số năm)</li>
 </ul>
-</li>
-<li>Chiết khấu tất cả dòng tiền tương lai thành giá trị hiện tại (DV) và lấy tổng cộng
+<p>Chiết khấu tất cả dòng tiền tương lai thành giá trị hiện tại (DV) và lấy tổng cộng</p>
 <ul>
 <li>Tính giá trị chiết khấu (DV) bằng cách nhân dòng tiền dự đoán với hệ số chiết khấu (DF)</li>
 <li>Tổng giá trị chiết khấu (DV) của 10 năm là giá trị thật của doanh nghiệp (PV)</li>
 </ul>
-</li>
-<li>Tìm giá trị thật của cổ phiếu
+<p>Tìm giá trị thật của cổ phiếu</p>
 <ul>
 <li>Giá trị thật của một cổ phiếu = PV / số lượng cổ phiếu đang lưu hành</li>
 <li>Giá trị bù = (Tiền mặt và các khoản tương đương - Tổng nợ) / số lượng CP đang lưu hành</li>
 <li>Giá trị thật chính xác hơn = Giá trị thật của một cổ phiếu - Giá trị bù</li>
-</ul>
-</li>
 </ul>
 <h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
 <ul>
@@ -570,25 +576,30 @@
 </li>
 </ul>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
-<ul>
-<li>Xác định xu hướng giá cổ phiếu
+<p>Xác định xu hướng giá cổ phiếu</p>
 <ul>
 <li>Xu hướng tăng: tạo đỉnh cao hơn, đáy cao hơn, vẽ đường đường hỗ trợ ở các đáy, đường hỗ trợ chạm giá CP càng nhiều thì càng mạnh</li>
 <li>Xu hướng giảm: tạo đỉnh thấp hơn, đáy thấp hơn, vẽ đường kháng cự ở các đỉnh, đường kháng cự chạm giá CP càng nhiều thì càng mạnh</li>
 <li>Ổn định đi ngang: đi ngang giữa mức giá cao hơn và mức giá thấp hơn, chưa thể kiếm tời từ những CP ổn định</li>
 </ul>
-</li>
-<li>Sử dụng đường trung bình động (Moving Average) để xác định sự thay đổi trong xu hướng
+<h3 id="mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng</h3>
+<p>Các chỉ báo trễ - chỉ thay đổi sau khi xu hướng đảo ngược</p>
+<h4 id="mcetoc_1ek8irufecc">MA - Moving Average</h4>
+<p>Thể hiện sự đồng thuận bình quân về giá trị trong khoảng thời gian quan sát. Khi độ dốc tăng lên, nó cho thấy sự lạc quan - tăng giá. Khi độ dốc giảm xuống, thì cho thấy sự bi quan - giảm giá.</p>
+<h5 id="mcetoc_1ek8irufecd">SMA - Simple MA</h5>
+<p>Giá trị bình quân của dữ liệu trong một khung thời gian</p>
 <ul>
-<li>MA 150 cắt trên MA 50 là xu hướng giảm</li>
-<li>MA 150 cắt dưới MA 50 là xu hướng tăng</li>
-<li>MA ngắn hơn có thể dùng để nắm bắt xu hướng ngắn hạn hơn</li>
+<li>Ưu điểm: cách tính toán đơn giản</li>
+<li>Nhược điểm: thay đổi 2 lần khi thêm dữ liệu mới vào và loại bỏ dữ liệu cũ đi, sẽ tạo ra đường xu hướng không phản ánh đúng thực tế thị trường. Nhược điểm này ảnh hưởng tới MA ngắn hạn.</li>
 </ul>
-</li>
-<li>Khi CP có thể bứt phá lên trên đường kháng cự mạnh: động lượng hướng lên của đợt tăng giá, <strong>thời điểm tốt để mua CP, </strong>điểm mua an toàn là điểm giảm giá sau khi phá vỡ đường kháng cự, đường kháng cự có thể hỗ trợ cho giá CP</li>
-<li>Kiếm thật nhiều khi bạn đúng và thua lỗ một ít khi bạn sai, quan trọng là biết quản lý rủi ro</li>
-<li>Đặt lệnh dừng lỗ (stop loss): dưới đường hỗ trợ mới một cây nến</li>
-</ul>
+<h5 id="mcetoc_1ek8irufece">EMA - Exponential MA</h5>
+<p>Đánh trọng số cao hơn cho các dữ liệu mới, thay đổi nhanh hơn so với SMA. EMA không bị thay đổi khi loại bỏ dữ liệu cũ</p>
+<h5 id="mcetoc_1ek8irufecf">WMA - Weighted MA</h5>
+<h3 id="mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</h3>
+<p>Các chỉ báo đi trước - thường đảo chiều trước khi giá quay đầu</p>
+<h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
+<p>Các chỉ báo tiên đoán trước - cung cấp tầm nhìn về mức độ tăng hoặc giảm giá</p>
+<p> </p>
 <h2 id="mcetoc_1e4jf6s5d0">Phân tích cơ bản</h2>
 <h3 id="mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</h3>
 <ul>
