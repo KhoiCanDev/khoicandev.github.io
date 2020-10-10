@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-10-10T14:06:04+07:00</updated>
+    <updated>2020-10-10T20:54:26+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-10-10T14:06:04+07:00</updated>
+        <updated>2020-10-10T20:54:26+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -381,10 +381,10 @@
 <ul>
 <li><a href="#mcetoc_1ek8irufecd">SMA - Simple MA</a></li>
 <li><a href="#mcetoc_1ek8irufece">EMA - Exponential MA</a></li>
-<li><a href="#mcetoc_1ek8irufecf">WMA - Weighted MA</a></li>
+<li><a href="#mcetoc_1ek972kcv5">MACD - Convergence Divergence - Histogram</a></li>
 </ul>
 </li>
-<li> </li>
+<li><a href="#mcetoc_1ek9brmao9">Hệ thống Directional</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</a></li>
@@ -594,7 +594,10 @@
 </ul>
 <h5 id="mcetoc_1ek8irufece">EMA - Exponential MA</h5>
 <p>Đánh trọng số cao hơn cho các dữ liệu mới, thay đổi nhanh hơn so với SMA. EMA không bị thay đổi khi loại bỏ dữ liệu cũ</p>
-<h5 id="mcetoc_1ek8irufecf">WMA - Weighted MA</h5>
+<h5 id="mcetoc_1ek972kcv5">MACD - Convergence Divergence - Histogram</h5>
+<p>Bao gồm hai đường, một đường MACD nhanh và một đường tín hiệu chậm - Signal. Khi đường MACD nhanh cắt lên đường tín hiệu, tạo tín hiệu mua. Khi cắt xuống sẽ tạo tín hiệu bán</p>
+<p>Histogram đo lường chênh lệch giữa MACD và đường tín hiệu, đánh dấu thành biểu đồ cột. Dùng histogram để xem được tương quan sức mạnh giữa bên mua và bên bán. Histogram tạo tín hiệu mua khi có một cột nảy lên từ đáy thứ hai, tạo tín hiệu bán khi có một cột giảm xuống nhẹ từ đỉnh thứ hai</p>
+<h4 id="mcetoc_1ek9brmao9">Hệ thống Directional</h4>
 <h3 id="mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</h3>
 <p>Các chỉ báo đi trước - thường đảo chiều trước khi giá quay đầu</p>
 <h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
