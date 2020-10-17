@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-10-17T14:22:53+07:00</updated>
+    <updated>2020-10-17T23:36:10+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -350,7 +350,7 @@
         </content>
     </entry>
     <entry>
-        <title>Đầu tư</title>
+        <title>Sổ tay đầu tư</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-10-17T14:22:53+07:00</updated>
+        <updated>2020-10-17T23:36:10+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -375,7 +375,7 @@
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
 <ul>
-<li><a href="#mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng</a>
+<li><a href="#mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng (trend-following)</a>
 <ul>
 <li><a href="#mcetoc_1ek8irufecc">MA - Moving Average</a>
 <ul>
@@ -388,7 +388,11 @@
 <li><a href="#mcetoc_1ekqn11ts1">ATR - Average True Range</a></li>
 </ul>
 </li>
-<li><a href="#mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</a></li>
+<li><a href="#mcetoc_1ekrmkvc6f">Nhóm chỉ báo dao động (oscillators)</a>
+<ul>
+<li><a href="#mcetoc_1ekrmkvc6g">Chỉ báo Stochastic</a></li>
+</ul>
+</li>
 <li><a href="#mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</a></li>
 </ul>
 </li>
@@ -583,7 +587,7 @@
 <li>Xu hướng giảm: tạo đỉnh thấp hơn, đáy thấp hơn, vẽ đường kháng cự ở các đỉnh, đường kháng cự chạm giá CP càng nhiều thì càng mạnh</li>
 <li>Ổn định đi ngang: đi ngang giữa mức giá cao hơn và mức giá thấp hơn, chưa thể kiếm tời từ những CP ổn định</li>
 </ul>
-<h3 id="mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng</h3>
+<h3 id="mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng (trend-following)</h3>
 <p>Các chỉ báo trễ - chỉ thay đổi sau khi xu hướng đảo ngược</p>
 <h4 id="mcetoc_1ek8irufecc">MA - Moving Average</h4>
 <p>Thể hiện sự đồng thuận bình quân về giá trị trong khoảng thời gian quan sát. Khi độ dốc tăng lên, nó cho thấy sự lạc quan - tăng giá. Khi độ dốc giảm xuống, thì cho thấy sự bi quan - giảm giá.</p>
@@ -615,8 +619,16 @@
 <li>Khi ADX giảm cần thận trọng khi bổ sung thêm vị thế</li>
 </ul>
 <h4 id="mcetoc_1ekqn11ts1">ATR - Average True Range</h4>
-<h3 id="mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</h3>
+<p>Sử dụng các đường ATR trong bộ chỉ báo Keltner Channels để thiết lập các điểm mua, điểm dừng lỗ, mục tiêu lợi nhuận</p>
+<ul>
+<li>Mở vị thế: mua dưới đường giá trị - dưới đường EMA. Các đợt kéo ngược có khuynh hướng tiến về các đáy gần nhất với khoảng cách 1 ATR</li>
+<li>Dừng lỗ: cách xa 1 ATR so với điểm mở vị thế</li>
+<li>Mục tiêu giá: chốt toàn bộ hoặc từng phần tại các vùng 1 ATR, 2 ATR hoặc 3 ATR</li>
+</ul>
+<p>Thị trường sẽ không bình thường khi giao dịch bên ngoài 3 ATR, nên kỳ vọng giá sẽ kéo ngược trở lại</p>
+<h3 id="mcetoc_1ekrmkvc6f">Nhóm chỉ báo dao động (oscillators)</h3>
 <p>Các chỉ báo đi trước - thường đảo chiều trước khi giá quay đầu</p>
+<h4 id="mcetoc_1ekrmkvc6g">Chỉ báo Stochastic</h4>
 <h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
 <p>Các chỉ báo tiên đoán trước - cung cấp tầm nhìn về mức độ tăng hoặc giảm giá</p>
 <p> </p>
