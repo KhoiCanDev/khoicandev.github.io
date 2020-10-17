@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-10-10T20:54:26+07:00</updated>
+    <updated>2020-10-17T14:22:53+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-10-10T20:54:26+07:00</updated>
+        <updated>2020-10-17T14:22:53+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -385,6 +385,7 @@
 </ul>
 </li>
 <li><a href="#mcetoc_1ek9brmao9">Hệ thống Directional</a></li>
+<li><a href="#mcetoc_1ekqn11ts1">ATR - Average True Range</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</a></li>
@@ -595,9 +596,25 @@
 <h5 id="mcetoc_1ek8irufece">EMA - Exponential MA</h5>
 <p>Đánh trọng số cao hơn cho các dữ liệu mới, thay đổi nhanh hơn so với SMA. EMA không bị thay đổi khi loại bỏ dữ liệu cũ</p>
 <h5 id="mcetoc_1ek972kcv5">MACD - Convergence Divergence - Histogram</h5>
-<p>Bao gồm hai đường, một đường MACD nhanh và một đường tín hiệu chậm - Signal. Khi đường MACD nhanh cắt lên đường tín hiệu, tạo tín hiệu mua. Khi cắt xuống sẽ tạo tín hiệu bán</p>
-<p>Histogram đo lường chênh lệch giữa MACD và đường tín hiệu, đánh dấu thành biểu đồ cột. Dùng histogram để xem được tương quan sức mạnh giữa bên mua và bên bán. Histogram tạo tín hiệu mua khi có một cột nảy lên từ đáy thứ hai, tạo tín hiệu bán khi có một cột giảm xuống nhẹ từ đỉnh thứ hai</p>
+<p>Bao gồm hai đường, một đường MACD nhanh và một đường Signal - tín hiệu chậm</p>
+<p>Khi đường MACD nhanh cắt lên đường Signal, tạo tín hiệu mua, khi cắt xuống sẽ tạo tín hiệu bán</p>
+<p>Histogram đo lường chênh lệch giữa đường MACD và đường Signal, đánh dấu thành biểu đồ cột. Dùng histogram để xem được tương quan sức mạnh giữa bên mua và bên bán.</p>
+<p>Khi độ dốc của đường Histogram di chuyển theo hướng của giá, xu hướng là an toàn để giao dịch, ngược lại thì xu hướng đang bị nghi ngờ. Độ dốc của Histogram quan trọng hơn so với vị thế trên hoặc dưới đường 0</p>
+<p>Một đỉnh cao mới trong 3 tháng của Histogram trên đồ thị ngày cho thấy xu hướng tăng mạnh, và giá chắc chắn tăng hơn nữa. Một đáy thấp mới trong 3 tháng sẽ cho thấy bên bán đang rất mạnh và giá sẽ còn giảm tiếp. Khi Histogram đạt đỉnh mới trong một đợt tăng giá, đợt tăng giá tiếp theo sẽ kiểm định hoặc vượt qua đỉnh cũ trước đó. Nếu Histogram giảm đến đáy thấp mới trong một đợt giảm giá, thì giá sẽ kiểm định hoặc phá thủng đáy gần nhất</p>
+<p>Phân kỳ dương (PKD): xảy ra để kết thúc xu hướng giảm giá, xác định đáy. Dấu hiệu xảy ra khi giá và chỉ báo cả hai cùng tạo đáy mới, sau đó hồi phục, chỉ báo dao động tăng lên trên đường 0, sau đó cả hai cùng giảm một lần nữa. Lúc này giá tạo đáy mới nhưng chỉ báo dao động tạo đáy cao hơn so với lần sụt giảm trước đó. Hiện tượng phá vỡ đường 0 là điều kiện phải có để gọi là PKD. PKD xảy ra trước những đợt phục hồi giá nhanh. PKD tạo tín hiệu mua khi có một cột nảy lên từ đáy thứ hai</p>
+<p>Phân kỳ âm (PKA): xảy ra trong xu hướng tăng - xác định đỉnh. Dấu hiệu xảy ra khi giá chạm đến đỉnh cao mới, sau đó kéo ngược, cùng với chỉ báo dao động giảm xuống dưới đường 0. Giá ổn định sau đó hồi phục đến đỉnh cao hơn, nhưng chỉ báo dao động đạt đến đỉnh thấp hơn so với đợt hồi phục trước đó. PKA thường dẫn đến sự giảm giá mạnh. PKA tạo tín hiệu bán khi có một cột giảm xuống nhẹ từ đỉnh thứ hai</p>
 <h4 id="mcetoc_1ek9brmao9">Hệ thống Directional</h4>
+<p>Cho thấy khi nào xu hướng đang chuyển động đủ nhanh để chạy theo. Giúp kiếm lợi nhuận ở những đoạn giữa xu hướng</p>
+<p>Nguyên tắc</p>
+<ul>
+<li>Chỉ giao dịch mua khi +DI nằm trên -DI. Bán khi -DI nằm trên +DI. Thời điểm tốt nhất để giao dịch là khi ADX tăng, cho thấy nhóm chi phối đang mạnh lên</li>
+<li>Khi ADX giảm, cho thấy thị trường đang mất phương hướng, khả năng có nhiều bẫy, tốt nhất không nên sử dụng phương pháp theo sau xu hướng</li>
+<li>Khi ADX giảm xuống phía dưới các đường DI, đó là lúc thị trường đi ngang và có nhiều bẫy. Không nên sử dụng phương pháp theo sau xu hướng nhưng hãy sẵn sàng cho xu hướng lớn thường xuất hiện sau đó</li>
+<li>Tín hiệu tốt nhất là khi ADX giảm xuống dưới 2 đường DI. ADX nằm ở đó một thời gian dài tạo nền tảng vững chắc cho xu hướng tiếp theo. Khi ADX tăng lên trên hai đường DI sẽ tạo xu hướng mới, tăng hay giảm giá tùy thuộc vào đường DI nào đang ở trên</li>
+<li>Khi ADX tăng lên trên cả hai đường DI, xác định thị trường đang quá nóng. Khi ADX giảm xuống dưới cả hai đường DI. Cho thấy xu hướng chính đang suy yếu. Đây là thời điểm tốt để chốt lợi nhuận</li>
+<li>Khi ADX giảm cần thận trọng khi bổ sung thêm vị thế</li>
+</ul>
+<h4 id="mcetoc_1ekqn11ts1">ATR - Average True Range</h4>
 <h3 id="mcetoc_1ek8irufecg">Nhóm chỉ báo dao động</h3>
 <p>Các chỉ báo đi trước - thường đảo chiều trước khi giá quay đầu</p>
 <h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
