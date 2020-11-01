@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-10-25T11:23:28+07:00</updated>
+    <updated>2020-11-01T12:08:06+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-10-25T11:23:28+07:00</updated>
+        <updated>2020-11-01T12:08:06+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -367,7 +367,7 @@
         <content type="html">
             <![CDATA[
                 <div class="post__toc">
-<h3>Mục lục</h3>
+<h3>Table of Contents</h3>
 <ul>
 <li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
@@ -386,11 +386,15 @@
 </li>
 <li><a href="#mcetoc_1ek9brmao9">Hệ thống Directional</a></li>
 <li><a href="#mcetoc_1ekqn11ts1">ATR - Average True Range</a></li>
+<li><a href="#mcetoc_1em138sr95m">OBV (On-Balance Volume)</a></li>
+<li><a href="#mcetoc_1em138sr95n">Accumulation/Distribution</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1ekrmkvc6f">Nhóm chỉ báo dao động (oscillators)</a>
 <ul>
-<li><a href="#mcetoc_1ekrmkvc6g">Chỉ báo Stochastic</a></li>
+<li><a href="#mcetoc_1ekrmkvc6g">Stochastic</a></li>
+<li><a href="#mcetoc_1em138sr95o">RSI</a></li>
+<li><a href="#mcetoc_1em138sr95p">Force Index (Elder Force Index)</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</a></li>
@@ -410,7 +414,7 @@
 </ul>
 </div>
 <h2 id="mcetoc_1e51nnfgj0">Khái niệm</h2>
-<table style="height: 777px;" border="1">
+<table border="1">
 <tbody>
 <tr style="height: 195px;">
 <td style="height: 195px; width: 175px;">Biểu đồ nến</td>
@@ -427,10 +431,6 @@
 <tr style="height: 79px;">
 <td style="height: 79px; width: 175px;">Phân tích kỹ thuật</td>
 <td style="height: 79px; width: 541px;">Trong ngắn hạn, thị trường được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được NĐT lạc quan hay bi quan</td>
-</tr>
-<tr style="height: 108px;">
-<td style="height: 108px; width: 175px;">Biên độ dao động</td>
-<td style="height: 108px; width: 541px;">- HOSE: 7%<br>- HNX: 10%<br>- UPCOM: 15%<br>- US: không có giới hạn</td>
 </tr>
 <tr>
 <td style="width: 175px;">Các lệnh trên sàn GD</td>
@@ -585,7 +585,7 @@
 <ul>
 <li>Xu hướng tăng: tạo đỉnh cao hơn, đáy cao hơn, vẽ đường đường hỗ trợ ở các đáy, đường hỗ trợ chạm giá CP càng nhiều thì càng mạnh</li>
 <li>Xu hướng giảm: tạo đỉnh thấp hơn, đáy thấp hơn, vẽ đường kháng cự ở các đỉnh, đường kháng cự chạm giá CP càng nhiều thì càng mạnh</li>
-<li>Ổn định đi ngang: đi ngang giữa mức giá cao hơn và mức giá thấp hơn, chưa thể kiếm tời từ những CP ổn định</li>
+<li>Ổn định đi ngang: đi ngang giữa mức giá cao hơn và mức giá thấp hơn</li>
 </ul>
 <h3 id="mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng (trend-following)</h3>
 <p>Các chỉ báo trễ - chỉ thay đổi sau khi xu hướng đảo ngược</p>
@@ -626,13 +626,30 @@
 <li>Mục tiêu giá: chốt toàn bộ hoặc từng phần tại các vùng 1 ATR, 2 ATR hoặc 3 ATR</li>
 </ul>
 <p>Thị trường sẽ không bình thường khi giao dịch bên ngoài 3 ATR, nên kỳ vọng giá sẽ kéo ngược trở lại</p>
+<h4 id="mcetoc_1em138sr95m">OBV (On-Balance Volume)</h4>
+<p>Sử dụng tổng khối lượng. Khối lượng mỗi ngày được cộng hoặc trừ đi, tùy theo giá đóng cửa cao hay thấp hơn so với ngày trước đó</p>
+<p>Khi OBV chạm đỉnh mới xác nhận sức mạnh của bên mua, cho thấy giá tiếp tục tăng cao hơn. Khi OBV giảm thấp hơn đáy trước xác nhận sức mạnh của bên bán, đề nghị giá tiếp tục giảm</p>
+<p>OBV tạo ra tín hiệu mua và bán mạnh nhất khi có phân kỳ với giá. Khi giá hồi phục, giảm, và tăng lên đỉnh cao nhưng OBV tạo đỉnh thấp hơn trước đó, tạo phân kỳ âm, là tín hiệu bán. Nếu giá giảm, bật lên, và giảm xuống đáy mới, nhưng OBV giảm xuống đáy cao hơn đáy trước, tạo phân kỳ dương, là tín hiệu mua. Phân kỳ dài hạn quan trọng hơn phân kỳ ngắn hạn</p>
+<p>Khi giá dao động trong khung giá:</p>
+<ul>
+<li>OBV phá vỡ hướng lên và tạo đỉnh mới, là tín hiệu mua</li>
+<li>OBV phá vỡ hướng xuống tạo đáy mới, là tín hiệu bán</li>
+</ul>
+<h4 id="mcetoc_1em138sr95n">Accumulation/Distribution</h4>
+<p>A/D theo dõi mối quan hệ giữa giá mở cửa, giá đóng cửa, bên cạnh khối lượng. Được hiệu chỉnh tốt hơn so với OBV vì nó tính chiến thắng của bên mua hoặc bên bán theo tỉ lệ phần trăm với khối lượng giao dịch mỗi ngày</p>
+<p>Khi thị trường mở cửa thấp và đóng cửa cao, đó là khi A/D tăng cho thấy các NDT chuyên nghiệp lạc quan hơn, và xu hướng tăng giá nhiều khả năng sẽ tiếp tục. Khi A/D giảm xuống cho thấy các NDT chuyên nghiệp bi quan hơn, giá sẽ tạo xu hướng giảm vào các ngày tiếp theo</p>
+<p>Tín hiệu giao dịch tốt nhất là dựa trên phân kỳ A/D với giá:</p>
+<ul>
+<li>Nếu giá tăng lên đỉnh mới nhưng A/D tạo đỉnh thấp hơn, tạo phân kỳ âm, tín hiệu bán</li>
+<li>Khi giá giảm xuống đáy thấp hơn nhưng A/D tạo đáy cao hơn so với đợt sụt giảm trước, tạo phân kỳ dương, tín hiệu mua</li>
+</ul>
 <h3 id="mcetoc_1ekrmkvc6f">Nhóm chỉ báo dao động (oscillators)</h3>
 <p>Các chỉ báo đi trước - thường đảo chiều trước khi giá quay đầu. Xác định các trạng thái cảm xúc cực điểm của đám đông thị trường. Phát hiện ra các mức lạc quan và bi quan không bền vững</p>
 <p>Chỉ báo dao động hoạt động tốt trong các khung giá giao dịch, khi giá thoát khỏi khung giá để tạo thành xu hướng mới, các tín hiệu này trở nên bị lỗi </p>
 <h4 id="mcetoc_1ekrmkvc6g">Stochastic</h4>
 <p>Theo dõi mối quan hệ giữa mỗi mức giá đóng cửa và khung đỉnh - đáy gần nhất. Stochastic mang lại ba tín hiệu giao dịch</p>
 <ul>
-<li>Phân kỳ:
+<li>Phân kỳ dương &amp; âm:
 <ul>
 <li>Phân kỳ dương xảy ra khi giá giảm xuống đáy mới, nhưng Stoch vẫn có đáy cao hơn so với lần sụt giảm trước đó, cho thấy bên bán mất đi sức mạnh và giá giảm không có quán tính. Khi Stoch vòng lên từ đáy thứ hai, đó là tín hiệu mua mạnh. Tín hiệu mua tốt nhất xảy ra khi đáy đầu tiên nằm dưới đường tham chiếu dưới và đáy thứ hai nằm cao hơn đường tham chiếu dưới.</li>
 <li>Phân kỳ âm xảy ra khi giá tăng lên đỉnh cao mới, nhưng Stoch lại tạo đỉnh thấp hơn so với đợt tăng trước đó, cho thấy bên mua trở nên yếu hơn và giá đang tăng mà không có quán tính. Khi Stoch vòng xuống từ đỉnh thứ hai, đó là tín hiệu bán. Tín hiệu bán tốt nhất khi đỉnh đầu tiên nằm trên đường tham chiếu trên và đỉnh thứ hai nằm dưới đường tham chiếu trên</li>
@@ -655,7 +672,7 @@
 </li>
 <li>Hướng của các đường Stoch: khi cả hai đường Stoch nằm theo cùng một hướng, chúng xác nhận xu hướng ngắn hạn. Khi giá tăng và hai đường Stoch đều tăng, xu hướng tăng là chắc chắn còn tiếp diễn. Khi giá giảm và hai đường Stoch đều giảm, xu hướng giảm sẽ còn diễn ra</li>
 </ul>
-<h4>RSI</h4>
+<h4 id="mcetoc_1em138sr95o">RSI</h4>
 <p>Theo dõi sự thay đổi trong giá đóng cửa. Khi nó đạt đỉnh và vòng xuống, giá tạo lập đỉnh. Khi nó giảm và vòng trở lên, xác định đây là đáy</p>
 <p>RSI đưa ra ba loại tín hiệu giao dịch:</p>
 <ul>
@@ -668,6 +685,7 @@
 <li>Mẫu hình đồ thị: RSI thường phá vỡ các mức hỗ trợ hoặc kháng cự một vài ngày trước giá. Khi RSI phá vỡ lên trên đường xu hướng giảm, đặt lệnh chờ mua ở trên đỉnh giá gần nhất để bắt theo điểm phá vỡ hướng lên. Khi RSI phá vỡ xuống dưới đường xu hướng giảm, đặt lệnh chờ bán phía dưới đáy gần nhất để bắt theo điểm phá vỡ hướng xuống</li>
 <li>Các mức RSI: cân nhắc mua khi RSI giảm xuống dưới đường xu hướng dưới và sau đó vòng tăng lên trên. Cân nhắc bán khi RSI tăng lên đường xu hướng trên và sau đó vòng cắt xuống. Cần kết hợp với phân tích xu hướng để biết rõ nên mua hay bán.</li>
 </ul>
+<h4 id="mcetoc_1em138sr95p">Force Index (Elder Force Index)</h4>
 <h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
 <p>Các chỉ báo tiên đoán trước - cung cấp tầm nhìn về mức độ tăng hoặc giảm giá</p>
 <p> </p>
