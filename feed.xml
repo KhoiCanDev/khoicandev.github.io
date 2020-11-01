@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-11-01T12:08:06+07:00</updated>
+    <updated>2020-11-01T16:20:49+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-11-01T12:08:06+07:00</updated>
+        <updated>2020-11-01T16:20:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -686,6 +686,27 @@
 <li>Các mức RSI: cân nhắc mua khi RSI giảm xuống dưới đường xu hướng dưới và sau đó vòng tăng lên trên. Cân nhắc bán khi RSI tăng lên đường xu hướng trên và sau đó vòng cắt xuống. Cần kết hợp với phân tích xu hướng để biết rõ nên mua hay bán.</li>
 </ul>
 <h4 id="mcetoc_1em138sr95p">Force Index (Elder Force Index)</h4>
+<p>Kêt hợp khối lượng với giá để phát hiện lực của bên mua hoặc bên bán đằng sau mỗi đợt hồi phục hoặc giảm giá</p>
+<p>Force Index ngắn hạn (EMA 2):</p>
+<ul>
+<li>Cho độ nhạy cao với các lực ngắn hạn của bên mua và bên bán</li>
+<li>Khi các chỉ báo theo sau xu hướng xác nhận xu hướng tăng, sự sụt giảm FI EMA 2 dưới đường 0 cho tín hiệu mua tốt nhất (mua gần các đáy ngắn hạn)</li>
+<li>Khi các chỉ báo theo sau xu hướng xác nhận xu hướng giảm, sự hồi phục của FI EMA 2 cho tín hiệu bán tốt nhất</li>
+<li>Khi FI EMA 2 giảm xuống đáy thấp nhất trong 1 tháng, cho thấy bên bán còn đang mạnh và giá sẽ tiếp tục giảm xuống đáy mới. Khi FI EMA 2 hồi phục lên đỉnh cao nhất của 1 tháng, cho thấy bên mua còn đang mạnh và giá sẽ lên cao hơn</li>
+<li>Phân kỳ dương giữa FI EMA 2 và giá tạo tín hiệu mua mạnh, xảy ra khi giá tạo đáy mới thấp hơn, FI tạo đáy cao hơn</li>
+<li>Phân kỳ âm giữa FI EMA 2 và giá tạo tín hiệu bán mạnh, xảy ra khi giá tạo đỉnh mới, FI tạo đỉnh thấp hơn</li>
+<li>Khi FI EMA 2 giảm đột ngột (spike dow) gấp 5 lần hoặc nhiều hơn chiều sâu thông thường, và hồi phục từ đáy thấp này,hãy kỳ vọng giá sẽ hồi phục trong các ngày tiếp theo</li>
+<li>Hiện tượng giảm giá sâu đột ngột thường phản ánh nỗi sợ hãi cao độ, là cảm xúc không tồn tại lâu. Các đợt tăng giá nhanh đột ngột thường phản ánh cảm xúc hăng hái và lòng tham, là loại cảm xúc có thể tồn tại khá lâu</li>
+</ul>
+<p>Force Index trung hạn (EMA 13)</p>
+<ul>
+<li>Xác định thay đổi dài hạn hơn trong tương quan sức mạnh giữa bên mua và bên bán</li>
+<li>Khi nó trên đường 0, bên mua mạnh hơn. Khi dưới đường 0, bên bán chiếm ưu thế</li>
+<li>Khi FI EMA 13 đạt đỉnh cao mới, xác nhận xu hướng tăng. Khi xu hướng diễn ra khá lâu, giá có xu hướng tăng chậm hơn, khối lượng ít hơn. Đó là khi FI EMA 13 tạo đỉnh thấp hơn. Khi nó giảm xuống dưới đường 0, cho thấy bên mua đã bị đánh bại</li>
+<li>Phân kỳ âm giữa FI EMA 13 và giá tạo ra tín hiệu bán mạnh. Đó là khi giá tạo đỉnh mới nhưng chỉ báo lại tạo đỉnh thấp hơn. Lưu ý phải đủ điều khiện tạo phân kỳ (tạo đỉnh mới - giảm xuống 0 - tạo đỉnh thấp hơn)</li>
+<li>Phân kỳ dương giữa FI EMA 13 và giá tạo ra tín hiệu mua mạnh. Đó là khi giá tạo đáy mới nhưng FI EMA 13 tạo đáy cao hơn đáy trước</li>
+<li>Khi xu hướng giảm mới bắt đầu, giá thường giảm với khối lượng lớn. Khi FI EMA 13 tạo đáy mới thấp hơn, xác nhận đợt giảm giá. Khi xu hướng diễn ra khá lâu, giá giảm chậm dần và khối lượng cạn dần - đó là khi sự đảo ngược sắp diễn ra</li>
+</ul>
 <h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
 <p>Các chỉ báo tiên đoán trước - cung cấp tầm nhìn về mức độ tăng hoặc giảm giá</p>
 <p> </p>
