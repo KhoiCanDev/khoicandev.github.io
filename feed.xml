@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-11-01T16:20:49+07:00</updated>
+    <updated>2020-11-08T16:01:43+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-11-01T16:20:49+07:00</updated>
+        <updated>2020-11-08T16:01:43+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -370,9 +370,16 @@
 <h3>Table of Contents</h3>
 <ul>
 <li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
+<li><a href="#mcetoc_1emitf36o5">Triết lý đầu tư</a>
+<ul>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
 <li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
+<li><a href="#mcetoc_1emjhcrpof">Tính chất của khối lượng</a></li>
+<li><a href="#mcetoc_1emjhcrpog">Tính chất của thời gian</a></li>
+<li><a href="#mcetoc_1emjhdh7hi">Hệ thống giao dịch</a></li>
+</ul>
+</li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
 <ul>
 <li><a href="#mcetoc_1ek8irufecb">Nhóm chỉ báo theo sau xu hướng (trend-following)</a>
@@ -384,7 +391,7 @@
 <li><a href="#mcetoc_1ek972kcv5">MACD - Convergence Divergence - Histogram</a></li>
 </ul>
 </li>
-<li><a href="#mcetoc_1ek9brmao9">Hệ thống Directional</a></li>
+<li><a href="#mcetoc_1ek9brmao9">Hệ thống Directional (ADX)</a></li>
 <li><a href="#mcetoc_1ekqn11ts1">ATR - Average True Range</a></li>
 <li><a href="#mcetoc_1em138sr95m">OBV (On-Balance Volume)</a></li>
 <li><a href="#mcetoc_1em138sr95n">Accumulation/Distribution</a></li>
@@ -397,7 +404,7 @@
 <li><a href="#mcetoc_1em138sr95p">Force Index (Elder Force Index)</a></li>
 </ul>
 </li>
-<li><a href="#mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</a></li>
+<li> </li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a>
@@ -438,7 +445,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h2>
+<h2 id="mcetoc_1emitf36o5">Triết lý đầu tư</h2>
+<h3 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h3>
 <p>Chọn ra những công ty có lợi thế cạnh tranh bền vững</p>
 <ul>
 <li>Có hào kinh tế rộng</li>
@@ -501,7 +509,7 @@
 <li>Số lượng cổ phiếu = (% Rủi ro giao dịch * Vốn) / ($ Rủi ro trên cổ phiếu)</li>
 </ul>
 <p>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (chọn số nào thấp hơn)<br>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</p>
-<h2 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h2>
+<h3 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h3>
 <p>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới</p>
 <ul>
 <li>Ghi lại dòng tiền mặt từ hoạt động kinh doanh theo khung 12 tháng, tỷ lệ tăng trưởng dài hạn</li>
@@ -565,7 +573,7 @@
 <li>Giá trị bù = (Tiền mặt và các khoản tương đương - Tổng nợ) / số lượng CP đang lưu hành</li>
 <li>Giá trị thật chính xác hơn = Giá trị thật của một cổ phiếu - Giá trị bù</li>
 </ul>
-<h2 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h2>
+<h3 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h3>
 <ul>
 <li>Cổ phiếu đảo chiều sang xu hướng giảm</li>
 <li>Cơ cấu tổ chức điều hành công ty có sự xáo trộn</li>
@@ -580,6 +588,9 @@
 </ul>
 </li>
 </ul>
+<h3 id="mcetoc_1emjhcrpof">Tính chất của khối lượng</h3>
+<h3 id="mcetoc_1emjhcrpog">Tính chất của thời gian</h3>
+<h3 id="mcetoc_1emjhdh7hi">Hệ thống giao dịch</h3>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
 <p>Xác định xu hướng giá cổ phiếu</p>
 <ul>
@@ -607,7 +618,7 @@
 <p>Một đỉnh cao mới trong 3 tháng của Histogram trên đồ thị ngày cho thấy xu hướng tăng mạnh, và giá chắc chắn tăng hơn nữa. Một đáy thấp mới trong 3 tháng sẽ cho thấy bên bán đang rất mạnh và giá sẽ còn giảm tiếp. Khi Histogram đạt đỉnh mới trong một đợt tăng giá, đợt tăng giá tiếp theo sẽ kiểm định hoặc vượt qua đỉnh cũ trước đó. Nếu Histogram giảm đến đáy thấp mới trong một đợt giảm giá, thì giá sẽ kiểm định hoặc phá thủng đáy gần nhất</p>
 <p>Phân kỳ dương (PKD): xảy ra để kết thúc xu hướng giảm giá, xác định đáy. Dấu hiệu xảy ra khi giá và chỉ báo cả hai cùng tạo đáy mới, sau đó hồi phục, chỉ báo dao động tăng lên trên đường 0, sau đó cả hai cùng giảm một lần nữa. Lúc này giá tạo đáy mới nhưng chỉ báo dao động tạo đáy cao hơn so với lần sụt giảm trước đó. Hiện tượng phá vỡ đường 0 là điều kiện phải có để gọi là PKD. PKD xảy ra trước những đợt phục hồi giá nhanh. PKD tạo tín hiệu mua khi có một cột nảy lên từ đáy thứ hai</p>
 <p>Phân kỳ âm (PKA): xảy ra trong xu hướng tăng - xác định đỉnh. Dấu hiệu xảy ra khi giá chạm đến đỉnh cao mới, sau đó kéo ngược, cùng với chỉ báo dao động giảm xuống dưới đường 0. Giá ổn định sau đó hồi phục đến đỉnh cao hơn, nhưng chỉ báo dao động đạt đến đỉnh thấp hơn so với đợt hồi phục trước đó. PKA thường dẫn đến sự giảm giá mạnh. PKA tạo tín hiệu bán khi có một cột giảm xuống nhẹ từ đỉnh thứ hai</p>
-<h4 id="mcetoc_1ek9brmao9">Hệ thống Directional</h4>
+<h4 id="mcetoc_1ek9brmao9">Hệ thống Directional (ADX)</h4>
 <p>Cho thấy khi nào xu hướng đang chuyển động đủ nhanh để chạy theo. Giúp kiếm lợi nhuận ở những đoạn giữa xu hướng</p>
 <p>Nguyên tắc</p>
 <ul>
@@ -707,9 +718,6 @@
 <li>Phân kỳ dương giữa FI EMA 13 và giá tạo ra tín hiệu mua mạnh. Đó là khi giá tạo đáy mới nhưng FI EMA 13 tạo đáy cao hơn đáy trước</li>
 <li>Khi xu hướng giảm mới bắt đầu, giá thường giảm với khối lượng lớn. Khi FI EMA 13 tạo đáy mới thấp hơn, xác nhận đợt giảm giá. Khi xu hướng diễn ra khá lâu, giá giảm chậm dần và khối lượng cạn dần - đó là khi sự đảo ngược sắp diễn ra</li>
 </ul>
-<h3 id="mcetoc_1ek8irufech">Nhóm chỉ báo hỗn hợp</h3>
-<p>Các chỉ báo tiên đoán trước - cung cấp tầm nhìn về mức độ tăng hoặc giảm giá</p>
-<p> </p>
 <h2 id="mcetoc_1e4jf6s5d0">Phân tích cơ bản</h2>
 <h3 id="mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</h3>
 <ul>
