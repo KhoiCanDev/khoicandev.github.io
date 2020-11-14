@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-11-08T16:15:17+07:00</updated>
+    <updated>2020-11-14T19:16:47+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-11-08T16:15:17+07:00</updated>
+        <updated>2020-11-14T19:16:47+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -377,7 +377,14 @@
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
 <li><a href="#mcetoc_1emjhcrpof">Tính chất của khối lượng</a></li>
 <li><a href="#mcetoc_1emjhcrpog">Tính chất của thời gian</a></li>
-<li><a href="#mcetoc_1emjhdh7hi">Hệ thống giao dịch</a></li>
+<li><a href="#mcetoc_1en3aqq7pav">Ba yêu cầu cơ bản cho giao dịch</a></li>
+<li><a href="#mcetoc_1emjhdh7hi">Hệ thống giao dịch</a>
+<ul>
+<li><a href="#mcetoc_1en3aqq7pb0">Hệ thống ba khung thời gian</a></li>
+<li><a href="#mcetoc_1en3aqq7pb1">Hệ thống đẩy</a></li>
+<li><a href="#mcetoc_1en3au7a9b4">Hệ thống đa kênh</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
@@ -590,7 +597,29 @@
 </ul>
 <h3 id="mcetoc_1emjhcrpof">Tính chất của khối lượng</h3>
 <h3 id="mcetoc_1emjhcrpog">Tính chất của thời gian</h3>
+<h3 id="mcetoc_1en3aqq7pav">Ba yêu cầu cơ bản cho giao dịch</h3>
+<ol>
+<li>Thiết lập tín hiệu giao dịch: đưa ra 3 con số là mức giá tham gia, mức giá mục tiêu và mức giá cắt lỗ. Tỷ số lợi nhuận - rủi ro nên thường là 2:1</li>
+<li>Quản trị rủi ro: xác định bao nhiêu tiền bạn có thể sử dụng để đặt cược. Xác định số lượng vị thế dựa trên mức rủi ro này</li>
+<li>Lệnh giao dịch dựa trên hệ thống và chiến lược cụ thể: chỉ thực hiện giao dịch khi đáp ứng các tiêu chí của hệ thống</li>
+</ol>
 <h3 id="mcetoc_1emjhdh7hi">Hệ thống giao dịch</h3>
+<h4 id="mcetoc_1en3aqq7pb0">Hệ thống ba khung thời gian</h4>
+<p>Trước hết cần biết được mình muốn giao dịch ở khung thời gian nào - gọi là lựa chọn khung thời gian cơ bản. Khi có khung cơ bản, sẽ suy ra được khung dài hạn và ngắn hạn</p>
+<p>Nếu muốn giữ vị thế vài ngày hoặc vài tuần, khung cơ bản có thể là ngày. Nếu giao dịch trong ngày, khung cơ bản là 5 phút</p>
+<ul>
+<li>Khung thời gian dài hạn - thủy triều: xác định xu hướng bằng cách sử dụng chỉ báo theo sau xu hướng (như MACD Histogram), chỉ giao dịch theo chiều hướng đó</li>
+<li>Khung thời gian cơ bản - cơn sóng: xác định các cơn sóng ngược hướng với thủy triều. Khi tuần tăng mà ngày giảm, là cơ hội mua vào. Khi tuần giảm mà ngày tăng, là cơ hội bán ra. Áp dụng chỉ báo dao động (RSI, Stochastic, FI) để tìm cơ hội mua và bán</li>
+<li>Khung thời gian ngắn hạn - kỹ thuật mở vị thế: hầu như các đợt tăng giá đều có đợt kéo ngược định kỳ. Nên có thể đặt vị thế bằng phương pháp "bình quân mức độ xuyên phá EMA". Áp dụng ngược lại đối với xu hướng giảm.
+<ul>
+<li>Tính bình quân mức xuyên thủng xuống dưới đường EMA (1)</li>
+<li>Tính chênh lệch (2) EMA hôm trước (3) và hôm nay (4). Cộng chênh lệch (2) với EMA hôm nay (4) để dự đoán EMA ngày mai (5)</li>
+<li>Trừ EMA ngày mai (5) với bình quân mức xuyên thủng (1) ra được giá chờ mua (X)</li>
+</ul>
+</li>
+</ul>
+<h4 id="mcetoc_1en3aqq7pb1">Hệ thống đẩy</h4>
+<h4 id="mcetoc_1en3au7a9b4">Hệ thống đa kênh</h4>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
 <p>Xác định xu hướng giá cổ phiếu</p>
 <ul>
