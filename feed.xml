@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-11-14T19:16:47+07:00</updated>
+    <updated>2020-11-14T22:51:42+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -358,7 +358,7 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-11-14T19:16:47+07:00</updated>
+        <updated>2020-11-14T22:51:42+07:00</updated>
             <summary>
                 <![CDATA[
                     Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
@@ -385,6 +385,7 @@
 <li><a href="#mcetoc_1en3au7a9b4">Hệ thống đa kênh</a></li>
 </ul>
 </li>
+<li> </li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
@@ -619,6 +620,11 @@
 </li>
 </ul>
 <h4 id="mcetoc_1en3aqq7pb1">Hệ thống đẩy</h4>
+<p>Mô tả chuyển động của thị trường bằng quán tính và lực. Quán tính là độ dốc của đường EMA nhanh, tăng cho thấy quán tính tăng giá, giảm cho thấy quán tính giảm giá. Lực được phản ánh bằng độ dốc của MACD Histogram</p>
+<p>Hệ thống đẩy là một hệ thống kiểm duyệt, cho biết điều gì không được phép thực hiện</p>
+<p>EMA tăng &amp; MACD tăng (đặc biệt là dưới đường 0) = Hệ thống đẩy xanh, tăng giá. Không bán, chỉ mua.</p>
+<p>EMA giảm &amp; MACD giảm (đặc biệt là trên đường 0) = Hệ thống đẩy đỏ, giảm giá. Không mua, chỉ bán.</p>
+<p>EMA &amp; MACD ngược nhau = Hệ thống đẩy xanh dương, trung tính. Không cấm mua hoặc bán.</p>
 <h4 id="mcetoc_1en3au7a9b4">Hệ thống đa kênh</h4>
 <h2 id="mcetoc_1e52aut4s0">Phân tích kỹ thuật</h2>
 <p>Xác định xu hướng giá cổ phiếu</p>
