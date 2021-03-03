@@ -3,12 +3,91 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2020-11-14T22:51:42+07:00</updated>
+    <updated>2021-03-03T22:20:51+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
     <id>https://khoican.dev</id>
 
+    <entry>
+        <title>Bitcoin và Tiền mã hóa</title>
+        <author>
+            <name>Khoi Can Dev</name>
+        </author>
+        <link href="https://khoican.dev/bitcoin-va-tien-ma-hoa.html"/>
+        <id>https://khoican.dev/bitcoin-va-tien-ma-hoa.html</id>
+
+        <updated>2021-03-03T22:20:51+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Bitcoin là gì?Khái niệm cơ bảnLà đồng tiền mã hóa đầu tiên được phổ biến và sử dụng rộng rãiĐược&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Bitcoin là gì?</h2>
+<h3>Khái niệm cơ bản</h3>
+<ul>
+<li>Là đồng tiền mã hóa đầu tiên được phổ biến và sử dụng rộng rãi</li>
+<li>Được số hóa hoàn toàn, phi tập trung, được xây dựng trên những nguyên lý về khoa học máy tính, mã hóa và kinh tế học</li>
+<li><strong>B</strong>itcoin là tên của mạng lưới và giao thức được sử dụng trong mạng lưới</li>
+<li><strong>b</strong>itcoin là đơn vị tiền tệ trong mạng lưới</li>
+<li>Cấu trúc dữ liệu của mạng lưới được dựa trên blockchain (chuỗi khối), lưu lại toàn bộ các giao dịch từ trước tới hiện tại trên mạng lưới</li>
+</ul>
+<h3>Phong trào Cypherpunk</h3>
+<ul>
+<li>Cypherpunks là một nhóm những người đấu tranh cho việc bảo vệ tính riêng tư bằng các phương pháp mã hóa</li>
+<li>Bitcoin được phát minh bởi Satoshi Nakamoto vào năm 2009, là một hệ thống giao dịch phi tập trung, có tính nặc danh, và có tính truthless</li>
+</ul>
+<h3>Phát minh của Satoshi Nakamoto</h3>
+<ul>
+<li>Đó là blockchain (chuỗi khối) và consensus protocol (giao thức đồng thuận)</li>
+<li>Giải quyết các vấn đề mà một mạng phi tập trung có thể mắc phải
+<ul>
+<li>Tính không nhất quán của các giao dịch được lưu trong mỗi node</li>
+<li>Các thành phần đáng nghi muốn tạo ra những giao dịch không đúng để trục lợi</li>
+<li>Tấn công chi tiền nhiều lần: tạo các giao dịch bất đồng bộ trên nhiều node khác nhau</li>
+</ul>
+</li>
+</ul>
+<h3>Bitcoin &amp; hệ thống ngân hàng</h3>
+<table style="border-collapse: collapse; width: 100%; height: 316px;" border="1">
+<tbody>
+<tr style="height: 47px;">
+<td style="width: 33.3333%; height: 47px;"> </td>
+<td style="width: 33.3333%; height: 47px;">Ngân hàng</td>
+<td style="width: 33.3333%; height: 47px;">Bitcoin</td>
+</tr>
+<tr style="height: 128px;">
+<td style="width: 33.3333%; height: 128px;">Tài khoản và quản lý định danh</td>
+<td style="width: 33.3333%; height: 128px;">Liên kết thông tin cá nhân với tài khoản ngân hàng và chứng thực quyền sở hữu</td>
+<td style="width: 33.3333%; height: 128px;">Người dùng được phép tạo và quản lý định danh</td>
+</tr>
+<tr style="height: 47px;">
+<td style="width: 33.3333%; height: 47px;">Dịch vụ</td>
+<td style="width: 33.3333%; height: 47px;">Chuyển và trao đổi tiền</td>
+<td style="width: 33.3333%; height: 47px;">Gửi tiền trực tiếp giữa người dùng với nhau (P2P)</td>
+</tr>
+<tr style="height: 47px;">
+<td style="width: 33.3333%; height: 47px;">Quản lý lịch sử giao dịch</td>
+<td style="width: 33.3333%; height: 47px;">Cập nhật và lưu giữ số dư tài khoản ở ngân hàng</td>
+<td style="width: 33.3333%; height: 47px;">Cập nhật ở sổ cái ở các node theo nguyên tắc blockchain</td>
+</tr>
+<tr style="height: 47px;">
+<td style="width: 33.3333%; height: 47px;">Sự tin tưởng</td>
+<td style="width: 33.3333%; height: 47px;">Dịch vụ được cung cấp bởi những chuyên gia dưới sự quản lý của luật lệ nhà nước</td>
+<td style="width: 33.3333%; height: 47px;">Cung cấp giao thức đồng thuận khuyến khích các node hoạt động một cách trung thực</td>
+</tr>
+</tbody>
+</table>
+<h2>Chi tiết kỹ thuật về Bitcoin</h2>
+<h3>Định danh</h3>
+<h3>Giao dịch</h3>
+<h3>Lưu giữ lịch sử</h3>
+<h3>Giao thức đồng thuận</h3>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Ghi chú một số course ở VietGrow</title>
         <author>
@@ -64,7 +143,7 @@
         <id>https://khoican.dev/developer-thuc-dung-phan-2-phuong-phap-thuc-dung.html</id>
             <category term="Sách"/>
 
-        <updated>2020-09-01T20:03:39+07:00</updated>
+        <updated>2021-03-03T21:20:47+07:00</updated>
             <summary>
                 <![CDATA[
                     Sẽ có lầm tưởng 2 hàm trên vi phạm nguyên tắc DRY bởi thân hàm đều giống nhau. Điều đó&hellip;
@@ -174,17 +253,17 @@
 <p>Nếu API đó chưa có mô tả OpenAPI, bạn có thể tạo 1 bản mô tả và đăng lên mạng, sẽ giúp được người có cùng nhu cầu với bạn, và còn có thể được trợ giúp trong việc bảo trì</p>
 <h4 id="mcetoc_1eh1abcgkm">Trùng lặp về data source</h4>
 <p>Hầu hết các data source đều cho phép xem data schema, nên có thể tận dụng persistent framework / ORM để tạo ra các class data access dùng cho việc truy cập data source</p>
-<h3 id="mcetoc_1e6jq6qcj5">Trùng lặp giữa những developer</h3>
-<p>Sự trùng lặp bắt nguồn từ developer thường khó nhận biết nhất</p>
+<h3 id="mcetoc_1e6jq6qcj5">Trùng lặp giữa lập trình viên</h3>
+<p>Sự trùng lặp bắt nguồn từ lập trình viên thường khó nhận biết nhất</p>
 <p>Cần xây dựng một đội nhóm mạnh, gắn kết, với nền tảng giao tiếp tốt, sử dụng các kỹ thuật như stand-up meeting, slack để hỗ trợ và lưu giữ lịch sử giao tiếp</p>
-<p>Giao phó cho một người chức danh thủ thư của project, chức năng chính là tạo điều kiện cho việc trao đổi các kiến thức, như có một repository trung tâm chuyên lưu giữ những đoạn script hữu ích, có một quy trình review code theo lịch biểu, hoặc qua những PR</p>
+<p>Giao cho một người chức danh thủ thư của project, chức năng chính là tạo điều kiện cho việc trao đổi các kiến thức, như có một repository trung tâm chuyên lưu giữ những đoạn script hữu ích, có một quy trình review code theo lịch biểu, hoặc qua những PR</p>
 <p><strong>Lời khuyên thứ 16: Nên để việc tái sử dụng trở nên dễ dàng hơn</strong></p>
 <p>Hãy tạo điều kiện cho một môi-trường-tái-sử-dụng phát triển, nơi mà bạn có thể dễ dàng tái sử dụng những thứ có sẵn thay vì phải phát triển lại. Nếu thất bại, bạn sẽ có nguy cơ sa vào sự trùng lặp kiến thức</p>
-<h2 id="mcetoc_1e6jq6spa6">Hệ thống trực giao</h2>
+<h2 id="mcetoc_1e6jq6spa6">Hệ thống trực giao - orthogonality</h2>
 <p>Trực giao là một khái niệm quan trọng nếu muốn xây dựng một hệ thống dễ dàng thiết kế, xây dựng, test và mở rộng</p>
 <h3 id="mcetoc_1eh1abcgkn">Trực giao là gì</h3>
-<p>Trực giao là một khái niệm hình học, haiđường thẳng được gọi là trực giao khi chúng tạo thành một góc vuông, ở khái niệm vector, thì hai đường thằng này độc lập với nhau</p>
-<p>Đứng ở góc nhìn tin học, thì trực giao là một cách biểu đạt của việc decoupling, tính độc lập. Hai thành phần được gọi là độc lập khi thay đổi ở thành phần này không ảnh hưởng tới những thành phần khác</p>
+<p>Trực giao là một khái niệm hình học, hai đường thẳng được gọi là trực giao khi chúng tạo thành một góc vuông, theo góc nhìn vector học, thì hai đường thằng này độc lập với nhau</p>
+<p>Theo góc nhìn tin học, thì trực giao là một cách biểu đạt của việc decoupling - tính độc lập. Hai thành phần được gọi là độc lập khi thay đổi ở thành phần này không ảnh hưởng tới những thành phần khác</p>
 <p>Ở một hệ thống được thiết kế tốt, thì database code sẽ trực giao với giao diện người dùng: thay đổi ở database sẽ không làm ảnh hưởng tới giao diện, việc thay đổi giao diện không làm ảnh hưởng gì tới database, hoặc giao diện sẽ không bị ảnh hưởng khi thay đổi qua một loại database khác</p>
 <h3 id="mcetoc_1eh1abcgko">Lợi ích của sự trực giao</h3>
 <p>Hệ thống không có tính trực giao sẽ khó thay đổi và kiểm soát hơn. Khi những thành phần trong hệ thống có tính phụ thuộc với nhau, một bản sửa lỗi đơn giản cũng kéo theo sự thay đổi ở nhiều thành phần</p>
@@ -205,11 +284,11 @@
 <li>Không bị ràng buộc với một nhà cung cấp thứ ba, một sản phẩm hoặc nền tảng nào, bởi giao tiếp tới những hệ thống bên ngoài được giới hạn trong những thành phần nhỏ trong hệ thống</li>
 </ul>
 <h3 id="mcetoc_1eh1abcgkr">Thiết kế</h3>
-<p>Việc thiết kế một hệ thống trực giao là một vấn đề quen thuộc của giới developer, có thể gọi nó với những cái tên như modular, component-based, hoặc layered (mô hình nhiều lớp)</p>
+<p>Việc thiết kế một hệ thống trực giao là một vấn đề quen thuộc của giới lập trình, có thể gọi nó với những cái tên như modular, component-based, hoặc layered (mô hình nhiều lớp)</p>
 <p>Ở mô hình layered, các thành phần được gom vào các lớp khác nhau, mỗi lớp sẽ cung cấp một bộ abstraction để lớp khác có thể sử dụng</p>
 <p>Nên tự hỏi hệ thống của bạn độc lập thế nào với những thay đổi ở thế giới thực. Nếu bạn sử dụng số điện thoại để làm định danh cho một đối tượng nào đó, thì sẽ thế nào nếu số điện thoại đó bị đổi định dạng? Mấu chốt là, những thuộc tính ở thế giới thực là những thứ bạn không thể kiểm soát được, và có thể bị thay đổi vì bất kỳ lý do gì, nên đừng bao giờ dựa vào những thuộc tính bạn không thể kiểm soát</p>
 <h3 id="mcetoc_1eh1abcgks">Thư viện và các bộ công cụ</h3>
-<p>Cẩn thận khi chọn lựa thư viện hoặc bộ công cụ ở bên thứ ba vào hệ thống để đảm bảo tính trực giao. Ví dụ nếu một thư viện về data persistence cần bạn khởi tạo hoặc lấy dữ liệu objects theo một cách đặc biệt nào đó, thì thư viện đó không có tính trực giao. Giữ những ràng buộc thừa do bên thứ ba quy định, không cho chúng xâm nhậm code của bạn, là một cách tốt để dễ thay đổi nhà cung cấp trong tương lai</p>
+<p>Cẩn thận khi chọn lựa thư viện hoặc bộ công cụ ở bên thứ ba vào hệ thống để đảm bảo tính trực giao. Ví dụ nếu một thư viện về data persistence cần bạn khởi tạo hoặc lấy dữ liệu theo một cách đặc biệt nào đó, thì thư viện đó không có tính trực giao. Giữ những ràng buộc thừa do bên thứ ba quy định, không cho chúng xâm nhậm code của bạn, là một cách tốt để dễ thay đổi nhà cung cấp trong tương lai</p>
 <h3 id="mcetoc_1eh1abcgkt">Viết code</h3>
 <p>Khi có code mới được viết ra, bạn có nguy cơ phá vỡ tính trực giao hiện có. Một số phương pháp để theo dõi và duy trì tính trực giao:</p>
 <ul>
@@ -226,9 +305,13 @@
 <p>Tính trực giao cũng áp dụng cho việc soạn tài liệu. Hai thành phần trực giao là nội dung và cách trình bày. Việc trực giao là khả năng bạn có thể thay đổi kiểu cách của tài liệu mà không phải thay đổi nội dung.</p>
 <h3 id="mcetoc_1eh4s7s4u10">Sống với tính trực giao</h3>
 <p>Tính trực giao mối liên quan gần gũi với nguyên tắc DRY. Áp dụng DRY sẽ giúp giảm thiểu sự trùng lặp có trong hệ thống, trong khi tính trực giao sẽ giảm bớt mối ràng buộc giữa các thành phần trong hệ thống với nhau. Kết hợp 2 nguyên tắc đó sẽ giúp bạn xây dựng một hệ thống linh hoạt, dễ hiểu, dễ test và bảo trì</p>
-<h2 id="mcetoc_1e6jq6vhr7">Khả năng hoàn tác</h2>
-<p> </p>
+<h2 id="mcetoc_1e6jq6vhr7">Khả năng đảo ngược</h2>
+<p>Có một thực tế phũ phàng rằng thế giới luôn thay đổi, luôn có hơn nhiều hơn một cách để giải quyết vấn đề, luôn có nhiều hơn một nhà cung cấp cho một dịch vụ nào đó. Bằng cách ứng dụng nguyên tắc DRY, decoupling và external configuration, chúng ta sẽ hạn chế tạo ra các thay đổi quan trọng và không thể đảo ngược</p>
+<p><strong>Lời khuyên thứ 17: Không có quyết định nào là cuối cùng</strong></p>
+<p>Có rất nhiều kiến trúc ở server-side được giới thiệu và trở nên thịnh hành (chạy trên một server, nhiều server, nhiều server sau LB, container, serverless ...). Không thể nào để bạn lên kế hoạch đón đầu hết tất cả những kiến trúc có thể có trong tương lai cho ứng dụng của bạn. Do đó việc bạn có thể làm là làm ứng dụng của bạn thay đổi dễ nhất có thể: ẩn API bên thứ ba bằng lớp abstraction của riêng mình, tách code thành những component nhỏ ...</p>
+<p><strong>Lời khuyên thứ 18: Mốt đến rồi đi, chỉ ứng dụng của bạn là còn mãi</strong></p>
 <h2 id="mcetoc_1e6jq72lq8">Viên đạn dẫn đường</h2>
+<p> </p>
 <h2 id="mcetoc_1e6jq75pi9">Bản thử và ghim chú</h2>
 <h2 id="mcetoc_1e6jq78e3a">Ngôn ngữ nghiệp vụ</h2>
 <h2 id="mcetoc_1e6jq7b5ib">Canh đo thời gian</h2>
@@ -350,7 +433,7 @@
         </content>
     </entry>
     <entry>
-        <title>Sổ tay đầu tư</title>
+        <title>Đầu tư 101</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
@@ -358,10 +441,10 @@
         <id>https://khoican.dev/chung-khoan-notes.html</id>
             <category term="Ghi chú"/>
 
-        <updated>2020-11-14T22:51:42+07:00</updated>
+        <updated>2021-02-21T10:08:18+07:00</updated>
             <summary>
                 <![CDATA[
-                    Khái niệmBiểu đồ nếnNến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa Nến đỏ:&hellip;
+                    Triết lý đầu tưNên đầu tư như thế nàoChọn ra những công ty có lợi thế cạnh tranh bền vững&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -369,11 +452,9 @@
                 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
-<li><a href="#mcetoc_1e51nnfgj0">Khái niệm</a></li>
 <li><a href="#mcetoc_1emitf36o5">Triết lý đầu tư</a>
 <ul>
 <li><a href="#mcetoc_1e51nnhr71">Nên đầu tư như thế nào</a></li>
-<li><a href="#mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</a></li>
 <li><a href="#mcetoc_1e4127lna1">Khi nào thì bán ra</a></li>
 <li><a href="#mcetoc_1emjhcrpof">Tính chất của khối lượng</a></li>
 <li><a href="#mcetoc_1emjhcrpog">Tính chất của thời gian</a></li>
@@ -385,7 +466,6 @@
 <li><a href="#mcetoc_1en3au7a9b4">Hệ thống đa kênh</a></li>
 </ul>
 </li>
-<li> </li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e52aut4s0">Phân tích kỹ thuật</a>
@@ -412,7 +492,6 @@
 <li><a href="#mcetoc_1em138sr95p">Force Index (Elder Force Index)</a></li>
 </ul>
 </li>
-<li> </li>
 </ul>
 </li>
 <li><a href="#mcetoc_1e4jf6s5d0">Phân tích cơ bản</a>
@@ -420,47 +499,35 @@
 <li><a href="#mcetoc_1ea7888bij">Kết quả hoạt động kinh doanh</a></li>
 <li><a href="#mcetoc_1eafcfqq0d">Bảng cân đối kế toán</a></li>
 <li><a href="#mcetoc_1eb1ekccp1">Báo cáo lưu chuyển tiền tệ</a></li>
-<li><a href="#mcetoc_1ebbh2tkt12">Các chỉ báo</a></li>
+<li><a href="#mcetoc_1ebbh2tkt12">Các thuật ngữ trong FA</a></li>
 <li><a href="#mcetoc_1ebbmu4lec1">Cổ phiếu ưu đãi và cổ phiếu thường</a></li>
 <li><a href="#mcetoc_1ebbmu4lec2">Cổ phiếu quỹ</a></li>
 </ul>
 </li>
+<li><a href="#mcetoc_1eulper3lt">Quản trị rủi ro</a>
+<ul>
+<li><a href="#mcetoc_1eulper3lu">Quy tắc 2%</a></li>
+<li><a href="#mcetoc_1eulper3lv">Quy tắc 6%</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1ev18166o43">Ghi chép nhật ký giao dịch</a>
+<ul>
+<li><a href="#mcetoc_1ev18166o44">Kiểm điểm đầu ngày</a></li>
+<li><a href="#mcetoc_1ev18166o45">Chấm điểm kế hoạch giao dịch</a></li>
+<li><a href="#mcetoc_1ev18166o46">Sử dụng Tradebill</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1e51nnfgj0">Các thuật ngữ</a></li>
 <li><a href="#mcetoc_1e41dldrk0">Các trang hữu ích</a></li>
 </ul>
 </div>
-<h2 id="mcetoc_1e51nnfgj0">Khái niệm</h2>
-<table border="1">
-<tbody>
-<tr style="height: 195px;">
-<td style="height: 195px; width: 175px;">Biểu đồ nến</td>
-<td style="height: 195px; width: 541px;">Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
-</tr>
-<tr style="height: 79px;">
-<td style="height: 79px; width: 175px;">Giá trị vốn hóa</td>
-<td style="height: 79px; width: 541px;">Giá trị vốn hóa = Giá cổ phiếu hiện tại * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
-</tr>
-<tr style="height: 108px;">
-<td style="height: 108px; width: 175px;">Phân tích cơ bản</td>
-<td style="height: 108px; width: 541px;">Phân tích giá trị, tiềm năng tăng trưởng, lợi thế cạnh tranh, dự báo tài chính ... của doanh nghiệp<br>Giá cổ phiếu sẽ tăng khi doanh nghiệp tăng giá trị</td>
-</tr>
-<tr style="height: 79px;">
-<td style="height: 79px; width: 175px;">Phân tích kỹ thuật</td>
-<td style="height: 79px; width: 541px;">Trong ngắn hạn, thị trường được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được NĐT lạc quan hay bi quan</td>
-</tr>
-<tr>
-<td style="width: 175px;">Các lệnh trên sàn GD</td>
-<td style="width: 541px;">ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn)<br>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn)<br>LO: mua hoặc bán ở 1 mức giá xác định hoặc tốt hơn (95%)<br>MP: mua hoặc bán ở mức giá thấp nhất / cao nhất trên thị trường</td>
-</tr>
-</tbody>
-</table>
 <h2 id="mcetoc_1emitf36o5">Triết lý đầu tư</h2>
 <h3 id="mcetoc_1e51nnhr71">Nên đầu tư như thế nào</h3>
 <p>Chọn ra những công ty có lợi thế cạnh tranh bền vững</p>
 <ul>
 <li>Có hào kinh tế rộng</li>
 <li>Thương hiệu mạnh, phổ biến, có tính biểu tượng, người mua trung thành</li>
-<li>Quy mô khổng lồ</li>
-<li>Dẫn đầu thị trường</li>
+<li>Quy mô khổng lồ, dẫn đầu thị trường</li>
 <li>Bằng sáng chế đặc biệt</li>
 <li>Chi phí chuyển đổi cao để giữ chân khách hàng</li>
 <li>Nắm giữ thế độc quyền</li>
@@ -506,81 +573,9 @@
 </tr>
 </tbody>
 </table>
-<p>Nắm giữ không quá 8 - 10 CP, không mua hơn 2 CP cùng nhóm ngành, không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</p>
-<p>Giữ 10% danh mục đầu tư bằng tiền mặt</p>
+<p>Nắm giữ không quá 8 - 10 mã CP, không mua hơn 2 mã CP cùng nhóm ngành, không hơn 3 cổ phiếu đảo chiều, 4 cổ phiếu có tính chu kỳ cao / công ty nhỏ tăng trưởng nhanh trong cùng một thời điểm</p>
 <p>Xây dựng danh mục đầu tư theo chu kỳ thị trường</p>
-<p>Tính quy mô đầu tư</p>
-<ul>
-<li>% Rủi ro giao dịch: 1.5 - 3%</li>
-<li>Giá cắt lỗ = Giá cổ phiếu giảm 8% giá mua</li>
-<li>$ Rủi ro trên cổ phiếu = Giá cổ phiếu - Giá cắt lỗ</li>
-<li>Số lượng cổ phiếu = (% Rủi ro giao dịch * Vốn) / ($ Rủi ro trên cổ phiếu)</li>
-</ul>
 <p>Đặt mục tiêu lợi nhuận bằng giá trị thật của cổ phiếu hoặc ngưỡng kháng cự kế tiếp (chọn số nào thấp hơn)<br>Tỷ lệ rủi ro - lợi nhuận ít nhất 1:2. R-Multiple &gt;= 2R</p>
-<h3 id="mcetoc_1e5v5e0iq1">Tính giá trị thật &amp; giá trị cốt lõi</h3>
-<p>Dự đoán dòng tiền của doanh nghiệp trong 10 năm tới</p>
-<ul>
-<li>Ghi lại dòng tiền mặt từ hoạt động kinh doanh theo khung 12 tháng, tỷ lệ tăng trưởng dài hạn</li>
-<li>Tính dòng tiền dự đoán theo từng năm</li>
-</ul>
-<p>Tính hệ số chiết khấu (Discount Factor - DF) phù hợp</p>
-<ul>
-<li>Kiểm tra giá trị beta: lớn hơn 1 là cổ phiếu có tính biến động cao hơn chỉ số chung của thị trường, nhỏ hơn 1 là cổ phiếu có tính biến động thấp hơn</li>
-</ul>
-<table>
-<tbody>
-<tr>
-<td>Beta</td>
-<td>Tỷ lệ chiết khấu</td>
-</tr>
-<tr>
-<td>Nhỏ hơn 0.80</td>
-<td>5%</td>
-</tr>
-<tr>
-<td>1</td>
-<td>6%</td>
-</tr>
-<tr>
-<td>1.1</td>
-<td>6.8%</td>
-</tr>
-<tr>
-<td>1.2</td>
-<td>7%</td>
-</tr>
-<tr>
-<td>1.3</td>
-<td>7.9%</td>
-</tr>
-<tr>
-<td>1.4</td>
-<td>8%</td>
-</tr>
-<tr>
-<td>1.5</td>
-<td>8.9%</td>
-</tr>
-<tr>
-<td>Lớn hơn 1.6</td>
-<td>9%</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Hệ số chiết khấu (DF) = 1 / tỷ lệ chiết khấu ^ n (n = số năm)</li>
-</ul>
-<p>Chiết khấu tất cả dòng tiền tương lai thành giá trị hiện tại (DV) và lấy tổng cộng</p>
-<ul>
-<li>Tính giá trị chiết khấu (DV) bằng cách nhân dòng tiền dự đoán với hệ số chiết khấu (DF)</li>
-<li>Tổng giá trị chiết khấu (DV) của 10 năm là giá trị thật của doanh nghiệp (PV)</li>
-</ul>
-<p>Tìm giá trị thật của cổ phiếu</p>
-<ul>
-<li>Giá trị thật của một cổ phiếu = PV / số lượng cổ phiếu đang lưu hành</li>
-<li>Giá trị bù = (Tiền mặt và các khoản tương đương - Tổng nợ) / số lượng CP đang lưu hành</li>
-<li>Giá trị thật chính xác hơn = Giá trị thật của một cổ phiếu - Giá trị bù</li>
-</ul>
 <h3 id="mcetoc_1e4127lna1">Khi nào thì bán ra</h3>
 <ul>
 <li>Cổ phiếu đảo chiều sang xu hướng giảm</li>
@@ -610,7 +605,7 @@
 <p>Nếu muốn giữ vị thế vài ngày hoặc vài tuần, khung cơ bản có thể là ngày. Nếu giao dịch trong ngày, khung cơ bản là 5 phút</p>
 <ul>
 <li>Khung thời gian dài hạn - thủy triều: xác định xu hướng bằng cách sử dụng chỉ báo theo sau xu hướng (như MACD Histogram), chỉ giao dịch theo chiều hướng đó</li>
-<li>Khung thời gian cơ bản - cơn sóng: xác định các cơn sóng ngược hướng với thủy triều. Khi tuần tăng mà ngày giảm, là cơ hội mua vào. Khi tuần giảm mà ngày tăng, là cơ hội bán ra. Áp dụng chỉ báo dao động (RSI, Stochastic, FI) để tìm cơ hội mua và bán</li>
+<li>Khung thời gian cơ bản - cơn sóng: xác định các cơn sóng ngược hướng với thủy triều. Khi tuần tăng mà ngày giảm, là cơ hội mua vào. Khi tuần giảm mà ngày tăng, là cơ hội bán ra. Áp dụng chỉ báo dao động (RSI, Stochastic, Force Index) để tìm cơ hội mua và bán</li>
 <li>Khung thời gian ngắn hạn - kỹ thuật mở vị thế: hầu như các đợt tăng giá đều có đợt kéo ngược định kỳ. Nên có thể đặt vị thế bằng phương pháp "bình quân mức độ xuyên phá EMA". Áp dụng ngược lại đối với xu hướng giảm.
 <ul>
 <li>Tính bình quân mức xuyên thủng xuống dưới đường EMA (1)</li>
@@ -741,7 +736,7 @@
 <li>Khi FI EMA 2 giảm xuống đáy thấp nhất trong 1 tháng, cho thấy bên bán còn đang mạnh và giá sẽ tiếp tục giảm xuống đáy mới. Khi FI EMA 2 hồi phục lên đỉnh cao nhất của 1 tháng, cho thấy bên mua còn đang mạnh và giá sẽ lên cao hơn</li>
 <li>Phân kỳ dương giữa FI EMA 2 và giá tạo tín hiệu mua mạnh, xảy ra khi giá tạo đáy mới thấp hơn, FI tạo đáy cao hơn</li>
 <li>Phân kỳ âm giữa FI EMA 2 và giá tạo tín hiệu bán mạnh, xảy ra khi giá tạo đỉnh mới, FI tạo đỉnh thấp hơn</li>
-<li>Khi FI EMA 2 giảm đột ngột (spike dow) gấp 5 lần hoặc nhiều hơn chiều sâu thông thường, và hồi phục từ đáy thấp này,hãy kỳ vọng giá sẽ hồi phục trong các ngày tiếp theo</li>
+<li>Khi FI EMA 2 giảm đột ngột (spike down) gấp 5 lần hoặc nhiều hơn chiều sâu thông thường, và hồi phục từ đáy thấp này,hãy kỳ vọng giá sẽ hồi phục trong các ngày tiếp theo</li>
 <li>Hiện tượng giảm giá sâu đột ngột thường phản ánh nỗi sợ hãi cao độ, là cảm xúc không tồn tại lâu. Các đợt tăng giá nhanh đột ngột thường phản ánh cảm xúc hăng hái và lòng tham, là loại cảm xúc có thể tồn tại khá lâu</li>
 </ul>
 <p>Force Index trung hạn (EMA 13)</p>
@@ -970,11 +965,11 @@
 </tr>
 </tbody>
 </table>
-<h3 id="mcetoc_1ebbh2tkt12">Các chỉ báo</h3>
+<h3 id="mcetoc_1ebbh2tkt12">Các thuật ngữ trong FA</h3>
 <table style="width: 100%;" border="1">
 <tbody>
 <tr>
-<td>Chỉ số</td>
+<td>Thuật ngữ</td>
 <td>Ý nghĩa</td>
 </tr>
 <tr>
@@ -1015,6 +1010,55 @@
 <p>- DN tăng vốn đầu tư bằng cách phát hành CP, TP ra công chúng<br>- "CP thường" đại diện cho quyền sở hữu trong DN, cổ đông thường sở hữu "CP thường" có quyền bầu ra HĐQT, HĐQT sẽ thuê GD điều hành (CEO). Các cổ đông thường sẽ nhận cổ tức nếu HĐQT biểu quyết chi trả<br>- "CP ưu đãi", không có quyền biểu quyết nhưng nhận được cổ tức cố định, hoặc được điều chỉnh trước khi cổ đông thường nhận cổ tức. Cổ đông ưu đãi được ưu tiên khi DN bị phá sản<br>- CP ưu đãi và CP thường được ghi sổ với mệnh giá, và bất cứ khoản cổ phần nào bán vượt mệnh giá sẽ được ghi vào "thặng dư vốn cổ phần"<br>- Các DN bền vững thường không có CP ứu đãi trong cơ cấu vốn, vì CP ưu đãi phải trả cổ tức, tương tự với phát sinh nợ, do cổ tức cho CP ưu đãi không được khấu trừ từ thu nhập trước thuế -&gt; tốn kém khi phát hành</p>
 <h3 id="mcetoc_1ebbmu4lec2">Cổ phiếu quỹ</h3>
 <p>- DN mua CP quỹ dể hủy hoặc phát hành lại sau đó<br>- Nếu được giữ lại, nó được ghi vào mục CP quỹ dưới mục vốn chủ sở hữu<br>- Được ghi nhận như 1 sự sụt giảm trong vốn chủ sở hữu (số âm)<br>- DN có lợi thế, nhiều tiền mặt nhàn rỗi, có thể dùng để mua CP quỹ, có CP quỹ trên bảng cân đối kế toán<br>- Khi DN mua CP quỹ sẽ làm giảm vốn chủ sở hữu, làm tăng ROE (tỷ suất lợi nhuận / vốn chủ sở hữu)<br>- ROE cao là dấu hiệu của DN bền vững, nhưng nên tính ROE với CP quỹ dương để xác thực</p>
+<h2 id="mcetoc_1eulper3lt">Quản trị rủi ro</h2>
+<p>Hai nguyên tắc chính: Quy tắc 2% để ngăn ngừa thua lỗ lớn và Quy tắc 6% để ngăn ngừa thua lỗ cộng dồn</p>
+<p>Hai sai lầm tồi tệ nhất: không đặt lệnh dừng lỗ và mở vị thế với quy mô quá lớn so với quy mô tài khoản</p>
+<h3 id="mcetoc_1eulper3lu">Quy tắc 2%</h3>
+<p><strong>Không </strong>đặt rủi ro hơn 2% tổng nguồn vốn cho từng mỗi lần giao dịch</p>
+<p>Ví dụ nguồn vốn là 60.000.000đ, quy tắc 2% giới hạn mức rủi ro tối đa cho mỗi lần giao dịch là 1.200.000đ. Khi đặt mua cổ phiếu với thị giá 30.000đ, mức dừng lỗ là 27.600đ (mức dừng lỗ là 8% vị thế - 2.400đ), thì số lượng tối đa cổ phiếu có thể mua là 1.200.000 / 2.400 = 500 cổ phiếu (tương ứng với giá trị đầu tư 15.000.000đ)</p>
+<h3 id="mcetoc_1eulper3lv">Quy tắc 6%</h3>
+<p><strong>Không </strong>mở bất cứ giao dịch mới trong phần còn lại của tháng khi tổng thua lỗ của tháng hiện tại và rủi ro của các lệnh giao dịch đang mở là ở mức 6% tổng tài khoản</p>
+<h2 id="mcetoc_1ev18166o43">Ghi chép nhật ký giao dịch</h2>
+<h3 id="mcetoc_1ev18166o44">Kiểm điểm đầu ngày</h3>
+<ul>
+<li>Xây dựng checklist kiểm tra thị trường mỗi sáng</li>
+<li>Xây dựng checklist để kiểm điểm bản thân.</li>
+<li>Chấm điểm mỗi checklist để quyết định có thực hiện giao dịch trong ngày đó hay không</li>
+</ul>
+<h3 id="mcetoc_1ev18166o45">Chấm điểm kế hoạch giao dịch</h3>
+<p>Hay còn gọi là chỉ số Apgar cho giao dịch. Cần liệt kê 5 checklist và điểm cho mỗi lựa chọn trong checklist (0 - 1 - 2). Nếu số điểm &gt;= 7 thì có thể giao dịch</p>
+<h3 id="mcetoc_1ev18166o46">Sử dụng Tradebill</h3>
+<ul>
+<li>Nhận diện giao dịch: ghi lại vị thế, mẫu hình (phân kì dương + phá vỡ giả), mã giao dịch, ngày công bố KQKD (tránh không giao dịch vì KQKD có thể không tốt làm ảnh hưởng tới vị thế mua), ngày trả cổ tức (tránh không giao dịch vì cổ tức sẽ chịu thuế và CK có thể giảm), ngày lập kế hoạch</li>
+<li>Hệ thống chấm điểm Apgar</li>
+<li>Thị trường, mức giá mở vị thế, mục tiêu giá, mức dừng lỗ và kiểm soát rủi ro</li>
+<li>Sau khi mở vị thế: mục tiêu giá loại A, mức dừng lỗ mềm và cứng</li>
+</ul>
+<h2 id="mcetoc_1e51nnfgj0">Các thuật ngữ</h2>
+<table border="1">
+<tbody>
+<tr style="height: 195px;">
+<td style="height: 195px; width: 175px;">Biểu đồ nến</td>
+<td style="height: 195px; width: 541px;">Nến tăng: xanh, điểm thấp nhất giá mở cửa, điểm cao nhất giá đóng cửa<br>Nến đỏ: giảm, điểm cao nhất giá mở cửa, điểm thấp nhất giá đóng cửa<br>Đường thẳng trên: giá cao nhất trong ngày<br>Đường thẳng dưới: giá thấp nhất trong ngày</td>
+</tr>
+<tr style="height: 79px;">
+<td style="height: 79px; width: 175px;">Giá trị vốn hóa</td>
+<td style="height: 79px; width: 541px;">Giá trị vốn hóa = Giá cổ phiếu hiện tại * Số cổ phiếu đang lưu hành<br>Mega cap &gt; large cap &gt; mid cap &gt; small cap &gt; micro cap</td>
+</tr>
+<tr style="height: 108px;">
+<td style="height: 108px; width: 175px;">Phân tích cơ bản</td>
+<td style="height: 108px; width: 541px;">Phân tích giá trị, tiềm năng tăng trưởng, lợi thế cạnh tranh, dự báo tài chính ... của doanh nghiệp<br>Giá cổ phiếu sẽ tăng khi doanh nghiệp tăng giá trị</td>
+</tr>
+<tr style="height: 79px;">
+<td style="height: 79px; width: 175px;">Phân tích kỹ thuật</td>
+<td style="height: 79px; width: 541px;">Trong ngắn hạn, thị trường được dẫn dắt bởi cảm xúc<br>Nghiên cứu biểu đồ sẽ biết được NĐT lạc quan hay bi quan</td>
+</tr>
+<tr>
+<td style="width: 175px;">Các lệnh trên sàn GD</td>
+<td style="width: 541px;">ATO: mua hoặc bán ở mức giá mở cửa (mua trần bán sàn)<br>ATC: mua hoặc bán ở mức giá đóng cửa (mua trần bán sàn)<br>LO: mua hoặc bán ở 1 mức giá xác định hoặc tốt hơn (95%)<br>MP: mua hoặc bán ở mức giá thấp nhất / cao nhất trên thị trường</td>
+</tr>
+</tbody>
+</table>
 <h2 id="mcetoc_1e41dldrk0">Các trang hữu ích</h2>
 <ul>
 <li><a href="https://finance.vietstock.vn/doanh-nghiep-a-z?page=1">Vietstock - Company info</a></li>
