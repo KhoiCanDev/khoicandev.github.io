@@ -3,7 +3,7 @@
     <title>Khoi Can Dev</title>
     <link href="https://khoican.dev/feed.xml" rel="self" />
     <link href="https://khoican.dev" />
-    <updated>2021-03-03T22:24:54+07:00</updated>
+    <updated>2021-03-03T22:38:18+07:00</updated>
     <author>
         <name>Khoi Can Dev</name>
     </author>
@@ -90,14 +90,15 @@
         </content>
     </entry>
     <entry>
-        <title>Ghi chú một số course ở VietGrow</title>
+        <title>Một số course ở VietGrow</title>
         <author>
             <name>Khoi Can Dev</name>
         </author>
         <link href="https://khoican.dev/ghi-chu-mot-so-khoa-hoc-o-vietgrow.html"/>
         <id>https://khoican.dev/ghi-chu-mot-so-khoa-hoc-o-vietgrow.html</id>
+            <category term="Ghi chú"/>
 
-        <updated>2020-08-23T21:36:53+07:00</updated>
+        <updated>2021-03-03T22:38:18+07:00</updated>
             <summary>
                 <![CDATA[
                     Giao tiếp hiệu quảGiao tiếp hiệu quả nằm ở cả 2 việc nói và nghe. Những phản hồi khi có&hellip;
