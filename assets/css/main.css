@@ -2628,8 +2628,6 @@ sup {
 }
 .post__image img {
   border-radius: 0.375em;
-  display: block;
-  width: 100%;
 }
 .post__image > figcaption {
   font-size: 0.8em;
@@ -2657,6 +2655,9 @@ sup {
   .post__image--center {
     margin: 2em auto;
   }
+}
+.post__image--center img {
+  display: inline-block;
 }
 .post__last-updated {
   font-size: 0.9em;
