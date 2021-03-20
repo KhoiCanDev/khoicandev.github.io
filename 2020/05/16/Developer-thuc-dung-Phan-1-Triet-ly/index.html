@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Đó là cuộc đời của bạn Con mèo ăn code của tôi rồi Lòng tin trong đội nhóm Lãnh trách nhiệm   Thuyết hỗn loạn của phần mềm Nồi súp đá cuội và con ếch luộc Một chương trình đủ tốt Danh mục tri thức Đầ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Developer thực dụng - Phần 1 - Triết lý">
+<meta property="og:url" content="https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/index.html">
+<meta property="og:site_name" content="KhoiCanDev">
+<meta property="og:description" content="Đó là cuộc đời của bạn Con mèo ăn code của tôi rồi Lòng tin trong đội nhóm Lãnh trách nhiệm   Thuyết hỗn loạn của phần mềm Nồi súp đá cuội và con ếch luộc Một chương trình đủ tốt Danh mục tri thức Đầ">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-05-16T00:00:00.000Z">
+<meta property="article:modified_time" content="2021-03-20T15:55:30.873Z">
+<meta property="article:author" content="Khoi Le">
+<meta property="article:tag" content="book">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Developer thực dụng - Phần 1 - Triết lý</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono">
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/KhoiCanDev">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2020/06/20/Dau-tu-101/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2020/04/20/The-Science-of-Well-Being/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&text=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&is_video=false&description=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Developer thực dụng - Phần 1 - Triết lý&body=Check out this article: https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&name=Developer thực dụng - Phần 1 - Triết lý&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&t=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Do-la-cuoc-doi-cua-ban"><span class="toc-number">1.</span> <span class="toc-text">Đó là cuộc đời của bạn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Con-meo-an-code-cua-toi-roi"><span class="toc-number">2.</span> <span class="toc-text">Con mèo ăn code của tôi rồi</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Long-tin-trong-doi-nhom"><span class="toc-number">2.1.</span> <span class="toc-text">Lòng tin trong đội nhóm</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lanh-trach-nhiem"><span class="toc-number">2.2.</span> <span class="toc-text">Lãnh trách nhiệm</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thuyet-hon-loan-cua-phan-mem"><span class="toc-number">3.</span> <span class="toc-text">Thuyết hỗn loạn của phần mềm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Noi-sup-da-cuoi-va-con-ech-luoc"><span class="toc-number">4.</span> <span class="toc-text">Nồi súp đá cuội và con ếch luộc</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mot-chuong-trinh-du-tot"><span class="toc-number">5.</span> <span class="toc-text">Một chương trình đủ tốt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Danh-muc-tri-thuc"><span class="toc-number">6.</span> <span class="toc-text">Danh mục tri thức</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dau-tu-dinh-ky"><span class="toc-number">6.1.</span> <span class="toc-text">Đầu tư định kỳ</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Da-dang-hoa"><span class="toc-number">6.2.</span> <span class="toc-text">Đa dạng hóa</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Quan-ly-rui-ro"><span class="toc-number">6.3.</span> <span class="toc-text">Quản lý rủi ro</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mua-thap-ban-cao"><span class="toc-number">6.4.</span> <span class="toc-text">Mua thấp, bán cao</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Xem-xet-va-tai-can-bang"><span class="toc-number">6.5.</span> <span class="toc-text">Xem xét và tái cân bằng</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Nhung-muc-tieu"><span class="toc-number">6.6.</span> <span class="toc-text">Những mục tiêu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Co-hoi-hoc-hoi"><span class="toc-number">6.7.</span> <span class="toc-text">Cơ hội học hỏi</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Suy-nghi-phan-bien"><span class="toc-number">6.8.</span> <span class="toc-text">Suy nghĩ phản biện</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Giao-tiep"><span class="toc-number">7.</span> <span class="toc-text">Giao tiếp</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hieu-thinh-gia-cua-ban"><span class="toc-number">7.1.</span> <span class="toc-text">Hiểu thính giả của bạn</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Biet-minh-nen-noi-nhung-gi"><span class="toc-number">7.2.</span> <span class="toc-text">Biết mình nên nói những gì</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Chon-thoi-diem"><span class="toc-number">7.3.</span> <span class="toc-text">Chọn thời điểm</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Chon-cach-thuc"><span class="toc-number">7.4.</span> <span class="toc-text">Chọn cách thức</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Trinh-bay-tai-lieu-chinh-chu"><span class="toc-number">7.5.</span> <span class="toc-text">Trình bày tài liệu chỉnh chu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cho-phep-nguoi-doc-tham-gia-vao-viec-chuan-bi"><span class="toc-number">7.6.</span> <span class="toc-text">Cho phép người đọc tham gia vào việc chuẩn bị</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Biet-lang-nghe"><span class="toc-number">7.7.</span> <span class="toc-text">Biết lắng nghe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tra-loi-thac-mac"><span class="toc-number">7.8.</span> <span class="toc-text">Trả lời thắc mắc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lam-tai-lieu"><span class="toc-number">7.9.</span> <span class="toc-text">Làm tài liệu</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Developer thực dụng - Phần 1 - Triết lý
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Khoi Le</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-05-16T00:00:00.000Z" itemprop="datePublished">2020-05-16</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/book/" rel="tag">book</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <ul>
+<li><a href="#%C4%91%C3%B3-l%C3%A0-cu%E1%BB%99c-%C4%91%E1%BB%9Di-c%E1%BB%A7a-b%E1%BA%A1n">Đó là cuộc đời của bạn</a></li>
+<li><a href="#con-m%C3%A8o-%C4%83n-code-c%E1%BB%A7a-t%C3%B4i-r%E1%BB%93i">Con mèo ăn code của tôi rồi</a><ul>
+<li><a href="#l%C3%B2ng-tin-trong-%C4%91%E1%BB%99i-nh%C3%B3m">Lòng tin trong đội nhóm</a></li>
+<li><a href="#l%C3%A3nh-tr%C3%A1ch-nhi%E1%BB%87m">Lãnh trách nhiệm</a></li>
+</ul>
+</li>
+<li><a href="#thuy%E1%BA%BFt-h%E1%BB%97n-lo%E1%BA%A1n-c%E1%BB%A7a-ph%E1%BA%A7n-m%E1%BB%81m">Thuyết hỗn loạn của phần mềm</a></li>
+<li><a href="#n%E1%BB%93i-s%C3%BAp-%C4%91%C3%A1-cu%E1%BB%99i-v%C3%A0-con-%E1%BA%BFch-lu%E1%BB%99c">Nồi súp đá cuội và con ếch luộc</a></li>
+<li><a href="#m%E1%BB%99t-ch%C6%B0%C6%A1ng-tr%C3%ACnh-%C4%91%E1%BB%A7-t%E1%BB%91t">Một chương trình đủ tốt</a></li>
+<li><a href="#danh-m%E1%BB%A5c-tri-th%E1%BB%A9c">Danh mục tri thức</a><ul>
+<li><a href="#%C4%91%E1%BA%A7u-t%C6%B0-%C4%91%E1%BB%8Bnh-k%E1%BB%B3">Đầu tư định kỳ</a></li>
+<li><a href="#%C4%91a-d%E1%BA%A1ng-h%C3%B3a">Đa dạng hóa</a></li>
+<li><a href="#qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro">Quản lý rủi ro</a></li>
+<li><a href="#mua-th%E1%BA%A5p-b%C3%A1n-cao">Mua thấp, bán cao</a></li>
+<li><a href="#xem-x%C3%A9t-v%C3%A0-t%C3%A1i-c%C3%A2n-b%E1%BA%B1ng">Xem xét và tái cân bằng</a></li>
+<li><a href="#nh%E1%BB%AFng-m%E1%BB%A5c-ti%C3%AAu">Những mục tiêu</a></li>
+<li><a href="#c%C6%A1-h%E1%BB%99i-h%E1%BB%8Dc-h%E1%BB%8Fi">Cơ hội học hỏi</a></li>
+<li><a href="#suy-ngh%C4%A9-ph%E1%BA%A3n-bi%E1%BB%87n">Suy nghĩ phản biện</a></li>
+</ul>
+</li>
+<li><a href="#giao-ti%E1%BA%BFp">Giao tiếp</a><ul>
+<li><a href="#hi%E1%BB%83u-th%C3%ADnh-gi%E1%BA%A3-c%E1%BB%A7a-b%E1%BA%A1n">Hiểu thính giả của bạn</a></li>
+<li><a href="#bi%E1%BA%BFt-m%C3%ACnh-n%C3%AAn-n%C3%B3i-nh%E1%BB%AFng-g%C3%AC">Biết mình nên nói những gì</a></li>
+<li><a href="#ch%E1%BB%8Dn-th%E1%BB%9Di-%C4%91i%E1%BB%83m">Chọn thời điểm</a></li>
+<li><a href="#ch%E1%BB%8Dn-c%C3%A1ch-th%E1%BB%A9c">Chọn cách thức</a></li>
+<li><a href="#tr%C3%ACnh-b%C3%A0y-t%C3%A0i-li%E1%BB%87u-ch%E1%BB%89nh-chu">Trình bày tài liệu chỉnh chu</a></li>
+<li><a href="#cho-ph%C3%A9p-ng%C6%B0%E1%BB%9Di-%C4%91%E1%BB%8Dc-tham-gia-v%C3%A0o-vi%E1%BB%87c-chu%E1%BA%A9n-b%E1%BB%8B">Cho phép người đọc tham gia vào việc chuẩn bị</a></li>
+<li><a href="#bi%E1%BA%BFt-l%E1%BA%AFng-nghe">Biết lắng nghe</a></li>
+<li><a href="#tr%E1%BA%A3-l%E1%BB%9Di-th%E1%BA%AFc-m%E1%BA%AFc">Trả lời thắc mắc</a></li>
+<li><a href="#l%C3%A0m-t%C3%A0i-li%E1%BB%87u">Làm tài liệu</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Do-la-cuoc-doi-cua-ban"><a href="#Do-la-cuoc-doi-cua-ban" class="headerlink" title="Đó là cuộc đời của bạn"></a>Đó là cuộc đời của bạn</h2><ul>
+<li>  Hãy thay đổi khi bạn thấy không ổn</li>
+<li>  Kiến thức ngành dev không bị giới hạn bởi văn hóa và giới hạn vật lý</li>
+<li>  Ngành dev là một ngành có thể mang lại cơ hội và sự kiểm soát cao nhất cho bạn, hãy chủ động nắm lấy</li>
+</ul>
+<p><strong>Lời khuyên thứ 3: Bạn có quyền tự quyết</strong></p>
+<h2 id="Con-meo-an-code-cua-toi-roi"><a href="#Con-meo-an-code-cua-toi-roi" class="headerlink" title="Con mèo ăn code của tôi rồi"></a>Con mèo ăn code của tôi rồi</h2><h3 id="Long-tin-trong-doi-nhom"><a href="#Long-tin-trong-doi-nhom" class="headerlink" title="Lòng tin trong đội nhóm"></a>Lòng tin trong đội nhóm</h3><ul>
+<li>  Những người trong nhóm cần có thể tin tưởng và dựa vào bạn, cũng như bạn cũng tin tưởng và dựa vào họ.</li>
+<li>  Đó là điều kiện tiên quyết cho việc sáng tạo và làm việc nhóm</li>
+<li>  Ở một môi trường lành mạnh dựa vào lòng tin, bạn có thể <strong>yên tâm</strong> trình bày những suy nghĩ của mình</li>
+</ul>
+<h3 id="Lanh-trach-nhiem"><a href="#Lanh-trach-nhiem" class="headerlink" title="Lãnh trách nhiệm"></a>Lãnh trách nhiệm</h3><ul>
+<li>  Lãnh trách nhiệm cần có sự <strong>chủ động chấp nhận</strong> của bạn</li>
+<li>  Cần đánh giá tình hình để nhận ra những nguy cơ nằm ngoài tầm của bạn</li>
+<li>  Bạn có quyền **không **lãnh trách nhiệm cho một vấn đề bất khả thi, hoặc có nguy cơ quá cao</li>
+<li>  Khi đã chấp nhận lãnh tránh nhiệm, thì bạn là người chịu trách nhiệm chính</li>
+<li>  Khi có vấn đề xảy ra, hãy thành thực nhận lỗi và đưa ra những phương án giải quyết</li>
+<li>  Ngưng đổ lỗi, ngưng ngụy biện, nhiệm vụ của bạn là đưa ra những phương án giải quyết</li>
+<li>  Hãy có phương án dự phòng cho những vấn đề nằm ngoài tầm kiểm soát</li>
+<li>  Hãy thử giải thích cho con rubber duck trong tay, xem thử ý kiến của bạn có hợp lý hay ngu ngốc</li>
+</ul>
+<p><strong>Lời khuyên thứ 4: Hãy đề ra những phương án, dừng kiến tạo ngụy biện</strong></p>
+<h2 id="Thuyet-hon-loan-cua-phan-mem"><a href="#Thuyet-hon-loan-cua-phan-mem" class="headerlink" title="Thuyết hỗn loạn của phần mềm"></a>Thuyết hỗn loạn của phần mềm</h2><ul>
+<li>  Sự hỗn loạn trong vũ trụ thường hướng đến cực điểm</li>
+<li>  Tương tự, hỗn loạn trước sau gì cũng xảy ra trong phần mềm, khi hỗn loạn xảy ra, ta gọi đó là <strong>tech debt</strong>, hoặc <strong>software rot</strong></li>
+<li>  Nhiều yếu tố cấu thành: tâm lý, văn hóa trong công việc hay dự án</li>
+<li>  Yếu tố kích hoạt: theo thuyết một cửa sổ hỏng, sự vô vọng có tính lây lan</li>
+<li>  Làm lơ sự hư hỏng dễ củng cố suy nghĩ, rằng, vấn đề đó không thể sửa chữa, không có ai quan tâm nữa, suy nghĩ tiêu cực này sẽ lây lan trong nhóm</li>
+</ul>
+<p><strong>Lời khuyên thứ 5: Đừng sống chung với những cửa sổ hỏng</strong></p>
+<ul>
+<li>  Sửa chúng ngay khi phát hiện, nếu không có thời gian, hãy ghim lên bảng trắng</li>
+<li>  Việc bỏ lơ làm gia tăng tốc độ hư hỏng nhanh nhất</li>
+<li>  Nếu ai cũng cho rằng không có thời gian để dọn dẹp, thì hãy chuẩn bị sẵn một xe rác bự, hoặc chuyển qua nơi làm khác, đừng để sự hỗn loạn thắng thế</li>
+<li>  <strong>Điều đầu tiên: Đừng làm điều ác</strong></li>
+<li>  Đừng tạo ra tổn thất, hư hại chỉ vì đang giải quyết một vấn đề cấp bách</li>
+<li>  Trong một dự án mà code được viết gọn gàng, sạch sẽ, sẽ tạo ra tâm lý đây là những thứ nên được chăm sóc, không làm tổn hại</li>
+</ul>
+<h2 id="Noi-sup-da-cuoi-va-con-ech-luoc"><a href="#Noi-sup-da-cuoi-va-con-ech-luoc" class="headerlink" title="Nồi súp đá cuội và con ếch luộc"></a>Nồi súp đá cuội và con ếch luộc</h2><ul>
+<li>  <a target="_blank" rel="noopener" href="https://www.wattpad.com/401458-c%C3%A2u-chuy%E1%BB%87n-m%C3%B3n-s%C3%BAp-%C4%91%C3%A1">Câu chuyện về món súp đá</a></li>
+<li>  Bạn thấy được những thay đổi, thiết kế mới là cần thiết, nhưng để được thông qua là điều không dễ dàng. Lúc này, bạn nên làm tốt nhất những gì trong tầm được cho phép, cho mọi người thấy và để họ trầm trồ.</li>
+<li>  Khi đã hứng khởi, bạn sẽ mời chào rằng ‘nếu thêm tính năng abc này thì sẽ hay hơn đó’</li>
+<li>  Đám đông sẽ dễ hưởng ứng theo thành công bước đầu</li>
+</ul>
+<p><strong>Lời khuyên thứ 6: Hãy là chất xúc tác cho sự thay đổi</strong></p>
+<ul>
+<li>  Không nên quá chăm chú vào những vấn đề hạn hẹp mà quên mất những thứ xung quanh</li>
+<li>  Liên tục xem xét những thứ đang xảy ra xung quanh mình</li>
+<li>  Tổng hợp những vấn đề nhỏ sẽ bẻ gãy tinh thần và đội nhóm</li>
+<li>  Câu chuyện: nếu bỏ con ếch vào nồi nước sôi, nó sẽ nhảy ra ngay. Nhưng khi bỏ nó vào nồi nước lạnh và đun nóng từ từ, nó sẽ không nhận ra sự thay đổi và từ từ bị luộc chín</li>
+</ul>
+<p><strong>Lời khuyên thứ 7: Luôn giữ bức tranh lớn trong đầu</strong></p>
+<h2 id="Mot-chuong-trinh-du-tot"><a href="#Mot-chuong-trinh-du-tot" class="headerlink" title="Một chương trình đủ tốt"></a>Một chương trình đủ tốt</h2><ul>
+<li>  Trong môi trường thực tế: thời gian, công nghệ, những thói quen sẽ gây áp lực khi bạn xây dựng chương trình, nên khó có thể đạt được một chương trình hoàn hảo</li>
+<li>  Bạn có thể đặt nguyên tắc chỉ cần xây dựng một chương trình đủ tốt, tốt cho người dùng, cho những người bảo trì, cho nhẹ tâm trí của bạn</li>
+<li>  Đủ tốt có nghĩa là phải đạt được những yêu cầu của người dùng, vấn đề tốc độ, an toàn, bảo mật được đảm bảo theo tiêu chuẩn</li>
+<li>  Nên ủng hộ việc cho phép người dùng tham gia vào việc quyết định những gì cần hoàn thành một cách đủ tốt, và làm vào khi nào</li>
+<li>  Đối với một sản phẩm mới, sẽ có những giới hạn khác nhau, bộ phận quảng bá sản phẩm sẽ có nhiều những hứa hẹn, người dùng sẽ có những kế hoạch riêng dựa vào ngày ra mắt của sản phẩm, công ty của bạn sẽ có giới hạn về dòng tiền. Nên cần tính đó là những yêu cầu từ người dùng, không nên dành thời gian để xây dựng những chức năng mới hoặc dọn dẹp code trước khi hoàn thành những yêu cầu đó</li>
+<li>  Phạm vi và chất lượng cần được nêu ra trong requirement xây dựng hệ thống</li>
+</ul>
+<p><strong>Lời khuyên thứ 8: Chất lượng sản phẩm nên được tính là một requirement</strong></p>
+<ul>
+<li>  Người dùng thường lựa chọn sử dụng một sản phẩm có một vài khiếm khuyết chấp nhận được, thay vì phải chờ thêm 1 năm để có một sản phẩm hoàn hảo</li>
+<li>  Một chương trình ngon lành hôm nay sẽ tốt hơn ảo tưởng cho một chương trình hoàn hảo ở tương lai</li>
+<li>  Tốt hơn bạn nên cho người dùng vọc chương trình của bạn sớm, những phản hồi của họ có thể là kim chỉ nam cho giải pháp của bạn tốt hơn</li>
+<li>  Biết điểm dừng: đừng quá bày vẽ, đừng tinh lọc quá kĩ lưỡng, vì nó có thể làm hỏng một chương trình tốt. Có thể nó không hoàn hảo, và có thể chẳng bao giờ hoàn hảo.</li>
+</ul>
+<h2 id="Danh-muc-tri-thuc"><a href="#Danh-muc-tri-thuc" class="headerlink" title="Danh mục tri thức"></a>Danh mục tri thức</h2><ul>
+<li>  Kiến thức và kinh nghiệm là những tài sản quan trọng</li>
+<li>  Nhưng những điều đó có thể lỗi thời, làm ảnh hưởng đến khách hàng và doanh nghiệp của bạn</li>
+<li>Nên cần quản lý danh mục tri thức tương tự như việc quản lý danh mục đầu tư<ul>
+<li>  Nhà đầu tư nghiêm túc thường đầu tư một cách định kỳ - như một thói quen</li>
+<li>  Đa dạng hóa là chìa khóa cho sự thành công dài hạn</li>
+<li>  Nhà đầu tư thông minh biết cân bằng giữa những danh mục đầu tư phòng thủ và những danh mục có rủi ro cao</li>
+<li>  Mua giá thấp và bán giá cao để sinh lời tốt nhất</li>
+<li>  Danh mục được xem xét và tái cân bằng theo chu kỳ</li>
+</ul>
+</li>
+</ul>
+<h3 id="Dau-tu-dinh-ky"><a href="#Dau-tu-dinh-ky" class="headerlink" title="Đầu tư định kỳ"></a>Đầu tư định kỳ</h3><ul>
+<li>  Đầu tư một cách cố định</li>
+<li>  Sắp xếp thời gian và địa điểm, một nơi không ai làm phiền</li>
+</ul>
+<h3 id="Da-dang-hoa"><a href="#Da-dang-hoa" class="headerlink" title="Đa dạng hóa"></a>Đa dạng hóa</h3><ul>
+<li>  Bạn biết càng nhiều, bạn càng có giá trị</li>
+<li>  Căn bản nhất: nắm rõ trong lòng bàn tay những công nghệ mà bạn làm việc hằng ngày</li>
+<li>  Công nghệ thay đổi nhanh và liên tục, nên việc biết nhiều công nghệ giúp bạn dễ dàng điều chỉnh cho phù hợp với xu thế</li>
+<li>  Đừng quên những kỹ năng khác ngoài phạm vi kỹ thuật</li>
+</ul>
+<h3 id="Quan-ly-rui-ro"><a href="#Quan-ly-rui-ro" class="headerlink" title="Quản lý rủi ro"></a>Quản lý rủi ro</h3><ul>
+<li>  Cũng giống như đầu tư, có những công nghệ mang tính an toàn, số khác có nguy cơ cao, nhưng mang lại kết quả cao</li>
+</ul>
+<h3 id="Mua-thap-ban-cao"><a href="#Mua-thap-ban-cao" class="headerlink" title="Mua thấp, bán cao"></a>Mua thấp, bán cao</h3><ul>
+<li>  Học một công nghệ mới nổi trước khi nó trở nên phổ biến sẽ mang cho bạn nguồn lợi cao</li>
+<li>  VD tìm hiểu Java khi nó mới được ra đời và chưa phổ biến là một canh bạc, nhưng những người tiên phong sẽ thu được lợi lớn khi nó đã trở thành tiêu chuẩn trong ngành</li>
+</ul>
+<h3 id="Xem-xet-va-tai-can-bang"><a href="#Xem-xet-va-tai-can-bang" class="headerlink" title="Xem xét và tái cân bằng"></a>Xem xét và tái cân bằng</h3><ul>
+<li>  Phần mềm là một ngành năng động, công nghệ bạn biết trước đó một vài tháng, có thể sau đó không còn ai quan tâm đến nó</li>
+<li>  Cần tái cân bằng, bỏ đi những công nghệ không còn sức sống trên thị trường nữa</li>
+</ul>
+<p>Nhưng điều quan trọng nhất là:</p>
+<p><strong>Lời khuyên thứ 9: Đầu tư định kỳ vào danh mục tri thức của bạn</strong></p>
+<h3 id="Nhung-muc-tieu"><a href="#Nhung-muc-tieu" class="headerlink" title="Những mục tiêu"></a>Những mục tiêu</h3><ul>
+<li>  Học một ngôn ngữ mới mỗi năm: một vấn đề, mỗi ngôn ngữ có thể giải quyết một cách khác nhau. Đây là cách để mở rộng tư duy của bạn. Đọc code các phần mềm nguồn mở sẽ giúp bạn rất nhiều trong việc này.</li>
+<li>  Đọc một cuốn sách kỹ thuật mỗi tháng: mặc dù nguồn bài viết và các câu trả lời ngắn rất đa dạng trên mạng, nhưng để có thể hiểu sâu, bạn cần những cuốn sách dài dòng. Hãy tìm đọc những loại sách kỹ thuật liên quan đến dự án của bạn, tạo thói quen đọc một cuốn mỗi tháng. Một khi đã thành thục, hãy chuyển qua học những loại kỹ thuật khác.</li>
+<li>  Và đọc những loại sách khác: nên nhớ rằng máy tính được sử dụng bởi con người, và bạn là người làm thỏa mãn những người đó, nên đây là kỹ năng bạn nên rèn luyện</li>
+<li>  Tham gia vào các lớp học: tìm những khóa học bạn thấy hứng thú xung quanh nơi bạn ở, hoặc trên mạng</li>
+<li>  Tham gia vào nhóm: sự cô lập sẽ chặn đứng con đường sự nghiệp của bạn, hãy tìm hiểu thế giới bên ngoài đang làm gì, và chủ động giao lưu</li>
+<li>  Thử nghiệm bản thân ở những môi trường mới: nếu bạn chỉ làm trên Windows, hãy thử trên những môi trường khác như Linux …</li>
+<li>  Không bỏ lỡ: năng đọc nhưng tin tức công nghệ là một cách để biết được kinh nghiệm của những người khác</li>
+</ul>
+<h3 id="Co-hoi-hoc-hoi"><a href="#Co-hoi-hoc-hoi" class="headerlink" title="Cơ hội học hỏi"></a>Cơ hội học hỏi</h3><ul>
+<li>  Khi bạn có một câu hỏi về kỹ thuật và bạn không có câu trả lời chính xác, đừng dừng lại ở đó, hãy đi tìm ra câu trả lời cuối cùng</li>
+<li>  Đừng để thời gian chết, luôn có kế hoạch cho việc học hỏi</li>
+</ul>
+<h3 id="Suy-nghi-phan-bien"><a href="#Suy-nghi-phan-bien" class="headerlink" title="Suy nghĩ phản biện"></a>Suy nghĩ phản biện</h3><ul>
+<li>  Suy nghĩ thấu đáo về những gì bạn nghe hoặc thấy, bảo đảm những gì bạn biết phải là thông tin chính xác, không bị nhào nặn bởi trào lưu hay cá nhân nào đó</li>
+<li>  Ở một thế giới mà hầu hết mọi thứ có thể mua bằng tiền thì bạn hãy cẩn thận với những kết quả tìm kiếm</li>
+</ul>
+<p><strong>Lời khuyên thứ 10: Suy nghĩ thấu đáo về những điều bạn nghe và thấy</strong></p>
+<p>Một số câu hỏi có thể hỗ trợ cho việc này</p>
+<ul>
+<li>  “Hỏi “Tại sao?” 5 lần” : để biết được nguồn gốc của vấn đề</li>
+<li>  “Điều này làm lợi cho ai?” : nghe có vẻ thô, nhưng lợi ích tài chính có thể là điều cần phải làm rõ</li>
+<li>  “Ngữ cảnh là gì” : cần phải phân tích vấn đề trong ngữ cảnh nó xảy ra, vì một giải pháp cho tất cả thường là không thực tế. Ví dụ như những cuốn sách dạy “best practice”, tốt cho ai ? điều kiện tiên quyết là gì? hậu quả ngắn, dài hạn là  gì?</li>
+<li>  “Khi nào và ở đâu thì giải pháp này khả thi?” : trong hoàn cảnh nào thì áp dụng được? có phải là quá trễ / quá sớm để áp dụng? điều gì xảy ra sau đó?</li>
+<li>  Tại sao đây lại là vấn đề: có mô hình nào có thể giải thích</li>
+</ul>
+<h2 id="Giao-tiep"><a href="#Giao-tiep" class="headerlink" title="Giao tiếp"></a>Giao tiếp</h2><ul>
+<li>  Điều quan trọng không chỉ ở những điều bạn biết, mà còn là cách bạn truyền tải nó</li>
+<li>  Một ngày làm việc của dev có rất nhiều khoảnh khắc cần phải giao tiếp với khách hàng, đồng nghiệp, trình bày ý tưởng … nên cần phải làm tốt việc này</li>
+<li>  Hãy đối xử với ngôn ngữ bạn dùng để giao tiếp như là một ngôn ngữ lập trình: có DRY không, có dễ dàng thích ứng với sự thay đổi không, có tính tự động hóa …</li>
+</ul>
+<p><strong>Lời khuyên thứ 11: Ngôn ngữ giao tiếp cũng như ngôn ngữ lập trình</strong></p>
+<h3 id="Hieu-thinh-gia-cua-ban"><a href="#Hieu-thinh-gia-cua-ban" class="headerlink" title="Hiểu thính giả của bạn"></a>Hiểu thính giả của bạn</h3><ul>
+<li>  Bạn giao tiếp với mục đích là truyền tải những nội dung mà bạn hiểu cho người khác, nên bạn cần hiểu rõ nhu cầu, mối quan tâm, và khả năng của những người nghe bạn nói</li>
+<li>  Cho dù hình thức giao tiếp có thế nào, điều quan trọng là tiếp nhận phản hồi. Hãy chủ động trong việc xin phản hồi.</li>
+<li>  “Ý nghĩa của cuộc trao đổi nằm ở những phản hồi bạn nhận được”</li>
+</ul>
+<h3 id="Biet-minh-nen-noi-nhung-gi"><a href="#Biet-minh-nen-noi-nhung-gi" class="headerlink" title="Biết mình nên nói những gì"></a>Biết mình nên nói những gì</h3><ul>
+<li>  Chuẩn bị cho những gì bạn muốn nói</li>
+<li>  Viết một dàn bài và tự hỏi bản thân: “Nội dung này có truyền tải được những gì tôi muốn nói và họ có thể hiểu được?”. Hãy trui rèn đến khi bạn thỏa mãn được câu hỏi đó</li>
+<li>  Điều này cũng áp dụng cho những cuộc họp, hoặc gặp mặt khách hàng</li>
+</ul>
+<h3 id="Chon-thoi-diem"><a href="#Chon-thoi-diem" class="headerlink" title="Chọn thời điểm"></a>Chọn thời điểm</h3><ul>
+<li>  Ngoài việc hiểu được thính giả của bạn cần nghe gì, cần phải biết được ưu tiên của họ là gì</li>
+<li>  Thời điểm nói cần phải phù hợp, tương tự với nội dung bạn nói</li>
+<li>  Đôi lúc chỉ cần đặt câu hỏi “Đây có phải là thời điểm tốt để nói về …”</li>
+</ul>
+<h3 id="Chon-cach-thuc"><a href="#Chon-cach-thuc" class="headerlink" title="Chọn cách thức"></a>Chọn cách thức</h3><ul>
+<li>  Chọn cách thức truyền tải phù hợp với thính giả</li>
+<li>  Có những người chỉ muốn tóm tắt những điểm chính yếu, một số muốn một cuộc trao đổi dài trước khi vào đề</li>
+<li>  Trình độ của họ trong lĩnh vực cần trao đổi là gì? Chuyên gia hay mới vào nghề? Nếu không chắc, phải hỏi</li>
+</ul>
+<h3 id="Trinh-bay-tai-lieu-chinh-chu"><a href="#Trinh-bay-tai-lieu-chinh-chu" class="headerlink" title="Trình bày tài liệu chỉnh chu"></a>Trình bày tài liệu chỉnh chu</h3><ul>
+<li>  Hiện nay có rất nhiều phần mềm để hỗ trợ làm tài liệu, nên không lý do gì mà bạn có thể tạo ra một tài liệu xấu xí</li>
+<li>  Kiểm tra chính tả, tự động sau đó bằng mắt</li>
+</ul>
+<h3 id="Cho-phep-nguoi-doc-tham-gia-vao-viec-chuan-bi"><a href="#Cho-phep-nguoi-doc-tham-gia-vao-viec-chuan-bi" class="headerlink" title="Cho phép người đọc tham gia vào việc chuẩn bị"></a>Cho phép người đọc tham gia vào việc chuẩn bị</h3><ul>
+<li>  Nếu có thể, cho phép những người đọc xem những bản nháp của tài liệu và nhận phản hồi từ họ</li>
+<li>  Bạn có thể sẽ có mối quan hệ tốt hơn, và tài liệu có thể sẽ chỉnh chu hơn</li>
+</ul>
+<h3 id="Biet-lang-nghe"><a href="#Biet-lang-nghe" class="headerlink" title="Biết lắng nghe"></a>Biết lắng nghe</h3><ul>
+<li>  Để người khác lắng nghe bạn thì bạn phải lắng nghe họ trước</li>
+<li>  Khuyến khích mọi người nói chuyện và đặt câu hỏi, hoặc mời họ trình bày lại nội dung cuộc họp theo ý hiểu của họ</li>
+<li>  Biến cuộc họp thành một cuộc trao đổi, thì quan điểm của bạn sẽ được khẳng định hiệu quả hơn</li>
+</ul>
+<h3 id="Tra-loi-thac-mac"><a href="#Tra-loi-thac-mac" class="headerlink" title="Trả lời thắc mắc"></a>Trả lời thắc mắc</h3><ul>
+<li>  Nếu bạn hỏi ai đó, và họ không trả lời, bạn sẽ thấy họ thật bất lịch sự</li>
+<li>  Nhìn lại bản thân mình, có khi nào bạn cũng như thế? Trong cuộc sống bận rộn, rất dễ để chúng ta quên mất những thắc mắc của người khác</li>
+<li>  Luôn trả lời khi ai đó đặt câu hỏi, một câu đơn giản như “tôi sẽ trả lời bạn sau nhé” luôn khiến người khác dễ chấp nhận hơn khi bạn chậm trễ, và tạo cảm giác bạn không quên họ</li>
+</ul>
+<p><strong>Lời khuyên thứ 12: Giao tiếp tốt nằm ở cả nội dung và cách bạn truyền tải</strong></p>
+<h3 id="Lam-tai-lieu"><a href="#Lam-tai-lieu" class="headerlink" title="Làm tài liệu"></a>Làm tài liệu</h3><ul>
+<li>  Làm tài liệu cũng là một cách trao đổi thông tin</li>
+<li>  Đây nên là một phần thiết yếu trong quá trình phát triển phần mềm</li>
+<li>  Để không bị trùng lặp hay tốn nhiều thời gian, tài liệu có thể nằm trong code</li>
+<li>  Có thể tạo ra tài liệu chỉnh chu bằng cách comment trong code, trên những modules và các function được export</li>
+<li>  Những tài liệu không để mô tả API thì chỉ nên ghi lý do phát triển, mục đích tồn tại và điều nó đạt được. Những dòng code đủ để mô tả nó được thực hiện như thế nào, comment thêm chỉ làm trùng lặp và vi phạm nguyên tắc DRY</li>
+</ul>
+<p><strong>Lời khuyên thứ 13: Tài liệu nên xây dựng trong code, tách rời rất dễ làm nó lỗi thời</strong></p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/KhoiCanDev">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Do-la-cuoc-doi-cua-ban"><span class="toc-number">1.</span> <span class="toc-text">Đó là cuộc đời của bạn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Con-meo-an-code-cua-toi-roi"><span class="toc-number">2.</span> <span class="toc-text">Con mèo ăn code của tôi rồi</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Long-tin-trong-doi-nhom"><span class="toc-number">2.1.</span> <span class="toc-text">Lòng tin trong đội nhóm</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lanh-trach-nhiem"><span class="toc-number">2.2.</span> <span class="toc-text">Lãnh trách nhiệm</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thuyet-hon-loan-cua-phan-mem"><span class="toc-number">3.</span> <span class="toc-text">Thuyết hỗn loạn của phần mềm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Noi-sup-da-cuoi-va-con-ech-luoc"><span class="toc-number">4.</span> <span class="toc-text">Nồi súp đá cuội và con ếch luộc</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mot-chuong-trinh-du-tot"><span class="toc-number">5.</span> <span class="toc-text">Một chương trình đủ tốt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Danh-muc-tri-thuc"><span class="toc-number">6.</span> <span class="toc-text">Danh mục tri thức</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dau-tu-dinh-ky"><span class="toc-number">6.1.</span> <span class="toc-text">Đầu tư định kỳ</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Da-dang-hoa"><span class="toc-number">6.2.</span> <span class="toc-text">Đa dạng hóa</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Quan-ly-rui-ro"><span class="toc-number">6.3.</span> <span class="toc-text">Quản lý rủi ro</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mua-thap-ban-cao"><span class="toc-number">6.4.</span> <span class="toc-text">Mua thấp, bán cao</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Xem-xet-va-tai-can-bang"><span class="toc-number">6.5.</span> <span class="toc-text">Xem xét và tái cân bằng</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Nhung-muc-tieu"><span class="toc-number">6.6.</span> <span class="toc-text">Những mục tiêu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Co-hoi-hoc-hoi"><span class="toc-number">6.7.</span> <span class="toc-text">Cơ hội học hỏi</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Suy-nghi-phan-bien"><span class="toc-number">6.8.</span> <span class="toc-text">Suy nghĩ phản biện</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Giao-tiep"><span class="toc-number">7.</span> <span class="toc-text">Giao tiếp</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hieu-thinh-gia-cua-ban"><span class="toc-number">7.1.</span> <span class="toc-text">Hiểu thính giả của bạn</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Biet-minh-nen-noi-nhung-gi"><span class="toc-number">7.2.</span> <span class="toc-text">Biết mình nên nói những gì</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Chon-thoi-diem"><span class="toc-number">7.3.</span> <span class="toc-text">Chọn thời điểm</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Chon-cach-thuc"><span class="toc-number">7.4.</span> <span class="toc-text">Chọn cách thức</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Trinh-bay-tai-lieu-chinh-chu"><span class="toc-number">7.5.</span> <span class="toc-text">Trình bày tài liệu chỉnh chu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cho-phep-nguoi-doc-tham-gia-vao-viec-chuan-bi"><span class="toc-number">7.6.</span> <span class="toc-text">Cho phép người đọc tham gia vào việc chuẩn bị</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Biet-lang-nghe"><span class="toc-number">7.7.</span> <span class="toc-text">Biết lắng nghe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tra-loi-thac-mac"><span class="toc-number">7.8.</span> <span class="toc-text">Trả lời thắc mắc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lam-tai-lieu"><span class="toc-number">7.9.</span> <span class="toc-text">Làm tài liệu</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&text=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&is_video=false&description=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Developer thực dụng - Phần 1 - Triết lý&body=Check out this article: https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&title=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&name=Developer thực dụng - Phần 1 - Triết lý&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://khoican.dev/2020/05/16/Developer-thuc-dung-Phan-1-Triet-ly/&t=Developer thực dụng - Phần 1 - Triết lý"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    1993-2021
+    Khoi Le
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/KhoiCanDev">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
