@@ -14,7 +14,7 @@
 <meta property="og:description" content="Bản chất của thiết kế tốt DRY - Sự trùng lặp xấu xa DRY vượt khỏi bối cảnh code DRY trong code Trùng lặp trong tài liệu Trùng lặp trong data structure Trùng lặp trong thể hiện Trùng lặp API nội bộ Tr">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-20T00:00:00.000Z">
-<meta property="article:modified_time" content="2021-03-27T05:20:22.373Z">
+<meta property="article:modified_time" content="2021-04-03T06:10:19.657Z">
 <meta property="article:author" content="Khoi Le">
 <meta property="article:tag" content="book">
 <meta name="twitter:card" content="summary">
@@ -283,10 +283,10 @@
 <h3 id="Thiet-ke"><a href="#Thiet-ke" class="headerlink" title="Thiết kế"></a>Thiết kế</h3><p>Việc thiết kế một hệ thống trực giao là một vấn đề quen thuộc của giới lập trình, có thể gọi nó với những cái tên như modular, component-based, hoặc layered (mô hình nhiều lớp)</p>
 <p>Ở mô hình layered, các thành phần được gom vào các lớp khác nhau, mỗi lớp sẽ cung cấp một bộ abstraction để lớp khác có thể sử dụng</p>
 <p>Nên tự hỏi hệ thống của bạn độc lập thế nào với những thay đổi ở thế giới thực. Nếu bạn sử dụng số điện thoại để làm định danh cho một đối tượng nào đó, thì sẽ thế nào nếu số điện thoại đó bị đổi định dạng? Mấu chốt là, những thuộc tính ở thế giới thực là những thứ bạn không thể kiểm soát được, và có thể bị thay đổi vì bất kỳ lý do gì, nên đừng bao giờ dựa vào những thuộc tính bạn không thể kiểm soát</p>
-<h3 id="Thu-vien-va-cac-bo-cong-cu"><a href="#Thu-vien-va-cac-bo-cong-cu" class="headerlink" title="Thư viện và các bộ công cụ"></a>Thư viện và các bộ công cụ</h3><p>Cẩn thận khi chọn lựa thư viện hoặc bộ công cụ ở bên thứ ba vào hệ thống để đảm bảo tính trực giao. Ví dụ nếu một thư viện về data persistence cần bạn khởi tạo hoặc lấy dữ liệu theo một cách đặc biệt nào đó, thì thư viện đó không có tính trực giao. Giữ những ràng buộc thừa do bên thứ ba quy định, không cho chúng xâm nhậm code của bạn, là một cách tốt để dễ thay đổi nhà cung cấp trong tương lai</p>
+<h3 id="Thu-vien-va-cac-bo-cong-cu"><a href="#Thu-vien-va-cac-bo-cong-cu" class="headerlink" title="Thư viện và các bộ công cụ"></a>Thư viện và các bộ công cụ</h3><p>Cẩn thận khi chọn lựa thư viện hoặc bộ công cụ ở bên thứ ba vào hệ thống để đảm bảo tính trực giao. Ví dụ nếu một thư viện về data persistence cần bạn khởi tạo hoặc lấy dữ liệu theo một cách đặc biệt nào đó, thì thư viện đó không có tính trực giao. Giữ những ràng buộc thừa do bên thứ ba quy định, không cho chúng xâm nhập code của bạn, là một cách tốt để dễ thay đổi nhà cung cấp trong tương lai</p>
 <h3 id="Viet-code"><a href="#Viet-code" class="headerlink" title="Viết code"></a>Viết code</h3><p>Khi có code mới được viết ra, bạn có nguy cơ phá vỡ tính trực giao hiện có. Một số phương pháp để theo dõi và duy trì tính trực giao:</p>
 <ul>
-<li>Giữ code được decoupled: viết những đoạn code-modules không phơi bày những gì không quan trọng, hoặc phụ thuộc vào implementation của những modules khác. Nếu bạn cần thay đổi trạng thái của một object, hãy để object làm điều đó</li>
+<li>Giữ code được decoupled: viết những đoạn code-modules không phơi bày những gì không quan trọng, hoặc phụ thuộc vào implementation của những modules khác. Nếu bạn cần thay đổi một object, hãy để chính nó làm việc đó</li>
 <li>Tránh xa global data: bất cứ khi nào code của bạn trỏ đến một global data nào, thì code đó đã bị ràng buộc với component chứa global data đó. Nói chung là, code của bạn sẽ dễ bảo trì hơn khi bạn truyền vào bất cứ dữ liệu nào mà module cần một cách tường minh, ở OOP, bạn sẽ truyền ở constructor chẳng hạn. Và hãy cẩn thận với singleton, nó có thể tạo ra những liên kết không cần thiết</li>
 <li>Tránh xa những function tựa tựa nhau: sẽ có những function tựa tựa nhau kiểu giống đầu và đuôi nhưng thân giữa lại khác. Đây là dấu hiệu code có vấn đề về mặt kiến trúc. Cần xem qua Strategy Pattern để tối ưu việc này</li>
 </ul>
@@ -300,9 +300,9 @@
 <blockquote>
 <p>Lời khuyên thứ 17: Không có quyết định nào là cuối cùng</p>
 </blockquote>
-<p>Có rất nhiều kiến trúc ở server-side được giới thiệu và trở nên thịnh hành (chạy trên một server, nhiều server, nhiều server sau LB, container, serverless …). Không thể nào để bạn lên kế hoạch đón đầu hết tất cả những kiến trúc có thể có trong tương lai cho ứng dụng của bạn. Do đó việc bạn có thể làm là làm ứng dụng của bạn thay đổi dễ nhất có thể: ẩn API bên thứ ba bằng lớp abstraction của riêng mình, tách code thành những component nhỏ …</p>
+<p>Có rất nhiều kiến trúc ở server-side được giới thiệu và trở nên thịnh hành (chạy trên một server, nhiều server, nhiều server sau LB, container, serverless …). Vì vậy việc lên kế hoạch đón đầu hết tất cả những kiến trúc có thể có trong tương lai là điều không thể. Việc bạn có thể làm là làm ứng dụng của bạn dễ thay đổi nhất có thể: ẩn API bên thứ ba bằng lớp abstraction của riêng mình, tách code thành những component nhỏ …</p>
 <blockquote>
-<p>Lời khuyên thứ 18: Trend công nghệ đến rồi đi, chỉ ứng dụng của bạn là còn mãi</p>
+<p>Lời khuyên thứ 18: Các xu hướng công nghệ đến rồi đi, chỉ ứng dụng của bạn là trường tồn</p>
 </blockquote>
 <h2 id="Vien-dan-dan-duong"><a href="#Vien-dan-dan-duong" class="headerlink" title="Viên đạn dẫn đường"></a>Viên đạn dẫn đường</h2><h2 id="Ban-thu-va-ghim-chu"><a href="#Ban-thu-va-ghim-chu" class="headerlink" title="Bản thử và ghim chú"></a>Bản thử và ghim chú</h2><h2 id="Ngon-ngu-nghiep-vu"><a href="#Ngon-ngu-nghiep-vu" class="headerlink" title="Ngôn ngữ nghiệp vụ"></a>Ngôn ngữ nghiệp vụ</h2><h2 id="Canh-do-thoi-gian"><a href="#Canh-do-thoi-gian" class="headerlink" title="Canh đo thời gian"></a>Canh đo thời gian</h2>
   </div>
