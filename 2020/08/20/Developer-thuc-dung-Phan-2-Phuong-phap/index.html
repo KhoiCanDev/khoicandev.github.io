@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="description" content="Bản chất của thiết kế tốt DRY - Sự trùng lặp xấu xa DRY vượt khỏi bối cảnh code DRY trong code Trùng lặp trong tài liệu Trùng lặp trong data structure Trùng lặp trong thể hiện Trùng lặp API nội bộ Tr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Developer thực dụng - Phần 2 - Phương pháp">
@@ -14,7 +14,7 @@
 <meta property="og:description" content="Bản chất của thiết kế tốt DRY - Sự trùng lặp xấu xa DRY vượt khỏi bối cảnh code DRY trong code Trùng lặp trong tài liệu Trùng lặp trong data structure Trùng lặp trong thể hiện Trùng lặp API nội bộ Tr">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-20T00:00:00.000Z">
-<meta property="article:modified_time" content="2021-05-05T16:37:42.719Z">
+<meta property="article:modified_time" content="2021-07-10T03:56:27.436Z">
 <meta property="article:author" content="Khoi Le">
 <meta property="article:tag" content="book">
 <meta name="twitter:card" content="summary">
@@ -44,22 +44,20 @@
 
     <!-- persian styles -->
     
-      
-<link rel="stylesheet" href="/css/rtl.css">
-
-    
     <!-- rss -->
     
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono">
+	<!-- mathjax -->
+	
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="max-width mx-auto px3 ltr">
     
       <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" "Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
@@ -78,13 +76,13 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/2021/03/01/Bitcoin-va-Tien-ma-hoa/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Previous post " href="/2021/03/01/Bitcoin-va-Tien-ma-hoa/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/2020/08/08/Mot-so-course-o-VietGrow/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Next post " href="/2020/08/08/Mot-so-course-o-VietGrow/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
-        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+        <li><a class="icon" aria-label="Back to top " href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post " href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
@@ -329,9 +327,9 @@
 </ul>
 <h3 id="Vien-dan-dan-duong-khong-phai-luc-nao-cung-trung-dich"><a href="#Vien-dan-dan-duong-khong-phai-luc-nao-cung-trung-dich" class="headerlink" title="Viên đạn dẫn đường không phải lúc nào cũng trúng đích"></a>Viên đạn dẫn đường không phải lúc nào cũng trúng đích</h3><p>Đó là điều phần lớn sẽ xảy ra. Đợt bắn đầu tiên không phải lúc nào cũng trúng đích. Nên việc cần làm là điều chỉnh cho đến khi trúng thì thôi. </p>
 <p>Một vài lần thử đầu tiên không đúng theo ý của khách hàng, điều bạn cần làm là điều chỉnh sao cho đúng hơn. Vì bạn sử dụng những phương pháp lập trình tinh gọn (DRY …) nên việc chỉnh sửa sẽ nhanh và không tốn nhiều chi phí.</p>
-<h3 id="Nhung-doan-code-phat-quang-vs-Ban-mau-prototyping"><a href="#Nhung-doan-code-phat-quang-vs-Ban-mau-prototyping" class="headerlink" title="Những đoạn code phát quang vs Bản mẫu (prototyping)"></a>Những đoạn code phát quang vs Bản mẫu (prototyping)</h3><p>Bạn sẽ làm bản mẫu khi cần khám phá một phần nhỏ trong hệ thống, như UI hoặc một thuật toán nào đó. Khi làm xong và kiểm thử nó chạy đúng, thường thì bạn sẽ bỏ chúng đi và làm lại ở hệ thống thật.</p>
-<p>Còn những đoạn code phát quang có mục tiêu khác. Đó là: bạn cần biết ứng dụng tổng thể sẽ hoạt động như nào, bạn cần cho người dùng xem thao tác thực tế trên ứng dụng, và developer cần biết cấu trúc dự án để có thể thêm tính năng. Những đoạn code phát quang giống như là framework của hệ thống</p>
-<p>Bản mẫu sẽ tạo ra những đoạn code có bị bỏ đi. Code phát quang tinh gọn và hoàn chỉnh, tạo nên sườn của hệ thống. Hãy coi bản mẫu là quá trình do thám và thu thập tin tình báo, trước khi viên đạn phát quan được bắn đi.</p>
+<h3 id="Nhung-doan-code-phat-quang-vs-Ban-mau-prototyping"><a href="#Nhung-doan-code-phat-quang-vs-Ban-mau-prototyping" class="headerlink" title="Những đoạn code phát quang vs Bản mẫu (prototyping)"></a>Những đoạn code phát quang vs Bản mẫu (prototyping)</h3><p>Bạn sẽ làm bản mẫu khi cần khám phá một phần nhỏ trong hệ thống, như UI hoặc một thuật toán, một cấu trúc nào đó. Khi làm xong và kiểm thử nó chạy đúng, thường thì bạn sẽ bỏ chúng đi và xây dựng lại ở hệ thống thật.</p>
+<p>Còn những đoạn code phát quang có mục tiêu khác, đó là: bạn cần biết ứng dụng tổng thể sẽ hoạt động như thế nào, bạn cần cho người dùng xem thao tác thực tế trên ứng dụng, và developer cần biết cấu trúc dự án để có thể thêm tính năng. Những đoạn code phát quang giống như là framework của hệ thống</p>
+<p>Bản mẫu sẽ tạo ra những đoạn code có thể bị bỏ đi. Code phát quang tinh gọn và hoàn chỉnh, tạo nên sườn của hệ thống. Hãy coi bản mẫu là quá trình do thám và thu thập tin tình báo, trước khi viên đạn phát quan được bắn đi.</p>
 <h2 id="Ban-mau-va-ghim-chu"><a href="#Ban-mau-va-ghim-chu" class="headerlink" title="Bản mẫu và ghim chú"></a>Bản mẫu và ghim chú</h2><h2 id="Ngon-ngu-nghiep-vu"><a href="#Ngon-ngu-nghiep-vu" class="headerlink" title="Ngôn ngữ nghiệp vụ"></a>Ngôn ngữ nghiệp vụ</h2><h2 id="Canh-do-thoi-gian"><a href="#Canh-do-thoi-gian" class="headerlink" title="Canh đo thời gian"></a>Canh đo thời gian</h2>
   </div>
 </article>
@@ -416,24 +414,23 @@
     </div>
     <!-- styles -->
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 
-<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
 
 
     <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
 
-<script src="/lib/jquery/jquery.min.js"></script>
 
 
-<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
 
 <!-- clipboard -->
 
   
-<script src="/lib/clipboard/clipboard.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
   <script type="text/javascript">
   $(function() {
     // copy-btn HTML
